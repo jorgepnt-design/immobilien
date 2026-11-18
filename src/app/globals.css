@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #070f1a;
+  --color-navy-900: #0c1826;
+  --color-navy-800: #132235;
+  --color-navy-700: #1d3049;
+  --color-navy-600: #2c4361;
+  --color-ivory: #f8f5ef;
+  --color-ivory-dark: #efeae0;
+  --color-sand: #e3dccd;
+  --color-stone-warm: #6b6558;
+  --color-ink: #1a1f27;
+  --color-champagne: #c6a567;
+  --color-champagne-light: #dcc394;
+  --color-champagne-dark: #9a7b3f;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cormorant), ui-serif, Georgia, serif;
+
+  --shadow-card: 0 1px 2px rgb(12 24 38 / 0.04), 0 12px 32px -12px rgb(12 24 38 / 0.14);
+  --shadow-lift: 0 2px 4px rgb(12 24 38 / 0.05), 0 28px 56px -20px rgb(12 24 38 / 0.28);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-champagne-light);
+  color: var(--color-navy-950);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-champagne-dark);
+  outline-offset: 2px;
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 82rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-page {
+      padding-inline: 2.5rem;
+    }
+  }
+
+  .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-champagne-dark);
+  }
+
+  .heading-display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.08;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.875rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    transition:
+      background-color 0.25s ease,
+      color 0.25s ease,
+      border-color 0.25s ease,
+      box-shadow 0.25s ease;
+  }
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  .btn-gold {
+    background: var(--color-champagne);
+    color: var(--color-navy-950);
+  }
+  .btn-gold:hover:not(:disabled) {
+    background: var(--color-champagne-light);
+  }
+  .btn-dark {
+    background: var(--color-navy-900);
+    color: var(--color-ivory);
+  }
+  .btn-dark:hover:not(:disabled) {
+    background: var(--color-navy-700);
+  }
+  .btn-outline {
+    border: 1px solid rgb(12 24 38 / 0.22);
+    color: var(--color-navy-900);
+  }
+  .btn-outline:hover:not(:disabled) {
+    border-color: var(--color-navy-900);
+    background: rgb(12 24 38 / 0.04);
+  }
+  .btn-outline-light {
+    border: 1px solid rgb(248 245 239 / 0.45);
+    color: var(--color-ivory);
+  }
+  .btn-outline-light:hover {
+    border-color: var(--color-ivory);
+    background: rgb(248 245 239 / 0.1);
+  }
+
+  .field {
+    width: 100%;
+    min-height: 2.75rem;
+    padding: 0.6rem 0.85rem;
+    border-radius: 0.6rem;
+    border: 1px solid var(--color-sand);
+    background: #fff;
+    font-size: 0.9rem;
+    color: var(--color-ink);
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .field:hover {
+    border-color: #cfc6b2;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-champagne-dark);
+    box-shadow: 0 0 0 3px rgb(198 165 103 / 0.22);
+  }
+  .field[aria-invalid="true"] {
+    border-color: #b3261e;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-stone-warm);
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid rgb(227 220 205 / 0.8);
+    border-radius: 1.1rem;
+    box-shadow: var(--shadow-card);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
