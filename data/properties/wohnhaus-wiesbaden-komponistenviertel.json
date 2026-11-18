@@ -1,0 +1,103 @@
+{
+  "id": "EI-2026-003",
+  "slug": "wohnhaus-wiesbaden-komponistenviertel",
+  "title": "Wohnhaus im Komponistenviertel",
+  "subtitle": "Charaktervolle Bestandsimmobilie von 1897/98 in Wiesbaden",
+  "teaser": "Repräsentatives Wohnhaus mit ca. 300 m² Wohnfläche und drei Einheiten auf ca. 830 m² Grundstück.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-18",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Wiesbaden",
+    "district": "Komponistenviertel (Nordost)",
+    "addressPublic": false,
+    "mapCenter": { "lat": 50.092, "lng": 8.25, "zoom": 13 },
+    "description": [
+      "Die Liegenschaft befindet sich im Wiesbadener Komponistenviertel, einem etablierten und begehrten Wohnumfeld im Stadtteil Nordost. Die Lage verbindet repräsentatives Wohnen mit guter Erreichbarkeit und gewachsenem Umfeld.",
+      "Die Nachbarschaft ist geprägt von einer ruhigen, urbanen Wohnstruktur mit Mehrfamilien- und Bestandsgebäuden sowie begrünten Freiflächen. Im Umfeld bestehen Busverbindungen, genannt wurden unter anderem die Linien 1 und 8."
+    ]
+  },
+  "type": "mehrfamilienhaus",
+  "investmentType": "bestand",
+  "price": {
+    "amount": null,
+    "currency": "EUR",
+    "mode": "auf-anfrage",
+    "note": "Im Exposé ist keine Preisindikation enthalten."
+  },
+  "areas": {
+    "plot": { "value": 830, "approx": true },
+    "living": { "value": 300, "approx": true, "note": "auf drei Etagen, zzgl. ca. 110 m² Kellerfläche" }
+  },
+  "units": { "count": 3, "label": "Wohneinheiten", "note": "laut vorliegenden Angaben" },
+  "yearBuilt": "1897/98",
+  "condition": "Bestand; Renovierung 1997 laut vorliegenden Angaben",
+  "rental": {
+    "status": "frei",
+    "text": "Frei bzw. frei werdend. Mieteinnahmen sind nicht angegeben."
+  },
+  "keyFacts": [
+    { "label": "Wohnfläche", "value": "ca. 300 m² auf drei Etagen", "evidence": "anbieter" },
+    { "label": "Kellerfläche", "value": "ca. 110 m²", "evidence": "anbieter" },
+    { "label": "Grundstück", "value": "ca. 830 m²", "evidence": "anbieter" },
+    { "label": "Baujahr", "value": "1897 bzw. 1898", "evidence": "anbieter" },
+    { "label": "Modernisierung", "value": "Renovierung 1997", "evidence": "anbieter" },
+    { "label": "Wohneinheiten", "value": "3", "evidence": "anbieter" },
+    { "label": "Stellplätze", "value": "Garage und 2 Stellplätze", "evidence": "anbieter" },
+    { "label": "Gebäudestruktur", "value": "Keller, Erdgeschoss, 1. Obergeschoss, Dachgeschoss", "evidence": "fakt", "note": "Bestandspläne für alle Ebenen liegen vor" }
+  ],
+  "description": [
+    "Repräsentatives Wohnhaus im Wiesbadener Komponistenviertel – mit eingewachsenem Grundstück, klassischer Fassadenwirkung und großzügiger Bestandsstruktur über vier Ebenen.",
+    "Das Gebäude aus den Jahren 1897/98 bietet rund 300 m² Wohnfläche auf drei Etagen sowie rund 110 m² Kellerfläche. Nach vorliegenden Angaben ist es in drei Wohneinheiten gegliedert und wurde 1997 renoviert. Zum Objekt gehören eine Garage und zwei Stellplätze.",
+    "Die Liegenschaft eignet sich für Eigennutzer ebenso wie für Investoren und bietet mit Lage, Grundstücksgröße und Bestand eine Grundlage für Bestandshaltung, Neuordnung oder Projektentwicklung."
+  ],
+  "highlights": [
+    "Etablierte Wohnlage im Wiesbadener Komponistenviertel",
+    "Ca. 830 m² eingewachsenes Grundstück",
+    "Gründerzeitlicher Bestand von 1897/98 mit klassischer Fassade",
+    "Drei Wohneinheiten laut vorliegenden Angaben",
+    "Frei bzw. frei werdend",
+    "Bestandspläne für alle vier Ebenen vorhanden"
+  ],
+  "potential": [
+    {
+      "title": "Eigennutzung",
+      "text": "Repräsentatives Wohnen in etablierter Wiesbadener Lage mit Gartenbezug.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Vermietung oder Neuordnung",
+      "text": "Drei Wohneinheiten laut vorliegenden Angaben eröffnen Perspektiven für Vermietung, Neuordnung oder Bestandshaltung.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Wohnen und Arbeiten",
+      "text": "Genannt werden auch teilgewerbliche Nutzungsmöglichkeiten (Büro). Die rechtliche Zulässigkeit ist nicht geprüft.",
+      "evidence": "annahme"
+    }
+  ],
+  "areaTable": {
+    "title": "Flächenübersicht",
+    "rows": [
+      { "name": "Wohnfläche", "use": "Erdgeschoss, 1. Obergeschoss, Dachgeschoss", "area": "ca. 300 m²" },
+      { "name": "Kellergeschoss", "use": "Neben- und Technikflächen", "area": "ca. 110 m²" },
+      { "name": "Grundstück", "use": "", "area": "ca. 830 m²" }
+    ],
+    "note": "Eine Wohn- und Nutzflächenberechnung liegt noch nicht vor; Maßangaben der Bestandspläne wurden nicht gesondert verifiziert."
+  },
+  "energy": [
+    { "label": "Energieausweis", "value": "Nicht angegeben – wird nachgereicht", "evidence": "anbieter" }
+  ],
+  "dataNotes": [
+    "Keine Preisindikation im Exposé – Kaufpreis auf Anfrage.",
+    "Mehrere Angaben lagen in unterschiedlichen Fassungen vor und sind als vorläufig eingeordnet (u. a. Baujahr 1897 bzw. 1898).",
+    "Wohn- und Nutzflächenberechnung, Nachweis der Grundstücksgröße und Energieausweis stehen noch aus.",
+    "Im Exposé ist nur eine Stimmungsaufnahme enthalten; Außenansichten und Bestandspläne liegen vor, sind aber nicht Teil der Präsentation."
+  ],
+  "images": [
+    { "src": "/images/properties/wohnhaus-wiesbaden-komponistenviertel/01.jpg", "width": 1206, "height": 1581, "alt": "Dachterrasse mit Fernblick über die Dächer Wiesbadens", "kind": "foto" }
+  ],
+  "exposeDownload": null,
+  "source": "Erstpräsentation des Anbieters auf Grundlage von Fotos, Bestandsplänen und Katasterkarte, 2026"
+}

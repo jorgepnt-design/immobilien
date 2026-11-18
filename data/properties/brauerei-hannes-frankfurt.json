@@ -1,0 +1,132 @@
+{
+  "id": "EI-2026-006",
+  "slug": "brauerei-hannes-frankfurt",
+  "title": "Brauerei Hannes",
+  "subtitle": "Brauerei, Restaurant, Biergarten und Wohnen direkt am Main",
+  "teaser": "1.760 m² Grundstück am Mainufer mit Brauerei, Gastronomie, zwei Wohnungen und baulicher Reserve.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-18",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Frankfurt am Main",
+    "addressPublic": false,
+    "mapCenter": { "lat": 50.11, "lng": 8.72, "zoom": 11 },
+    "description": [
+      "Das Grundstück liegt direkt am Main und ist an Rad- und Wanderwege angebunden. Nördlich grenzt eine Parkanlage an; die Zufahrt erfolgt direkt von einer Hauptverkehrsstraße.",
+      "Frankfurt am Main zählt zu den gefragtesten Metropolmärkten Deutschlands – mit hoher Kaufkraft, dichter Unternehmenslandschaft und lebendiger Veranstaltungskultur. Das Baugebiet ist als Industriegebiet (GI) festgesetzt und von Hallenbauwerken sowie zwei- bis dreigeschossiger Bebauung geprägt."
+    ]
+  },
+  "type": "mischobjekt",
+  "investmentType": "bestand",
+  "price": {
+    "amount": 1584000,
+    "currency": "EUR",
+    "mode": "festpreis",
+    "note": "Entspricht 900 €/m² Grundstück (900 € × 1.760 m²)."
+  },
+  "areas": {
+    "plot": { "value": 1760, "note": "amtlich 1.762 m² laut Lageplan" },
+    "living": { "value": 260, "approx": true, "note": "zwei Wohnungen à ca. 130 m²" },
+    "commercial": { "value": 647, "approx": true, "note": "überbaute Grundfläche Bestand 646,99 m² (keine Nutzflächenangabe)" }
+  },
+  "units": { "count": 2, "label": "Wohnungen", "note": "je ca. 130 m², zzgl. Brauerei und Gastronomie" },
+  "yearBuilt": null,
+  "condition": "Laufender Betrieb; Baujahr nicht angegeben",
+  "rental": {
+    "status": "betrieb",
+    "text": "Eigentümergeführter Brauerei- und Gastronomiebetrieb. Ausgewiesen sind Betriebsumsätze, keine Mieterträge der Immobilie – mit Ausnahme der Parkplatzmiete von ca. 1.450 € pro Monat."
+  },
+  "keyFacts": [
+    { "label": "Grundstück", "value": "1.760 m² (amtl. 1.762 m²)", "evidence": "fakt", "note": "amtlicher Lageplan" },
+    { "label": "Baugebiet", "value": "GI – Industriegebiet", "evidence": "fakt" },
+    { "label": "Zulässiges Maß", "value": "GRZ 0,7 · BMZ 9,0", "evidence": "fakt" },
+    { "label": "Vorhandene GRZ", "value": "0,382 inkl. geplanter Erweiterung", "evidence": "fakt", "note": "laut Flächenberechnung zum Bauvorhaben" },
+    { "label": "Wohnungen", "value": "2 × ca. 130 m²", "evidence": "anbieter" },
+    { "label": "Produktionskapazität", "value": "max. 2.800 hl/Jahr (aktuell ca. 1.400 hl)", "evidence": "anbieter" },
+    { "label": "Biergarten", "value": "ca. 200 Personen", "evidence": "anbieter" },
+    { "label": "Profiküche", "value": "200 Mahlzeiten gleichzeitig", "evidence": "anbieter" },
+    { "label": "Parkplätze", "value": "100 Stellplätze", "evidence": "anbieter", "note": "der Lageplan weist Stellplätze 1–18 aus" },
+    { "label": "Preis je m² Grundstück", "value": "900 €/m²", "evidence": "berechnet", "note": "1.584.000 € ÷ 1.760 m²" }
+  ],
+  "description": [
+    "Die Brauerei Hannes liegt direkt am Mainufer in Frankfurt. Das 1.760 m² große Areal vereint eine traditionelle Brauerei, ein Restaurant, einen Biergarten und einen Veranstaltungsort – ergänzt um zwei integrierte Wohnungen und Parkflächen.",
+    "Zum Anwesen gehören das Brauereigebäude mit traditionellen Kupferkesseln, Sudhaus und Sommerzelt, mehrere Lagerflächen und ein Malzspeicher, Abfüllanlage und Werkstatt, ein Restaurant mit professioneller Küche sowie ein Biergarten für rund 200 Personen.",
+    "Die Brauanlage ist derzeit zu etwa der Hälfte ausgelastet; die vorhandene Technik erlaubt eine deutliche Steigerung der Produktion ohne Erweiterung. Der Betrieb verfügt über eine langjährige Veranstaltungstradition und eine treue Stammkundschaft aus dem privaten wie gewerblichen Bereich."
+  ],
+  "highlights": [
+    "1.760 m² direkt am Main in einem Markt mit ausgeprägter Flächenknappheit",
+    "Kaufpreis entspricht 900 €/m² Grundstück – inklusive Brauerei, Gastronomie und zwei Wohnungen",
+    "Bauliche Reserve: vorhandene GRZ 0,382 bei zulässigen 0,7",
+    "Brauanlage mit Kapazitätsreserve (2.800 hl/Jahr, aktuell ca. 1.400 hl)",
+    "Multifunktionale Nutzung: Brauerei, Restaurant, Biergarten, Veranstaltungen",
+    "Zwei integrierte Wohnungen à ca. 130 m²",
+    "Etablierte Stammkundschaft und bewährte Veranstaltungsformate"
+  ],
+  "potential": [
+    {
+      "title": "Bauliche Reserve",
+      "text": "Bei GRZ 0,7 ergibt sich rechnerisch eine zulässige Grundfläche von rund 1.233 m² – gegenüber rund 674 m² Bestand und Planung (646,99 m² Bestand zzgl. 26,96 m² geplante Erweiterung des Lager- und Garagengebäudes).",
+      "evidence": "berechnet"
+    },
+    {
+      "title": "Produktionssteigerung",
+      "text": "Die Anlage ist zu etwa der Hälfte ausgelastet (ca. 1.400 von max. 2.800 hl pro Jahr). Eine Steigerung ist laut Anbieter ohne Erweiterung der Brauerei möglich.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Veranstaltungen und Public Viewing",
+      "text": "Bewährte Formate wie Oktoberfest, Firmenveranstaltungen, Hochzeiten, Fasching und Public Viewing bieten Ansatzpunkte für eine höhere Auslastung.",
+      "evidence": "potenzial"
+    }
+  ],
+  "areaTable": {
+    "title": "Überbaute Grundfläche (Bestand)",
+    "rows": [
+      { "name": "Gasthaus", "use": "", "area": "98,44 m²" },
+      { "name": "Eingang", "use": "", "area": "6,15 m²" },
+      { "name": "Anbau", "use": "", "area": "20,75 m²" },
+      { "name": "Küche", "use": "", "area": "50,19 m²" },
+      { "name": "Seitenbau (Saal usw.)", "use": "", "area": "283,44 m²" },
+      { "name": "Sudhaus", "use": "", "area": "26,13 m²" },
+      { "name": "Brauereigebäude", "use": "", "area": "70,00 m²" },
+      { "name": "Garagen und Lager", "use": "", "area": "91,89 m²" },
+      { "name": "Summe Bestand", "use": "", "area": "646,99 m²" },
+      { "name": "Geplante Erweiterung Lager- und Garagengebäude", "use": "", "area": "26,96 m²" }
+    ],
+    "note": "Auszug aus der Flächenberechnung (BauNVO) zum Bauvorhaben „Aufstockung und Erweiterung eines Lager- und Garagengebäudes“. Es handelt sich um überbaute Grundflächen, nicht um Nutzflächen; eine Nutzflächenaufstellung liegt nicht vor."
+  },
+  "planning": [
+    { "label": "Baugebiet", "value": "GI – Industriegebiet", "evidence": "fakt" },
+    { "label": "Zulässig", "value": "GRZ 0,7 · BMZ 9,0", "evidence": "fakt" },
+    { "label": "Vorhanden", "value": "GRZ 0,382 inkl. geplanter Erweiterung", "evidence": "fakt" },
+    { "label": "Rechnerisch zulässige Grundfläche", "value": "rund 1.233 m² (0,7 × 1.762 m²)", "evidence": "berechnet" },
+    { "label": "Planungsstand", "value": "Fluchtlinienplan von 1953; Flurkarte Stand Februar 1997", "evidence": "fakt" }
+  ],
+  "economics": [
+    { "label": "Gastronomie-Umsatz", "value": "bis zu 60.000 € pro Monat", "evidence": "anbieter" },
+    { "label": "Bierverkauf", "value": "ca. 252.000 € pro Jahr", "evidence": "anbieter" },
+    { "label": "Parkplatz-Miete", "value": "ca. 1.450 € pro Monat", "evidence": "anbieter" },
+    { "label": "Personal Brauerei", "value": "2 Mitarbeiter", "evidence": "anbieter" }
+  ],
+  "dataNotes": [
+    "Die ausgewiesenen Zahlen sind Betriebsumsätze, keine Mieterträge; eine Immobilienrendite lässt sich daraus nicht ableiten und wird nicht berechnet.",
+    "Stellplätze: Das Exposé nennt 100 Stellplätze, der Lageplan weist Stellplätze 1–18 aus – Klärung erforderlich.",
+    "Grundstücksgröße: 1.760 m² im Exposé, 1.762 m² laut amtlichem Lageplan.",
+    "Baujahr, Nutzflächen, Energiekennwerte und Jahresabschlüsse des Betriebs sind nicht angegeben.",
+    "Ob Inventar und Betrieb im Kaufpreis enthalten sind, ist im Detail abzustimmen."
+  ],
+  "images": [
+    { "src": "/images/properties/brauerei-hannes-frankfurt/01.jpg", "width": 1600, "height": 1200, "alt": "Gasthaus der Brauerei mit Parkflächen", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/02.jpg", "width": 1600, "height": 1200, "alt": "Rad- und Wanderweg am Anwesen, dahinter der Main", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/03.jpg", "width": 1200, "height": 1600, "alt": "Kesselhaus mit Schaufenster zum Hof", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/04.jpg", "width": 1200, "height": 1600, "alt": "Gär- und Lagertanks aus Edelstahl", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/05.jpg", "width": 1200, "height": 1600, "alt": "Bierlager", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/06.jpg", "width": 1200, "height": 1033, "alt": "Abfüllanlage mit Füller und Etikettierung", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/07.jpg", "width": 1200, "height": 1600, "alt": "Gastraum mit Holzvertäfelung", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/08.jpg", "width": 1200, "height": 1600, "alt": "Profiküche", "kind": "foto" },
+    { "src": "/images/properties/brauerei-hannes-frankfurt/09.jpg", "width": 1308, "height": 1700, "alt": "Grundriss Lager- und Garagengebäude, Erdgeschoss und Obergeschoss", "kind": "plan" }
+  ],
+  "exposeDownload": null,
+  "source": "Investitionsangebot des Anbieters mit Planauszügen, 2026"
+}
