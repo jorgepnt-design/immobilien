@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { site, type Locale } from "@/config/site";
+import { contact, site, type Locale } from "@/config/site";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { Logo } from "./header";
 
@@ -25,6 +25,17 @@ export function Footer({ locale }: { locale: Locale }) {
         <div>
           <Logo />
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-ivory/65">{t.footer.claim}</p>
+          <address className="mt-6 text-sm not-italic leading-relaxed text-ivory/65">
+            <span className="font-semibold text-ivory">{contact.company}</span>
+            <br />
+            {contact.descriptor}
+            <br />
+            {contact.street}, {contact.city}
+            <br />
+            <a href={`mailto:${contact.email}`} className="transition-colors hover:text-champagne">
+              {contact.email}
+            </a>
+          </address>
         </div>
         <nav aria-label={t.footer.navigation}>
           <h2 className="eyebrow !text-champagne">{t.footer.navigation}</h2>

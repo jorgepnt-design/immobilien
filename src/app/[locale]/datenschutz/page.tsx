@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { TriangleAlert } from "lucide-react";
-import { isLocale } from "@/config/site";
+import { contact, isLocale } from "@/config/site";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { PageHeader } from "@/components/page-header";
 
@@ -20,7 +20,7 @@ export default async function PrivacyPage({ params }: PageProps<"/[locale]/daten
   const sections = [
     {
       title: "Verantwortlicher",
-      text: "[Name, Anschrift und Kontaktdaten des Verantwortlichen – bitte ergänzen]",
+      text: `${contact.company} – ${contact.descriptor}, ${contact.street}, ${contact.city}, ${contact.country}. E-Mail: ${contact.email}. [Vertretungsberechtigte Person – bitte ergänzen]`,
     },
     {
       title: "Aufruf der Website",

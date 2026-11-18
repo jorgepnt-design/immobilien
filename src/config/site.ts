@@ -5,6 +5,16 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, ""),
 };
 
+/** Kontaktdaten des Betreibers – erscheinen auf Kontaktseite, im Fußbereich, Impressum und Datenschutz. */
+export const contact = {
+  company: "LOC-IN",
+  descriptor: "Strategic Location & Project Development Consulting",
+  street: "Robert-Bosch-Straße 7",
+  city: "64293 Darmstadt",
+  country: "Deutschland",
+  email: "immobilien@loc-in.com",
+};
+
 export const locales = ["de", "en", "pt"] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "de";

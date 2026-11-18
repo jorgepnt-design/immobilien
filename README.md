@@ -92,7 +92,8 @@ Dieses Repository ist öffentlich. Alles unter `public/` und `data/` ist für je
 
 - Keine vertraulichen Exposés, Mietverträge, Gutachten, Adressen oder Ansprechpartner einchecken.
 - `data/private/` und `.env*` sind per `.gitignore` ausgeschlossen und für lokale Notizen gedacht.
-- Bei den aktuellen Objekten sind Straßenadressen, Ansprechpartner, Mieter- und Personennamen sowie Katasterangaben bewusst nicht enthalten.
+- Bei den aktuellen Objekten sind Straßenadressen, objektbezogene Ansprechpartner, Mieter- und Personennamen sowie Katasterangaben bewusst nicht enthalten.
+- Die allgemeinen Kontaktdaten des Betreibers (LOC-IN) stehen in `src/config/site.ts` und erscheinen auf Kontaktseite, im Fußbereich, Impressum und Datenschutz.
 
 ## Mehrsprachigkeit
 
