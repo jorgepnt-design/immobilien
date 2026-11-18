@@ -3,13 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Check, ChevronRight, Download, FileLock2, Info, MapPin } from "lucide-react";
 import { isLocale, site, type Locale } from "@/config/site";
-import { getDictionary, type Dictionary } from "@/lib/i18n/dictionary";
+import { fill, getDictionary, type Dictionary } from "@/lib/i18n/dictionary";
 import { getAllProperties, getProperty, getSimilar } from "@/lib/properties";
 import { formatArea, formatCurrency, formatPercent, formatPrice, locationLine } from "@/lib/format";
 import { countryName } from "@/lib/countries";
 import type { Evidence, Fact, Property } from "@/lib/types";
 import { Gallery, PlanGrid } from "@/components/gallery";
-import { InquiryButton, InquiryForm } from "@/components/inquiry-form";
+import { ContactDetails, MailButton } from "@/components/contact";
 import { ListTextButton } from "@/components/list-buttons";
 import { MapConsent } from "@/components/map-consent";
 import { PropertyCard, StatusBadge } from "@/components/property-card";
@@ -130,6 +130,8 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
   if (!p) notFound();
   const t = getDictionary(locale);
   const href = (path: string) => `/${locale}${path}`;
+  const subjectInquiry = fill(t.form.subjectInquiry, { id: p.id, title: p.title });
+  const subjectViewing = fill(t.form.subjectViewing, { id: p.id, title: p.title });
 
   const photos = p.images.filter((i) => i.kind === "foto");
   const plans = p.images.filter((i) => i.kind === "plan");
@@ -416,9 +418,9 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
                     <FileLock2 size={20} strokeWidth={1.4} className="mt-0.5 shrink-0 text-champagne-dark" />
                     {t.detail.exposeOnRequest}
                   </p>
-                  <InquiryButton mode="inquiry" className="btn btn-outline shrink-0">
+                  <MailButton subject={subjectInquiry} className="btn btn-outline shrink-0">
                     {t.detail.requestDocs}
-                  </InquiryButton>
+                  </MailButton>
                 </div>
               )}
             </Section>
@@ -439,16 +441,21 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               <p className="mt-3 text-xs leading-relaxed text-stone-warm">{t.detail.disclaimer}</p>
             </Section>
 
-            {/* L. Anfrage */}
-            <section id="anfrage" aria-labelledby="anfrage-titel" className="card scroll-mt-28 p-6 md:p-10">
+            {/* L. Kontakt */}
+            <section id="kontakt" aria-labelledby="kontakt-titel" className="card scroll-mt-28 p-6 md:p-10">
               <p className="eyebrow">
                 {t.detail.objectId} {p.id}
               </p>
-              <h2 id="anfrage-titel" className="heading-display mt-3 text-3xl text-navy-900 md:text-4xl">
+              <h2 id="kontakt-titel" className="heading-display mt-3 text-3xl text-navy-900 md:text-4xl">
                 {t.form.title}
               </h2>
-              <p className="mb-8 mt-3 text-sm leading-relaxed text-stone-warm">{t.form.intro}</p>
-              <InquiryForm propertyId={p.id} propertyTitle={p.title} />
+              <p className="mb-8 mt-3 text-sm leading-relaxed text-stone-warm">{fill(t.form.intro, { id: p.id })}</p>
+              <div className="flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
+                <ContactDetails subject={subjectInquiry} />
+                <MailButton subject={subjectInquiry} className="btn btn-dark shrink-0">
+                  {t.form.write}
+                </MailButton>
+              </div>
             </section>
           </div>
 
@@ -469,12 +476,12 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               </dl>
 
               <div className="mt-6 flex flex-col gap-3">
-                <InquiryButton mode="inquiry" className="btn btn-gold w-full">
+                <MailButton subject={subjectInquiry} className="btn btn-gold w-full">
                   {t.detail.inquiryCta}
-                </InquiryButton>
-                <InquiryButton mode="viewing" className="btn btn-outline w-full">
+                </MailButton>
+                <MailButton subject={subjectViewing} className="btn btn-outline w-full">
                   {t.detail.viewingCta}
-                </InquiryButton>
+                </MailButton>
               </div>
 
               <div className="mt-6 flex flex-wrap gap-2 border-t border-sand/80 pt-5">
