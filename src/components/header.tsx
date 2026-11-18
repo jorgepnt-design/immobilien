@@ -135,7 +135,7 @@ export function Header() {
       </div>
 
       {open && (
-        <div className="fixed inset-x-0 top-[4.5rem] bottom-0 z-40 overflow-y-auto bg-navy-900 lg:hidden">
+        <div className="absolute inset-x-0 top-full z-40 h-[calc(100dvh-4.5rem)] overflow-y-auto bg-navy-900 lg:hidden">
           <nav aria-label={t.nav.menu} className="container-page flex flex-col py-6">
             {[
               { path: "/", label: t.nav.home, n: 0 },
