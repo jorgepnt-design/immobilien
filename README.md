@@ -2,7 +2,7 @@
 
 Präsentationsplattform für ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobilien. Zielgruppe sind professionelle Investoren, Projektentwickler, Bauträger und Family Offices.
 
-**Technik:** Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · Framer Motion · Lucide Icons · jsPDF. Keine Datenbank – jede Immobilie ist eine JSON-Datei. Alle Seiten werden beim Build statisch erzeugt; nur das Anfrageformular benötigt eine Serverfunktion.
+**Technik:** Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · Framer Motion · Lucide Icons · jsPDF. Keine Datenbank – jede Immobilie ist eine JSON-Datei. Alle Seiten werden beim Build statisch erzeugt; es gibt keine Serverfunktionen und kein Formular.
 
 ## Funktionen
 
@@ -12,7 +12,7 @@ Präsentationsplattform für ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobi
 | Immobilienübersicht mit kombinierbaren Filtern, Freitextsuche, Sortierung, verlinkbaren Filter-URLs | fertig |
 | Detailseite je Objekt (Galerie mit Vollbild, Eckdaten, Potenzial, Flächen, Rendite mit Formel, Baurecht, Energie, Standort, Dokumente, Datenstand, ähnliche Objekte) | fertig |
 | Merkliste, Vergleich (max. 4), Investment-Dossier mit PDF-Export | fertig (Speicherung im Browser) |
-| Anfrageformular mit Validierung, Honeypot, Begrenzung pro IP | fertig – **E-Mail-Versand muss konfiguriert werden** (siehe unten) |
+| Kontakt: Kontaktdaten des Betreibers und E-Mail-Schaltflächen mit vorbelegtem Betreff (Objekt-ID) | fertig – bewusst ohne Formular |
 | Sprachen Deutsch (Standard), Englisch, Portugiesisch | Oberfläche vollständig übersetzt; **Objekttexte derzeit nur Deutsch** |
 | SEO: Metadaten, Open Graph, JSON-LD, Sitemap, robots.txt | fertig |
 | Geschützter Investorenbereich | **nicht umgesetzt** – Konzept siehe unten |
@@ -47,11 +47,8 @@ Weitere Befehle: `npm run build` (Produktions-Build), `npm run start` (Build lok
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Öffentliche Adresse der Website, z. B. `https://www.beispiel.de` (für Sitemap, Canonical, Open Graph) |
 | `NEXT_PUBLIC_SITE_NAME` | Name im Logo, Titel und PDF (Standard: „Exklusive Immobilien“) |
-| `RESEND_API_KEY` | API-Schlüssel von [Resend](https://resend.com) für den Versand der Anfragen |
-| `INQUIRY_TO_EMAIL` | Empfänger der Anfragen (mehrere mit Komma trennen) |
-| `INQUIRY_FROM_EMAIL` | Absender, z. B. `Investmentportal <anfragen@ihre-domain.de>` – die Domain muss bei Resend verifiziert sein |
 
-Solange die drei E-Mail-Variablen fehlen, lehnt `/api/anfrage` jede Anfrage mit einem deutlichen Hinweis ab. Es geht nichts stillschweigend verloren.
+Die Kontaktdaten des Betreibers stehen in `src/config/site.ts` (`contact`).
 
 ## Neue Immobilie hinzufügen
 
@@ -111,7 +108,6 @@ Dieses Repository ist öffentlich. Alles unter `public/` und `data/` ist für je
 ### Vor dem Livegang
 
 - [ ] Impressum (`src/app/[locale]/impressum/page.tsx`) und Datenschutzhinweise (`…/datenschutz/page.tsx`) ausfüllen und rechtlich prüfen lassen
-- [ ] E-Mail-Versand konfigurieren und eine Testanfrage senden
 - [ ] Freigabe der Eigentümer bzw. Auftraggeber für die Veröffentlichung jedes Objekts und der Fotos einholen
 - [ ] Name und Logo festlegen (`NEXT_PUBLIC_SITE_NAME`)
 
@@ -121,7 +117,6 @@ Dieses Repository ist öffentlich. Alles unter `public/` und `data/` ist für je
 data/properties/          Objektdaten (eine JSON-Datei pro Immobilie)
 public/images/            Bilder
 src/app/[locale]/         Seiten: Start, immobilien, immobilien/[slug], merkliste, vergleich, dossier, kontakt
-src/app/api/anfrage/      Serverfunktion für Anfragen
 src/components/           Oberflächen-Komponenten
 src/config/site.ts        Name, URL, Sprachen
 src/lib/                  Datenmodell, Laden der Objekte, Formatierung, Übersetzungen, PDF-Export
