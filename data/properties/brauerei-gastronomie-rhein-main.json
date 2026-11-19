@@ -214,7 +214,7 @@
     "Die Grundstücksgröße weicht zwischen Exposé und amtlichem Lageplan geringfügig ab.",
     "Baujahr, Nutzflächen, Energiekennwerte und Jahresabschlüsse des Betriebs sind nicht angegeben.",
     "Ob Inventar und Betrieb im Kaufpreis enthalten sind, ist im Detail abzustimmen.",
-    "Außenaufnahmen, Gastraum und Pläne werden zum Schutz der Objektidentität nicht veröffentlicht; Sie erhalten sie mit dem vollständigen Exposé."
+    "Aufnahmen mit Beschilderung sowie Pläne werden zum Schutz der Objektidentität nicht veröffentlicht; Sie erhalten sie mit dem vollständigen Exposé."
   ],
   "images": [
     {
@@ -243,6 +243,27 @@
       "width": 1200,
       "height": 1600,
       "alt": "Profiküche",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/006/05.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Gastraum mit Holzvertäfelung",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/006/06.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Kesselhaus mit Schaufenster zum Hof",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/006/07.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Weg am Anwesen",
       "kind": "foto"
     }
   ],
