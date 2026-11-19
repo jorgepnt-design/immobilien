@@ -119,8 +119,8 @@ export function ExposeRequest({ propertyId, propertyTitle }: Props) {
 
   if (state === "success") {
     return (
-      <div role="status" className="flex flex-col items-start gap-4 rounded-2xl border border-emerald-800/20 bg-emerald-50 p-8">
-        <CheckCircle2 size={32} strokeWidth={1.4} className="text-emerald-800" />
+      <div role="status" className="flex flex-col items-start gap-4 rounded-2xl border border-mint bg-mint p-8">
+        <CheckCircle2 size={32} strokeWidth={1.4} className="text-accent" />
         <h3 className="heading-display text-3xl text-navy-900">{t.form.successTitle}</h3>
         <p className="text-sm leading-relaxed text-ink/75">{t.form.successText}</p>
       </div>
@@ -252,7 +252,7 @@ export function ExposeRequest({ propertyId, propertyTitle }: Props) {
       )}
 
       {state === "error" && (
-        <p role="alert" className="flex items-start gap-2 rounded-xl border border-red-800/20 bg-red-50 px-4 py-3 text-sm text-red-900">
+        <p role="alert" className="flex items-start gap-2 rounded-xl border border-rose bg-rose px-4 py-3 text-sm text-red-900">
           <TriangleAlert size={17} className="mt-0.5 shrink-0" />
           {errorText}
         </p>

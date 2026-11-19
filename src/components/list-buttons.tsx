@@ -53,7 +53,7 @@ export function ListIconButton({ list, id }: { list: ListName; id: string }) {
         className={`grid h-9 w-9 place-items-center rounded-full border backdrop-blur transition-colors ${
           b.active
             ? "border-champagne bg-champagne text-navy-950"
-            : "border-white/40 bg-navy-950/45 text-white hover:bg-navy-950/70"
+            : "border-white bg-white/90 text-navy-800 shadow-card hover:bg-white"
         }`}
       >
         <Icon size={16} strokeWidth={1.8} fill={b.active && list === "watch" ? "currentColor" : "none"} />
@@ -61,7 +61,7 @@ export function ListIconButton({ list, id }: { list: ListName; id: string }) {
       {b.full && (
         <span
           role="status"
-          className="absolute right-0 top-11 z-20 w-52 rounded-lg bg-navy-950 px-3 py-2 text-xs leading-snug text-ivory shadow-lift"
+          className="absolute right-0 top-11 z-20 w-52 rounded-lg border border-sand bg-white px-3 py-2 text-xs leading-snug text-navy-900 shadow-lift"
         >
           {b.fullText}
         </span>
@@ -93,7 +93,7 @@ export function ListTextButton({ list, id }: { list: ListName; id: string }) {
       {b.full && (
         <span
           role="status"
-          className="absolute left-0 top-12 z-20 w-56 rounded-lg bg-navy-950 px-3 py-2 text-xs leading-snug text-ivory shadow-lift"
+          className="absolute left-0 top-12 z-20 w-56 rounded-lg border border-sand bg-white px-3 py-2 text-xs leading-snug text-navy-900 shadow-lift"
         >
           {b.fullText}
         </span>

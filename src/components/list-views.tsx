@@ -160,7 +160,7 @@ export function CompareView({ items }: { items: PropertySummary[] }) {
               </th>
               {selected.map((p) => (
                 <th key={p.id} scope="col" className="px-5 py-5 align-top font-normal">
-                  <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-navy-800">
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-sky">
                     {p.cover ? (
                       <Image src={p.cover.src} alt={p.cover.alt} fill sizes="260px" className="object-cover" />
                     ) : (
@@ -170,7 +170,7 @@ export function CompareView({ items }: { items: PropertySummary[] }) {
                       type="button"
                       onClick={() => toggleInList("compare", p.id)}
                       aria-label={`${t.actions.compareRemove}: ${p.title}`}
-                      className="absolute right-2 top-2 grid h-8 w-8 place-items-center rounded-full bg-navy-950/70 text-white hover:bg-navy-950"
+                      className="absolute right-2 top-2 grid h-8 w-8 place-items-center rounded-full bg-white/90 text-navy-900 shadow-card hover:bg-white"
                     >
                       <X size={15} />
                     </button>
@@ -259,14 +259,14 @@ export function DossierView({ items }: { items: DossierItem[] }) {
         </div>
       </div>
       {error && (
-        <p role="alert" className="mb-6 rounded-xl border border-red-800/20 bg-red-50 px-4 py-3 text-sm text-red-900">
+        <p role="alert" className="mb-6 rounded-xl border border-rose bg-rose px-4 py-3 text-sm text-red-900">
           {t.dossier.exportError}
         </p>
       )}
       <ol className="space-y-4">
         {selected.map((p, i) => (
           <li key={p.id} className="card flex flex-col gap-5 p-5 sm:flex-row sm:items-center">
-            <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl bg-navy-800 sm:w-52">
+            <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl bg-sky sm:w-52">
               {p.cover ? (
                 <Image src={p.cover.src} alt={p.cover.alt} fill sizes="220px" className="object-cover" />
               ) : (

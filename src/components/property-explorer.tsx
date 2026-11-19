@@ -300,7 +300,7 @@ export function PropertyExplorer({ items }: { items: PropertySummary[] }) {
   return (
     <div className="grid gap-10 lg:grid-cols-[19rem_1fr]">
       <aside className="hidden lg:block">
-        <div className="card sticky top-24 max-h-[calc(100vh-7.5rem)] overflow-y-auto p-6">
+        <div className="card sticky top-24 border-sky bg-sky/70 max-h-[calc(100vh-7.5rem)] overflow-y-auto p-6">
           <h2 className="heading-display mb-5 flex items-center justify-between text-2xl text-navy-900">
             {t.filters.title}
             {activeCount > 0 && (
@@ -376,7 +376,7 @@ export function PropertyExplorer({ items }: { items: PropertySummary[] }) {
           <button
             type="button"
             aria-label={t.common.close}
-            className="absolute inset-0 bg-navy-950/60"
+            className="absolute inset-0 bg-navy-950/25"
             onClick={() => setDrawer(false)}
           />
           <div className="absolute inset-y-0 right-0 flex w-full max-w-sm flex-col bg-ivory shadow-lift">

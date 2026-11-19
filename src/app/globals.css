@@ -1,25 +1,48 @@
 @import "tailwindcss";
 
+/*
+ * Summer-Pastel-Design
+ * Alle Farben der Website werden hier zentral festgelegt. Wer die Palette ändern
+ * möchte, passt nur die Werte in diesem @theme-Block an.
+ */
 @theme {
-  --color-navy-950: #070f1a;
-  --color-navy-900: #0c1826;
-  --color-navy-800: #132235;
-  --color-navy-700: #1d3049;
-  --color-navy-600: #2c4361;
-  --color-ivory: #f8f5ef;
-  --color-ivory-dark: #efeae0;
-  --color-sand: #e3dccd;
-  --color-stone-warm: #6b6558;
-  --color-ink: #1a1f27;
-  --color-champagne: #c6a567;
-  --color-champagne-light: #dcc394;
-  --color-champagne-dark: #9a7b3f;
+  /* --- Verbindliche Palette --- */
+  --color-warmwhite: #fffcf3; /* Haupthintergrund */
+  --color-sun: #fff1b8; /* Sonnenlicht – Akzente, Hauptbutton */
+  --color-rose: #f9dfdc; /* Morgenrosa – Badges, Hinweise */
+  --color-sky: #ddeeff; /* Himmelblau – Such- und Filterbereich */
+  --color-mint: #ddf2e5; /* Frisches Mint – Badges, Highlights */
+  --color-lilac: #ede4fa; /* Flieder – Badges, Highlights */
+  --color-cloud: #f7fcff; /* Cloud White – Header, Navigation, Abschnitte */
+  --color-babyblue: #cde8fa; /* Baby Blue – Linien, Rahmen */
+  --color-vanilla: #fff0c9; /* Vanillegelb – Abschnitte, Hover */
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-cormorant), ui-serif, Georgia, serif;
+  /* --- Kontrastfarben für Text und Schaltflächen (auf die Palette abgestimmt) --- */
+  --color-accent: #1f6f78; /* Akzenttext, Symbole, dunkle Schaltfläche */
+  --color-accent-dark: #17555c;
+  --color-ink: #26384a; /* Fließtext */
+  --color-stone-warm: #5a6b78; /* zurückgenommener Text */
 
-  --shadow-card: 0 1px 2px rgb(12 24 38 / 0.04), 0 12px 32px -12px rgb(12 24 38 / 0.14);
-  --shadow-lift: 0 2px 4px rgb(12 24 38 / 0.05), 0 28px 56px -20px rgb(12 24 38 / 0.28);
+  /* Überschriften- und Textabstufungen (historische Namen der Komponenten) */
+  --color-navy-950: #1b2b36;
+  --color-navy-900: #22343f;
+  --color-navy-800: #33485a;
+  --color-navy-700: #17555c;
+  --color-navy-600: #1f6f78;
+
+  /* Zuordnung der bisherigen Rollen auf die Palette */
+  --color-ivory: var(--color-warmwhite);
+  --color-ivory-dark: var(--color-cloud);
+  --color-sand: var(--color-babyblue);
+  --color-champagne: var(--color-sun);
+  --color-champagne-light: var(--color-vanilla);
+  --color-champagne-dark: var(--color-accent);
+
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(31 111 120 / 0.04), 0 14px 34px -18px rgb(31 111 120 / 0.18);
+  --shadow-lift: 0 2px 6px rgb(31 111 120 / 0.05), 0 28px 56px -24px rgb(31 111 120 / 0.28);
 }
 
 html {
@@ -28,19 +51,19 @@ html {
 }
 
 body {
-  background: var(--color-ivory);
+  background: var(--color-warmwhite);
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: var(--color-champagne-light);
+  background: var(--color-sun);
   color: var(--color-navy-950);
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-champagne-dark);
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
@@ -59,17 +82,26 @@ body {
 
   .eyebrow {
     font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 0.22em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--color-champagne-dark);
+    color: var(--color-accent);
   }
 
   .heading-display {
     font-family: var(--font-display);
-    font-weight: 500;
-    letter-spacing: -0.01em;
-    line-height: 1.08;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.14;
+  }
+
+  /* Hero: Warmweiß mit dezentem Sonnenlicht */
+  .hero-glow {
+    background:
+      radial-gradient(60rem 34rem at 88% 8%, var(--color-sun) 0%, transparent 62%),
+      radial-gradient(42rem 28rem at 6% 96%, var(--color-rose) 0%, transparent 60%),
+      radial-gradient(38rem 26rem at 58% 110%, var(--color-sky) 0%, transparent 60%);
+    opacity: 0.85;
   }
 
   .btn {
@@ -80,70 +112,79 @@ body {
     min-height: 2.875rem;
     padding: 0.7rem 1.5rem;
     border-radius: 999px;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.005em;
     transition:
       background-color 0.25s ease,
       color 0.25s ease,
       border-color 0.25s ease,
-      box-shadow 0.25s ease;
+      box-shadow 0.25s ease,
+      transform 0.25s ease;
+  }
+  .btn:hover:not(:disabled) {
+    transform: translateY(-1px);
   }
   .btn:disabled {
     opacity: 0.6;
     cursor: not-allowed;
   }
+  /* Hauptschaltfläche: Sonnenlicht */
   .btn-gold {
-    background: var(--color-champagne);
+    background: var(--color-sun);
     color: var(--color-navy-950);
+    box-shadow:
+      inset 0 0 0 1px rgb(31 111 120 / 0.14),
+      0 8px 20px -12px rgb(31 111 120 / 0.35);
   }
   .btn-gold:hover:not(:disabled) {
-    background: var(--color-champagne-light);
+    background: var(--color-vanilla);
+    box-shadow:
+      inset 0 0 0 1px rgb(31 111 120 / 0.22),
+      0 12px 24px -12px rgb(31 111 120 / 0.4);
   }
+  /* Kontrastschaltfläche */
   .btn-dark {
-    background: var(--color-navy-900);
-    color: var(--color-ivory);
+    background: var(--color-accent);
+    color: #fff;
+    box-shadow: 0 10px 22px -14px rgb(31 111 120 / 0.7);
   }
   .btn-dark:hover:not(:disabled) {
-    background: var(--color-navy-700);
+    background: var(--color-accent-dark);
   }
   .btn-outline {
-    border: 1px solid rgb(12 24 38 / 0.22);
+    background: #fff;
+    border: 1px solid var(--color-babyblue);
     color: var(--color-navy-900);
   }
   .btn-outline:hover:not(:disabled) {
-    border-color: var(--color-navy-900);
-    background: rgb(12 24 38 / 0.04);
-  }
-  .btn-outline-light {
-    border: 1px solid rgb(248 245 239 / 0.45);
-    color: var(--color-ivory);
-  }
-  .btn-outline-light:hover {
-    border-color: var(--color-ivory);
-    background: rgb(248 245 239 / 0.1);
+    border-color: var(--color-accent);
+    background: var(--color-sky);
   }
 
   .field {
     width: 100%;
     min-height: 2.75rem;
-    padding: 0.6rem 0.85rem;
-    border-radius: 0.6rem;
-    border: 1px solid var(--color-sand);
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--color-babyblue);
     background: #fff;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     color: var(--color-ink);
     transition:
       border-color 0.2s ease,
       box-shadow 0.2s ease;
   }
+  .field::placeholder {
+    color: #8b99a6;
+  }
   .field:hover {
-    border-color: #cfc6b2;
+    border-color: #a9d3ee;
   }
   .field:focus {
     outline: none;
-    border-color: var(--color-champagne-dark);
-    box-shadow: 0 0 0 3px rgb(198 165 103 / 0.22);
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px var(--color-babyblue);
   }
   .field[aria-invalid="true"] {
     border-color: #b3261e;
@@ -154,15 +195,15 @@ body {
     margin-bottom: 0.35rem;
     font-size: 0.72rem;
     font-weight: 600;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.07em;
     text-transform: uppercase;
     color: var(--color-stone-warm);
   }
 
   .card {
     background: #fff;
-    border: 1px solid rgb(227 220 205 / 0.8);
-    border-radius: 1.1rem;
+    border: 1px solid rgb(205 232 250 / 0.75);
+    border-radius: 1.25rem;
     box-shadow: var(--shadow-card);
   }
 }

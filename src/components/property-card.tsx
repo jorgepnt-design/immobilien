@@ -10,9 +10,9 @@ import { useI18n } from "./providers";
 import { ListIconButton } from "./list-buttons";
 
 const STATUS_STYLE: Record<Status, string> = {
-  verfuegbar: "bg-emerald-900/85 text-emerald-50",
-  reserviert: "bg-amber-800/90 text-amber-50",
-  verkauft: "bg-stone-700/90 text-stone-100",
+  verfuegbar: "bg-mint text-navy-900",
+  reserviert: "bg-rose text-navy-900",
+  verkauft: "bg-lilac text-navy-900",
 };
 
 export function StatusBadge({ status }: { status: Status }) {
@@ -30,8 +30,8 @@ export function StatusBadge({ status }: { status: Status }) {
 /** Dezentes Linienmuster für Objekte ohne Bildmaterial – kein Objektfoto. */
 export function ImagePlaceholder({ label }: { label: string }) {
   return (
-    <div className="absolute inset-0 grid place-items-center overflow-hidden bg-navy-800">
-      <svg aria-hidden className="absolute inset-0 h-full w-full opacity-30" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+    <div className="absolute inset-0 grid place-items-center overflow-hidden bg-gradient-to-br from-sky via-lilac to-rose">
+      <svg aria-hidden className="absolute inset-0 h-full w-full opacity-90" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
         {Array.from({ length: 14 }, (_, i) => (
           <ellipse
             key={i}
@@ -40,13 +40,13 @@ export function ImagePlaceholder({ label }: { label: string }) {
             rx={20 + i * 24}
             ry={12 + i * 16}
             fill="none"
-            stroke="#c6a567"
+            stroke="#ffffff"
             strokeWidth="0.7"
             transform={`rotate(${-12 + i} 250 130)`}
           />
         ))}
       </svg>
-      <span className="relative rounded-full border border-champagne/50 px-4 py-1.5 text-[0.68rem] font-medium tracking-[0.18em] uppercase text-champagne-light">
+      <span className="relative rounded-full border border-white bg-white/75 px-4 py-1.5 text-[0.68rem] font-semibold tracking-[0.14em] uppercase text-navy-800">
         {label}
       </span>
     </div>
@@ -64,7 +64,7 @@ export function PropertyCard({ p, priority = false }: { p: PropertySummary; prio
 
   return (
     <article className="card group relative flex h-full flex-col overflow-hidden transition-[box-shadow,transform] duration-500 hover:-translate-y-1 hover:shadow-lift">
-      <div className="relative aspect-[4/3] overflow-hidden bg-navy-800">
+      <div className="relative aspect-[4/3] overflow-hidden bg-sky">
         {p.cover ? (
           <Image
             src={p.cover.src}
@@ -77,7 +77,7 @@ export function PropertyCard({ p, priority = false }: { p: PropertySummary; prio
         ) : (
           <ImagePlaceholder label={t.card.noImage} />
         )}
-        <div aria-hidden className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-navy-950/55 to-transparent" />
+        <div aria-hidden className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-white/45 to-transparent" />
         <div className="absolute left-4 top-4">
           <StatusBadge status={p.status} />
         </div>
@@ -94,7 +94,7 @@ export function PropertyCard({ p, priority = false }: { p: PropertySummary; prio
           <span className="text-stone-warm/70">{p.id}</span>
         </div>
 
-        <h3 className="heading-display mt-3 text-[1.65rem] text-navy-900">
+        <h3 className="heading-display mt-3 text-[1.3rem] text-navy-900">
           <Link href={url} className="after:absolute after:inset-0 after:content-['']">
             {p.title}
           </Link>

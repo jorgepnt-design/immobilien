@@ -47,11 +47,11 @@ export async function generateMetadata({
 }
 
 const EVIDENCE_STYLE: Record<Evidence, string> = {
-  fakt: "border-emerald-800/25 bg-emerald-50 text-emerald-900",
-  anbieter: "border-navy-700/20 bg-navy-900/[0.04] text-navy-800",
-  potenzial: "border-champagne-dark/35 bg-champagne/15 text-champagne-dark",
-  annahme: "border-amber-700/30 bg-amber-50 text-amber-900",
-  berechnet: "border-sky-800/25 bg-sky-50 text-sky-900",
+  fakt: "border-mint bg-mint text-navy-900",
+  anbieter: "border-sky bg-sky text-navy-900",
+  potenzial: "border-lilac bg-lilac text-navy-900",
+  annahme: "border-vanilla bg-vanilla text-navy-900",
+  berechnet: "border-babyblue bg-babyblue text-navy-900",
 };
 
 function EvidenceBadge({ evidence, t }: { evidence: Evidence; t: Dictionary }) {
@@ -169,26 +169,26 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
       />
 
       {/* Kopfbereich */}
-      <section className="bg-navy-900 text-ivory">
+      <section className="bg-cloud text-navy-900">
         <div className="container-page pb-10 pt-8 md:pb-14">
-          <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-ivory/60">
-            <Link href={href("/immobilien")} className="hover:text-champagne">
+          <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-stone-warm">
+            <Link href={href("/immobilien")} className="hover:text-accent">
               {t.detail.breadcrumb}
             </Link>
             <ChevronRight size={13} />
-            <span className="text-ivory/85">{p.title}</span>
+            <span className="text-navy-800">{p.title}</span>
           </nav>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <StatusBadge status={p.status} />
-            <span className="eyebrow !text-champagne">{t.types[p.type]}</span>
-            <span className="text-xs tracking-[0.14em] text-ivory/55">
+            <span className="eyebrow">{t.types[p.type]}</span>
+            <span className="text-xs tracking-[0.14em] text-stone-warm">
               {t.detail.objectId} {p.id}
             </span>
           </div>
-          <h1 className="heading-display mt-5 max-w-4xl text-4xl md:text-6xl">{p.title}</h1>
-          <p className="mt-4 max-w-3xl text-lg text-ivory/75">{p.subtitle}</p>
-          <p className="mt-5 flex items-center gap-2 text-sm text-ivory/80">
-            <MapPin size={16} strokeWidth={1.5} className="text-champagne" />
+          <h1 className="heading-display mt-5 max-w-4xl text-4xl md:text-5xl">{p.title}</h1>
+          <p className="mt-4 max-w-3xl text-lg text-ink/75">{p.subtitle}</p>
+          <p className="mt-5 flex items-center gap-2 text-sm text-ink/80">
+            <MapPin size={16} strokeWidth={1.5} className="text-accent" />
             {countryName(p.location.country, locale)} · {p.location.region} · {locationLine(p.location)}
           </p>
         </div>
@@ -249,7 +249,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               <ul className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
                 {p.highlights.map((h) => (
                   <li key={h} className="flex items-start gap-3 text-sm leading-relaxed text-ink/85">
-                    <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-champagne/25 text-champagne-dark">
+                    <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-sun text-champagne-dark">
                       <Check size={12} strokeWidth={2.5} />
                     </span>
                     {h}
@@ -319,26 +319,26 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               </div>
 
               {p.yield ? (
-                <div className="mt-4 rounded-2xl bg-navy-900 p-6 text-ivory md:p-8">
+                <div className="mt-4 rounded-2xl bg-mint p-6 text-navy-900 md:p-8">
                   <div className="flex flex-wrap items-end justify-between gap-4">
                     <div>
-                      <p className="eyebrow !text-champagne">{p.yield.label}</p>
+                      <p className="eyebrow">{p.yield.label}</p>
                       <p className="heading-display mt-2 text-5xl">{formatPercent(p.yield.percent, locale)}</p>
                     </div>
                     <EvidenceBadge evidence="berechnet" t={t} />
                   </div>
-                  <dl className="mt-6 space-y-4 border-t border-white/15 pt-6 text-sm">
+                  <dl className="mt-6 space-y-4 border-t border-navy-900/10 pt-6 text-sm">
                     <div>
-                      <dt className="text-[0.68rem] font-semibold tracking-[0.1em] uppercase text-ivory/55">{t.detail.formula}</dt>
-                      <dd className="mt-1 font-mono text-[0.85rem] text-champagne-light">{p.yield.formula}</dd>
+                      <dt className="text-[0.68rem] font-semibold tracking-[0.1em] uppercase text-stone-warm">{t.detail.formula}</dt>
+                      <dd className="mt-1 font-mono text-[0.85rem] text-accent-dark">{p.yield.formula}</dd>
                     </div>
                     <div>
-                      <dt className="text-[0.68rem] font-semibold tracking-[0.1em] uppercase text-ivory/55">{t.detail.basis}</dt>
-                      <dd className="mt-1 leading-relaxed text-ivory/85">{p.yield.basis}</dd>
+                      <dt className="text-[0.68rem] font-semibold tracking-[0.1em] uppercase text-stone-warm">{t.detail.basis}</dt>
+                      <dd className="mt-1 leading-relaxed text-navy-800">{p.yield.basis}</dd>
                     </div>
                     <div>
-                      <dt className="text-[0.68rem] font-semibold tracking-[0.1em] uppercase text-ivory/55">{t.detail.caveat}</dt>
-                      <dd className="mt-1 leading-relaxed text-ivory/85">{p.yield.caveat}</dd>
+                      <dt className="text-[0.68rem] font-semibold tracking-[0.1em] uppercase text-stone-warm">{t.detail.caveat}</dt>
+                      <dd className="mt-1 leading-relaxed text-navy-800">{p.yield.caveat}</dd>
                     </div>
                   </dl>
                 </div>
@@ -429,7 +429,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               <ul className="space-y-3">
                 {p.dataNotes.map((n) => (
                   <li key={n} className="flex items-start gap-3 text-sm leading-relaxed text-ink/80">
-                    <Info size={16} className="mt-0.5 shrink-0 text-amber-700" />
+                    <Info size={16} className="mt-0.5 shrink-0 text-accent" />
                     {n}
                   </li>
                 ))}
