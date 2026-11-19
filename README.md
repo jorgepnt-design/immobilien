@@ -1,4 +1,4 @@
-# Exklusive Immobilien – Investmentportal
+# Objektübersicht – Immobilienportal
 
 Präsentationsplattform für ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobilien. Zielgruppe sind professionelle Investoren, Projektentwickler, Bauträger und Family Offices.
 
@@ -50,7 +50,7 @@ Weitere Befehle: `npm run build` (Produktions-Build), `npm run start` (Build lok
 | Variable | Zweck |
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Öffentliche Adresse der Website, z. B. `https://www.beispiel.de` (für Sitemap, Canonical, Open Graph) |
-| `NEXT_PUBLIC_SITE_NAME` | Name im Logo, Titel und PDF (Standard: „Exklusive Immobilien“) |
+| `NEXT_PUBLIC_SITE_NAME` | Name im Logo, Titel und PDF (Standard: „Objektübersicht“) |
 | `RESEND_API_KEY`, `INQUIRY_TO_EMAIL`, `INQUIRY_FROM_EMAIL` | optional: Versand der Exposé-Anfragen über [Resend](https://resend.com) |
 
 Die Kontaktdaten des Betreibers stehen in `src/config/site.ts` (`contact`).

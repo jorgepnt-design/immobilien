@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale, site } from "@/config/site";
+import { isLocale } from "@/config/site";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { getAllSummaries } from "@/lib/properties";
 import { PageHeader } from "@/components/page-header";
@@ -26,7 +26,7 @@ export default async function OverviewPage({ params }: PageProps<"/[locale]/immo
 
   return (
     <>
-      <PageHeader eyebrow={site.tagline} title={t.overview.title} intro={t.overview.intro} />
+      <PageHeader title={t.overview.title} intro={t.overview.intro} />
       <div className="container-page py-12 md:py-16">
         {items.length === 0 ? <EmptyPortfolio locale={locale} /> : <PropertyExplorer items={items} />}
       </div>

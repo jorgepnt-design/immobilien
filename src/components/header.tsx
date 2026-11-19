@@ -9,20 +9,7 @@ import { useI18n, useLists } from "./providers";
 
 export function Logo({ className = "" }: { className?: string }) {
   return (
-    <span className={`flex items-center gap-3 ${className}`}>
-      <span
-        aria-hidden
-        className="grid h-9 w-9 place-items-center rounded-full border border-accent/40 font-display text-base font-extrabold leading-none text-accent"
-      >
-        {site.name.charAt(0)}
-      </span>
-      <span className="flex flex-col leading-none">
-        <span className="font-display text-[1.02rem] font-extrabold tracking-[0.08em] uppercase">{site.name}</span>
-        <span className="mt-1 text-[0.58rem] font-semibold tracking-[0.3em] uppercase text-accent">
-          {site.tagline}
-        </span>
-      </span>
-    </span>
+    <span className={`font-display text-xl font-bold tracking-tight ${className}`}>{site.name}</span>
   );
 }
 
