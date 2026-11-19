@@ -9,7 +9,8 @@ import { formatArea, formatCurrency, formatPercent, formatPrice, locationLine } 
 import { countryName } from "@/lib/countries";
 import type { Evidence, Fact, Property } from "@/lib/types";
 import { Gallery, PlanGrid } from "@/components/gallery";
-import { ContactDetails, MailButton } from "@/components/contact";
+import { ContactDetails } from "@/components/contact";
+import { ExposeRequest } from "@/components/expose-request";
 import { ListTextButton } from "@/components/list-buttons";
 import { MapConsent } from "@/components/map-consent";
 import { PropertyCard, StatusBadge } from "@/components/property-card";
@@ -130,8 +131,6 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
   if (!p) notFound();
   const t = getDictionary(locale);
   const href = (path: string) => `/${locale}${path}`;
-  const subjectInquiry = fill(t.form.subjectInquiry, { id: p.id, title: p.title });
-  const subjectViewing = fill(t.form.subjectViewing, { id: p.id, title: p.title });
 
   const photos = p.images.filter((i) => i.kind === "foto");
   const plans = p.images.filter((i) => i.kind === "plan");
@@ -372,7 +371,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
             <Section id="standort" title={t.detail.location}>
               <p className="mb-5 flex items-center gap-2 text-sm font-medium text-navy-900">
                 <MapPin size={16} className="text-champagne-dark" />
-                {p.location.addressPublic && p.location.address ? p.location.address : t.detail.addressOnRequest}
+                {t.detail.addressOnRequest}
               </p>
               <div className="space-y-4 text-[0.97rem] leading-[1.8] text-ink/85">
                 {p.location.description.map((para) => (
@@ -394,7 +393,6 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
                   <MapConsent
                     center={p.location.mapCenter}
                     title={`${t.detail.location}: ${p.location.city}`}
-                    exact={p.location.addressPublic}
                   />
                 </div>
               )}
@@ -418,9 +416,9 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
                     <FileLock2 size={20} strokeWidth={1.4} className="mt-0.5 shrink-0 text-champagne-dark" />
                     {t.detail.exposeOnRequest}
                   </p>
-                  <MailButton subject={subjectInquiry} className="btn btn-outline shrink-0">
+                  <a href="#anfrage" className="btn btn-outline shrink-0">
                     {t.detail.requestDocs}
-                  </MailButton>
+                  </a>
                 </div>
               )}
             </Section>
@@ -441,20 +439,27 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               <p className="mt-3 text-xs leading-relaxed text-stone-warm">{t.detail.disclaimer}</p>
             </Section>
 
-            {/* L. Kontakt */}
-            <section id="kontakt" aria-labelledby="kontakt-titel" className="card scroll-mt-28 p-6 md:p-10">
+            {/* L. Stufe 2: vollständiges Exposé nur auf qualifizierte Anfrage */}
+            <section id="anfrage" aria-labelledby="anfrage-titel" className="card scroll-mt-28 p-6 md:p-10">
               <p className="eyebrow">
                 {t.detail.objectId} {p.id}
               </p>
-              <h2 id="kontakt-titel" className="heading-display mt-3 text-3xl text-navy-900 md:text-4xl">
+              <h2 id="anfrage-titel" className="heading-display mt-3 text-3xl text-navy-900 md:text-4xl">
                 {t.form.title}
               </h2>
-              <p className="mb-8 mt-3 text-sm leading-relaxed text-stone-warm">{fill(t.form.intro, { id: p.id })}</p>
-              <div className="flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
-                <ContactDetails subject={subjectInquiry} />
-                <MailButton subject={subjectInquiry} className="btn btn-dark shrink-0">
-                  {t.form.write}
-                </MailButton>
+              <p className="mt-3 text-sm leading-relaxed text-stone-warm">{fill(t.form.intro, { id: p.id })}</p>
+              <ol className="my-8 grid gap-4 sm:grid-cols-3">
+                {t.form.steps.map((step, i) => (
+                  <li key={step.title} className="rounded-xl border border-sand bg-ivory px-4 py-4">
+                    <span className="heading-display text-2xl text-champagne-dark">{i + 1}</span>
+                    <p className="mt-1 text-sm font-semibold text-navy-900">{step.title}</p>
+                    <p className="mt-1 text-xs leading-relaxed text-stone-warm">{step.text}</p>
+                  </li>
+                ))}
+              </ol>
+              <ExposeRequest propertyId={p.id} propertyTitle={p.title} />
+              <div className="mt-10 border-t border-sand pt-8">
+                <ContactDetails />
               </div>
             </section>
           </div>
@@ -476,12 +481,9 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               </dl>
 
               <div className="mt-6 flex flex-col gap-3">
-                <MailButton subject={subjectInquiry} className="btn btn-gold w-full">
+                <a href="#anfrage" className="btn btn-gold w-full">
                   {t.detail.inquiryCta}
-                </MailButton>
-                <MailButton subject={subjectViewing} className="btn btn-outline w-full">
-                  {t.detail.viewingCta}
-                </MailButton>
+                </a>
               </div>
 
               <div className="mt-6 flex flex-wrap gap-2 border-t border-sand/80 pt-5">

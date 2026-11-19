@@ -1,0 +1,187 @@
+{
+  "id": "EI-2026-005",
+  "slug": "golfanlage-oberbayern-voralpenland",
+  "title": "18-Loch-Golfanlage im bayerischen Voralpenland",
+  "subtitle": "18-Loch-Anlage mit Driving Range und geplanter Freiflächen-Photovoltaik",
+  "teaser": "Etablierter Golfbetrieb auf ca. 100 ha Pachtgelände im bayerischen Voralpenland – mit Photovoltaik-Perspektive.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-18",
+  "location": {
+    "country": "DE",
+    "region": "Bayern",
+    "city": "Oberbayern",
+    "district": "Voralpenland",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 47.9,
+      "lng": 11.6,
+      "zoom": 8
+    },
+    "description": [
+      "Die Golfanlage liegt im bayerischen Voralpenland in offener Landschaft mit Panoramablick auf die Alpenkette. Die Region zählt zu den begehrten Freizeit- und Tourismusdestinationen Deutschlands.",
+      "Das Einzugsgebiet reicht vom Großraum München über das bayerische Oberland. Die genaue Lage wird zum Schutz aller Beteiligten erst nach Unterzeichnung einer Vertraulichkeitsvereinbarung genannt."
+    ],
+    "connections": [
+      {
+        "label": "Großraum München",
+        "value": "gut erreichbar"
+      }
+    ]
+  },
+  "type": "freizeit",
+  "investmentType": "bestand",
+  "price": {
+    "amount": null,
+    "currency": "EUR",
+    "mode": "gebotsverfahren",
+    "note": "Der Kaufpreis wird im Gebotsverfahren ermittelt; indikative Angebote sind erbeten."
+  },
+  "areas": {
+    "plot": {
+      "value": 1000000,
+      "approx": true,
+      "note": "ca. 100 ha Pachtfläche (kein Eigentum am Grundstück)"
+    }
+  },
+  "units": null,
+  "yearBuilt": null,
+  "condition": "Seit rund zehn Jahren in Betrieb",
+  "rental": {
+    "status": "betrieb",
+    "text": "Laufender Mitglieder- und Gästebetrieb auf Pachtgelände; Pachtdauer 20 Jahre zzgl. Verlängerungsoption. Betriebskennzahlen sind nicht angegeben."
+  },
+  "keyFacts": [
+    {
+      "label": "Objektart",
+      "value": "18-Loch-Golfplatz inkl. Driving Range",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Pachtfläche",
+      "value": "ca. 100 ha",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Pachtdauer",
+      "value": "20 Jahre zzgl. Verlängerungsoption",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "In Betrieb seit",
+      "value": "vor rund zehn Jahren",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Betrieb",
+      "value": "Etablierter Mitglieder- und Gästebetrieb",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "PV – Hauptmodulfläche",
+      "value": "ca. 10.300 m²",
+      "evidence": "potenzial",
+      "note": "laut Vorentwurf eines Fachplanungsbüros"
+    },
+    {
+      "label": "PV – Ergänzungsfläche",
+      "value": "ca. 4.500 m²",
+      "evidence": "potenzial"
+    },
+    {
+      "label": "Baukosten PV inkl. Batteriespeicher",
+      "value": "ca. 2,5 Mio. €",
+      "evidence": "annahme",
+      "note": "Veranschlagung laut Anbieter"
+    }
+  ],
+  "description": [
+    "Eine etablierte 18-Loch-Golfanlage mit Driving Range im bayerischen Voralpenland: Die Anlage ist seit rund zehn Jahren in Betrieb und erstreckt sich über ein Pachtgelände von rund 100 Hektar.",
+    "Der Platz profitiert vom starken Tourismus der Region ebenso wie von einer gewachsenen, regionalen Mitgliederbasis. Die Pachtdauer von 20 Jahren mit Verlängerungsoption schafft Planungssicherheit.",
+    "Über den Golfbetrieb hinaus bietet das Gelände eine zweite Perspektive: eine geplante Freiflächen-Photovoltaikanlage mit Batteriespeicher auf derselben Fläche, für die die zuständige Gemeinde ein Bebauungsplan-Änderungsverfahren eingeleitet hat."
+  ],
+  "highlights": [
+    "18-Loch-Anlage mit Driving Range, seit rund zehn Jahren in Betrieb",
+    "Ca. 100 ha Pachtgelände mit Alpenpanorama",
+    "Pachtdauer 20 Jahre zzgl. Verlängerungsoption",
+    "Bebauungsplan-Änderung für Photovoltaik als ergänzende Nutzung eingeleitet",
+    "Perspektive auf zwei Ertragsquellen: Golf und Solarstrom",
+    "Kaufkräftiges Einzugsgebiet im Großraum München und Oberland"
+  ],
+  "potential": [
+    {
+      "title": "Freiflächen-Photovoltaik mit Batteriespeicher",
+      "text": "Laut Vorentwurf eines Fachplanungsbüros umfasst die geplante Anlage eine Hauptmodulfläche von ca. 10.300 m² sowie eine Ergänzungsfläche von ca. 4.500 m². Für die Umsetzung inklusive Batteriespeicher sind Baukosten von rund 2,5 Mio. € veranschlagt.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Planungsstand",
+      "text": "Die zuständige Gemeinde hat eine Änderung des Bebauungsplans eingeleitet, um Photovoltaikanlagen als ergänzende Nutzung zuzulassen. Das Verfahren ist in Bearbeitung und nicht abgeschlossen.",
+      "evidence": "anbieter"
+    }
+  ],
+  "areaTable": {
+    "title": "Flächenübersicht",
+    "rows": [
+      {
+        "name": "Pachtgelände",
+        "use": "18-Loch-Golfplatz inkl. Driving Range",
+        "area": "ca. 100 ha"
+      },
+      {
+        "name": "PV – Hauptmodulfläche",
+        "use": "geplant",
+        "area": "ca. 10.300 m²"
+      },
+      {
+        "name": "PV – Ergänzungsfläche",
+        "use": "geplant",
+        "area": "ca. 4.500 m²"
+      }
+    ],
+    "note": "Angaben zu Gebäudeflächen (z. B. Clubhaus) sind im Exposé nicht enthalten."
+  },
+  "planning": [
+    {
+      "label": "Bebauungsplan",
+      "value": "Bebauungsplan für den Golfplatz vorhanden",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Verfahrensstand",
+      "value": "Änderungsverfahren eingeleitet und in Bearbeitung (Photovoltaik als ergänzende Nutzung)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Vorentwurf",
+      "value": "Photovoltaikkonzept durch den Ortsplaner erstellt",
+      "evidence": "anbieter"
+    }
+  ],
+  "economics": [
+    {
+      "label": "Kaufpreis",
+      "value": "Gebotsverfahren – indikative Angebote erbeten",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Baukosten PV inkl. Batteriespeicher",
+      "value": "ca. 2,5 Mio. €",
+      "evidence": "annahme"
+    },
+    {
+      "label": "Umsatz- und Ertragskennzahlen",
+      "value": "Nicht angegeben – Businessplan nach Vertraulichkeitsvereinbarung",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Das Gelände ist gepachtet; Gegenstand des Angebots ist der Betrieb auf Pachtfläche, nicht das Eigentum am Grundstück.",
+    "Das Exposé bezeichnet die Photovoltaik-Erweiterung teils als „genehmigt“ bzw. „planungsrechtlich gesichert“, zugleich als „eingeleitet“ und „in Bearbeitung“. Maßgeblich ist nach den Detailangaben ein laufendes, noch nicht abgeschlossenes Bebauungsplan-Änderungsverfahren.",
+    "Kein Kaufpreis genannt (Gebotsverfahren); Pachtzins, Umsätze und Mitgliederzahlen sind nicht angegeben.",
+    "Genaue Lage, Pachtvertrag, Businessplan und PV-Detailpläne nur nach Vertraulichkeitsvereinbarung.",
+    "Luft- und Landschaftsaufnahmen werden zum Schutz der Objektidentität nicht veröffentlicht; Bildmaterial erhalten Sie mit dem vollständigen Exposé."
+  ],
+  "images": [],
+  "exposeDownload": null,
+  "source": "Investment-Exposé des Anbieters, 2026"
+}

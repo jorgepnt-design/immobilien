@@ -17,5 +17,5 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   // Next-Interna und statische Dateien ausnehmen
-  matcher: ["/((?!_next|images|favicon.ico|robots.txt|sitemap.xml|.*\\..*).*)"],
+  matcher: ["/((?!api|_next|images|favicon.ico|robots.txt|sitemap.xml|.*\\..*).*)"],
 };

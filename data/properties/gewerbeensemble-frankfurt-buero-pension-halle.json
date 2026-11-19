@@ -1,8 +1,8 @@
 {
   "id": "EI-2026-002",
-  "slug": "gewerbeensemble-frankfurt-hoechst",
-  "title": "Gewerbeensemble Frankfurt-Höchst",
-  "subtitle": "Bürohaus, Pension und Halle auf einem Grundstück",
+  "slug": "gewerbeensemble-frankfurt-buero-pension-halle",
+  "title": "Gewerbeensemble mit Büro, Pension und Halle",
+  "subtitle": "Drei Nutzungen auf einem Grundstück in Frankfurt am Main",
   "teaser": "Drei Nutzungsbausteine auf 3.000 m² Grundstück – Pension vermietet, Bürohaus und Halle frei.",
   "status": "verfuegbar",
   "listedAt": "2026-11-18",
@@ -10,11 +10,15 @@
     "country": "DE",
     "region": "Hessen",
     "city": "Frankfurt am Main",
-    "district": "Höchst",
+    "district": "Gewerbelage",
     "addressPublic": false,
-    "mapCenter": { "lat": 50.1, "lng": 8.545, "zoom": 13 },
+    "mapCenter": {
+      "lat": 50.11,
+      "lng": 8.68,
+      "zoom": 10
+    },
     "description": [
-      "Die Liegenschaft befindet sich im Frankfurter Stadtteil Höchst im Westen der Stadt. Die genaue Adresse wird qualifizierten Interessenten auf Anfrage mitgeteilt.",
+      "Die Liegenschaft befindet sich im Stadtgebiet von Frankfurt am Main in einer gewerblich geprägten Lage. Die genaue Adresse erhalten qualifizierte Interessenten mit dem vollständigen Exposé.",
       "Eine Standort- und Mikrolagebeschreibung ist in den vorliegenden Unterlagen nicht enthalten."
     ]
   },
@@ -27,10 +31,19 @@
     "note": "Preisangabe aus dem Kurz-Exposé von 2017; eine aktuelle Bestätigung steht aus."
   },
   "areas": {
-    "plot": { "value": 3000 },
-    "usable": { "value": 4000, "note": "laut Kurz-Exposé; Teilflächen summieren sich auf 3.100 m²" }
+    "plot": {
+      "value": 3000
+    },
+    "usable": {
+      "value": 4000,
+      "note": "laut Kurz-Exposé; Teilflächen summieren sich auf 3.100 m²"
+    }
   },
-  "units": { "count": 3, "label": "Gebäudeteile", "note": "Bürohaus, Pension, Halle" },
+  "units": {
+    "count": 3,
+    "label": "Gebäudeteile",
+    "note": "Bürohaus, Pension, Halle"
+  },
   "yearBuilt": "Pension 2015; Bürohaus und Halle nicht angegeben",
   "condition": "Nicht angegeben",
   "rental": {
@@ -47,15 +60,54 @@
     "caveat": "Keine Objekt-Gesamtrendite: Bürohaus und Halle sind unvermietet; Kosten, Leerstand und Erwerbsnebenkosten sind nicht berücksichtigt. Preis- und Mietangaben stammen aus 2017."
   },
   "keyFacts": [
-    { "label": "Grundstück", "value": "3.000 m²", "evidence": "anbieter" },
-    { "label": "Gesamtnutzfläche", "value": "4.000 m²", "evidence": "anbieter", "note": "Flächenabgleich erforderlich" },
-    { "label": "Bürohaus", "value": "1.600 m², 4 Etagen, Aufzug", "evidence": "anbieter" },
-    { "label": "Pension", "value": "1.200 m², Baujahr 2015", "evidence": "anbieter" },
-    { "label": "Halle", "value": "300 m²", "evidence": "anbieter" },
-    { "label": "Heizung", "value": "Zentralheizung, Gas", "evidence": "anbieter" },
-    { "label": "Nettomiete Pension p. a.", "value": "168.000 €", "evidence": "anbieter" },
-    { "label": "Preis je m² genannter Nutzfläche", "value": "875 €/m²", "evidence": "berechnet", "note": "3.500.000 € ÷ 4.000 m²" },
-    { "label": "Preis je m² Grundstück", "value": "ca. 1.167 €/m²", "evidence": "berechnet", "note": "3.500.000 € ÷ 3.000 m²" }
+    {
+      "label": "Grundstück",
+      "value": "3.000 m²",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Gesamtnutzfläche",
+      "value": "4.000 m²",
+      "evidence": "anbieter",
+      "note": "Flächenabgleich erforderlich"
+    },
+    {
+      "label": "Bürohaus",
+      "value": "1.600 m², 4 Etagen, Aufzug",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Pension",
+      "value": "1.200 m², Baujahr 2015",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Halle",
+      "value": "300 m²",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Heizung",
+      "value": "Zentralheizung, Gas",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Nettomiete Pension p. a.",
+      "value": "168.000 €",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Preis je m² genannter Nutzfläche",
+      "value": "875 €/m²",
+      "evidence": "berechnet",
+      "note": "3.500.000 € ÷ 4.000 m²"
+    },
+    {
+      "label": "Preis je m² Grundstück",
+      "value": "ca. 1.167 €/m²",
+      "evidence": "berechnet",
+      "note": "3.500.000 € ÷ 3.000 m²"
+    }
   ],
   "description": [
     "Das Ensemble umfasst laut Kurz-Exposé ein viergeschossiges Bürohaus, eine angrenzende, 2015 errichtete Pension sowie eine Halle im rückwärtigen Grundstücksbereich.",
@@ -84,37 +136,61 @@
   "areaTable": {
     "title": "Struktur des Ensembles",
     "rows": [
-      { "name": "Bürohaus", "use": "nicht vermietet", "area": "1.600 m²" },
-      { "name": "Pension", "use": "vermietet", "area": "1.200 m²" },
-      { "name": "Halle", "use": "nicht vermietet", "area": "300 m²" },
-      { "name": "Summe der Teilflächen", "use": "", "area": "3.100 m²" },
-      { "name": "Genannte Gesamtnutzfläche", "use": "", "area": "4.000 m²" }
+      {
+        "name": "Bürohaus",
+        "use": "nicht vermietet",
+        "area": "1.600 m²"
+      },
+      {
+        "name": "Pension",
+        "use": "vermietet",
+        "area": "1.200 m²"
+      },
+      {
+        "name": "Halle",
+        "use": "nicht vermietet",
+        "area": "300 m²"
+      },
+      {
+        "name": "Summe der Teilflächen",
+        "use": "",
+        "area": "3.100 m²"
+      },
+      {
+        "name": "Genannte Gesamtnutzfläche",
+        "use": "",
+        "area": "4.000 m²"
+      }
     ],
     "note": "Die Differenz von 900 m² zwischen Teilflächen und genannter Gesamtfläche ist in den Unterlagen nicht zugeordnet und anhand einer aktuellen Flächenberechnung zu klären."
   },
   "planning": [
-    { "label": "Genehmigte Nutzungen", "value": "Nicht angegeben – zu klären für Büro, Pension/Monteurunterkunft und Halle", "evidence": "annahme" }
+    {
+      "label": "Genehmigte Nutzungen",
+      "value": "Nicht angegeben – zu klären für Büro, Pension/Monteurunterkunft und Halle",
+      "evidence": "annahme"
+    }
   ],
   "energy": [
-    { "label": "Energieausweis", "value": "Nicht angegeben", "evidence": "anbieter" },
-    { "label": "Heizung", "value": "Zentralheizung, Gas", "evidence": "anbieter" }
+    {
+      "label": "Energieausweis",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Heizung",
+      "value": "Zentralheizung, Gas",
+      "evidence": "anbieter"
+    }
   ],
   "dataNotes": [
     "Flächenwiderspruch: Teilflächen ergeben 3.100 m², genannt werden 4.000 m² Gesamtnutzfläche (Differenz 900 m²).",
     "Kaufpreis und Mietangaben stammen aus einem Kurz-Exposé von 2017; eine aktuelle Bestätigung liegt nicht vor.",
     "Zum Mietvertrag der Pension fehlen Vertragspartei, Laufzeit, Indexierung, Sicherheiten und Nebenkosten.",
     "Baujahre von Bürohaus und Halle, Zustand und Energiekennwerte sind nicht angegeben.",
-    "Die Fotos stammen aus dem Jahr 2017."
+    "Außenaufnahmen werden zum Schutz der Objektidentität nicht veröffentlicht; Bildmaterial erhalten Sie mit dem vollständigen Exposé."
   ],
-  "images": [
-    { "src": "/images/properties/gewerbeensemble-frankfurt-hoechst/01.jpg", "width": 1713, "height": 1256, "alt": "Straßenansicht des Bürohauses", "kind": "foto" },
-    { "src": "/images/properties/gewerbeensemble-frankfurt-hoechst/02.jpg", "width": 1713, "height": 1256, "alt": "Frontansicht des Bürohauses mit Eingang", "kind": "foto" },
-    { "src": "/images/properties/gewerbeensemble-frankfurt-hoechst/03.jpg", "width": 1713, "height": 1256, "alt": "Bürohaus, Ansicht von der Straße", "kind": "foto" },
-    { "src": "/images/properties/gewerbeensemble-frankfurt-hoechst/04.jpg", "width": 1713, "height": 1256, "alt": "Seitenansicht des Bürohauses", "kind": "foto" },
-    { "src": "/images/properties/gewerbeensemble-frankfurt-hoechst/05.jpg", "width": 1713, "height": 1256, "alt": "Hof mit rückwärtigen Gebäuden", "kind": "foto" },
-    { "src": "/images/properties/gewerbeensemble-frankfurt-hoechst/06.jpg", "width": 1713, "height": 1256, "alt": "Halle im rückwärtigen Grundstücksbereich", "kind": "foto" },
-    { "src": "/images/properties/gewerbeensemble-frankfurt-hoechst/07.jpg", "width": 1713, "height": 1256, "alt": "Gebäudekante und Grundstückszufahrt", "kind": "foto" }
-  ],
+  "images": [],
   "exposeDownload": null,
   "source": "Kurz-Exposé und Fotodokumentation von 2017, übermittelt im Juli 2026"
 }

@@ -1,0 +1,323 @@
+{
+  "id": "EI-2026-004",
+  "slug": "gewerbeobjekt-darmstadt-halle-werkstatt-buero",
+  "title": "Gewerbeobjekt mit Halle, Werkstatt und Büro",
+  "subtitle": "Vermieteter Kfz-Standort mit Flächenreserve in Darmstadt",
+  "teaser": "Ca. 1.285 m² Nutzfläche, vermietet an einen Mieter aus dem Automobilhandel, mit 525 m² freier Lagerfläche.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-18",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Darmstadt",
+    "district": "verkehrsgünstige Gewerbelage",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 49.87,
+      "lng": 8.65,
+      "zoom": 10
+    },
+    "description": [
+      "Das Grundstück liegt an einer Hauptverkehrsachse in Darmstadt – in einem gewachsenen, durchgängig gewerblich geprägten Umfeld mit Autohandel, Werkstätten und Dienstleistern. Der Standort ist für Kundenverkehr gut sichtbar und zugleich für Anlieferung und Rangierbetrieb geeignet.",
+      "Das Grundstück ist von zwei Seiten befahrbar. Innenstadt und Fernstraßenanschlüsse sind in wenigen Minuten erreichbar. Die genaue Adresse erhalten qualifizierte Interessenten mit dem vollständigen Exposé."
+    ]
+  },
+  "type": "gewerbe",
+  "investmentType": "bestand",
+  "price": {
+    "amount": 1250000,
+    "currency": "EUR",
+    "mode": "festpreis"
+  },
+  "areas": {
+    "plot": {
+      "value": 1500,
+      "approx": true,
+      "note": "laut Kataster/Lageplan; Gutachten 2020 nennt 1.100 m²"
+    },
+    "usable": {
+      "value": 1285,
+      "approx": true
+    }
+  },
+  "units": {
+    "count": 3,
+    "label": "Gebäudeeinheiten",
+    "note": "einzeln oder als Ganzes nutzbar"
+  },
+  "yearBuilt": "1970er-Jahre",
+  "condition": "Laufend instand gehalten; Maßnahmen seit 2006 dokumentiert",
+  "rental": {
+    "status": "vermietet",
+    "text": "Vermietet an einen überregional tätigen Mieter aus dem Automobilhandel; Restlaufzeit nach vorliegenden Angaben rund zwei Jahre. Ca. 525 m² Lagerfläche derzeit ungenutzt.",
+    "rentNote": "Die tatsächliche Ist-Miete ist im Exposé nicht genannt. Das Verkehrswertgutachten von 2020 setzt eine marktüblich erzielbare Jahresnettokaltmiete von 69.103,80 € an."
+  },
+  "yield": {
+    "percent": 5.53,
+    "label": "Rechnerische Bruttoanfangsrendite auf Marktmiete",
+    "formula": "69.103,80 € ÷ 1.250.000 € × 100 = 5,53 %",
+    "basis": "Marktüblich erzielbare Jahresnettokaltmiete laut Verkehrswertgutachten von 2020 im Verhältnis zum Kaufpreis (entspricht dem 18,1-Fachen).",
+    "caveat": "Keine Ist-Rendite: Die tatsächliche Vertragsmiete ist nicht genannt. Der Gutachtenwert ist stichtagsbezogen (2020); Erwerbsnebenkosten und Bewirtschaftungskosten sind nicht berücksichtigt."
+  },
+  "keyFacts": [
+    {
+      "label": "Nutzfläche gesamt",
+      "value": "ca. 1.285 m²",
+      "evidence": "anbieter",
+      "note": "nach Bestandsaufnahme eines Architekturbüros"
+    },
+    {
+      "label": "Grundstück",
+      "value": "ca. 1.500 m²",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Baujahr",
+      "value": "1970er-Jahre",
+      "evidence": "anbieter",
+      "note": "Unterlagen nennen unterschiedliche Jahre"
+    },
+    {
+      "label": "Hallenhöhe",
+      "value": "4,35 m / 5,10 m",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Beheizte Fläche",
+      "value": "ca. 690 m²",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Freie Lagerfläche",
+      "value": "ca. 525 m² (unbeheizt)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Nutzungsart",
+      "value": "Handel, Werkstatt, Lager, Büro",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Mietvertrag",
+      "value": "Restlaufzeit rund 2 Jahre",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Preis je m² Nutzfläche",
+      "value": "rund 973 €/m²",
+      "evidence": "berechnet",
+      "note": "1.250.000 € ÷ 1.285 m²"
+    }
+  ],
+  "description": [
+    "Ein gewachsener Kfz- und Werkstattstandort in Darmstadt: rund 1.285 m² Nutzfläche auf einem etwa 1.500 m² großen Gewerbegrundstück, seit Jahren durchgehend genutzt und heute an einen überregional tätigen Mieter aus dem Automobilhandel vermietet.",
+    "Die Anlage besteht aus drei Gebäudeeinheiten, die sich als Ganzes oder in Teilen nutzen lassen. Kern ist eine zweiteilige Halle mit Raumhöhen von 4,35 m und 5,10 m, ergänzt um einen Bürotrakt im Erdgeschoss, Lagerebenen über mehrere Geschosse sowie Sanitär- und Nebenräume im Untergeschoss. Ein Lastenaufzug verbindet die Ebenen; Sektionaltore und ein LKW-Tor erschließen die Halle.",
+    "Seit 2006 wurde laufend in den Bestand investiert – unter anderem in neue Sektionaltore, die Umstellung auf eine abwasserlose Werkstatt, die Hebeanlage, die Elektrounterverteilung, die Deckenheizlüfter, die Hofentwässerung, den Sanitärbereich und die Rauch- und Wärmeabzugsanlage."
+  ],
+  "highlights": [
+    "Vermieteter Gewerbestandort mit überregional tätigem Mieter",
+    "Ca. 525 m² freie Lagerfläche als Wertreserve",
+    "Zufahrten von zwei Straßenseiten, befestigte Stell- und Rangierflächen",
+    "Lastenaufzug über alle Ebenen, Sektionaltore und LKW-Tor",
+    "Dokumentierte Instandhaltungsmaßnahmen seit 2006",
+    "Gültige Baugenehmigung (2017) für eine LED-Werbetafel auf dem Dach",
+    "Verkehrswertgutachten von 2020 und umfangreiche Unterlagen vorhanden"
+  ],
+  "potential": [
+    {
+      "title": "Flächenreserve Lager",
+      "text": "Rund 525 m² unbeheizte Lagerfläche auf den oberen Ebenen sind derzeit nicht in Nutzung. Sie sind über den Lastenaufzug erschlossen und eignen sich für Eigennutzung oder eine ergänzende Vermietung an Dritte.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "LED-Werbetafel auf dem Dach",
+      "text": "Für eine elektronische Werbetafel liegt eine weiterhin gültige Baugenehmigung aus dem Jahr 2017 vor. Die Fläche war zuvor für 312,50 € monatlich zzgl. MwSt. und Stromkosten vermietet; der Vertrag ist aufgelöst, eine Nachvermietung ist ohne neues Genehmigungsverfahren möglich.",
+      "evidence": "fakt"
+    },
+    {
+      "title": "Teilbare Einheiten",
+      "text": "Die drei Gebäudeeinheiten lassen sich einzeln oder als Ganzes nutzen und vermieten.",
+      "evidence": "potenzial"
+    }
+  ],
+  "areaTable": {
+    "title": "Aufteilung nach Gebäudeeinheiten",
+    "rows": [
+      {
+        "name": "Halle 1, EG",
+        "use": "Werkstatt / Handel, Höhe 4,35 m",
+        "area": "ca. 220 m²"
+      },
+      {
+        "name": "Halle 2",
+        "use": "Werkstatt / Handel, Höhe 5,10 m",
+        "area": "ca. 350 m²"
+      },
+      {
+        "name": "Büro EG",
+        "use": "Verkauf und Verwaltung",
+        "area": "ca. 45 m²"
+      },
+      {
+        "name": "Zwischengeschoss",
+        "use": "Lager, Gitterrostboden",
+        "area": "ca. 100 m²"
+      },
+      {
+        "name": "1. Obergeschoss",
+        "use": "Lager, Betonboden",
+        "area": "ca. 230 m²"
+      },
+      {
+        "name": "2. Obergeschoss",
+        "use": "Lager, Gitterrostboden",
+        "area": "ca. 230 m²"
+      },
+      {
+        "name": "Untergeschoss",
+        "use": "Sanitär- und Nebenräume",
+        "area": "ca. 40 m²"
+      },
+      {
+        "name": "Gebäudeeinheit 1",
+        "use": "inkl. Aufzug und Sektionaltore",
+        "area": "ca. 1.215 m²"
+      },
+      {
+        "name": "Gebäudeeinheit 2",
+        "use": "Zwei Büroräume mit Sanitärraum",
+        "area": "ca. 35 m²"
+      },
+      {
+        "name": "Gebäudeeinheit 3",
+        "use": "Doppelgaragenwerkstatt, Betonboden",
+        "area": "ca. 35 m²"
+      },
+      {
+        "name": "Gesamt-Nutzfläche",
+        "use": "",
+        "area": "ca. 1.285 m²"
+      }
+    ],
+    "note": "Flächenangaben nach Bestandsunterlagen eines Architekturbüros; nicht neu aufgemessen. Rund 690 m² sind beheizt, rund 525 m² unbeheizte Lagerfläche."
+  },
+  "planning": [
+    {
+      "label": "Werbeanlage",
+      "value": "Baugenehmigung für elektronische Werbetafel auf dem Dach (2017), weiterhin gültig",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Umfeld",
+      "value": "Durchgängig gewerblich geprägt",
+      "evidence": "anbieter"
+    }
+  ],
+  "energy": [
+    {
+      "label": "Energieausweis",
+      "value": "Verbrauchsausweis für Nichtwohngebäude liegt vor",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Energieträger",
+      "value": "Erd- bzw. Stadtgas; keine regenerativen Energien",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Wärmeerzeuger",
+      "value": "Gas-Heizkessel 130 kW, Baujahr 1996, ergänzt durch Deckenheizlüfter",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Gasverbrauch (letzte drei Abrechnungsjahre)",
+      "value": "30.073 / 28.000 / 27.008 m³",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Stromverbrauch (letzte drei Abrechnungsjahre)",
+      "value": "35.864 / 41.684 / 41.648 kWh",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Fenster",
+      "value": "Isolier- bzw. Wärmeschutzverglasung, Baujahr 1980",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Außenwand",
+      "value": "Nicht nachträglich gedämmt",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Energiekennwert (kWh/m²a)",
+      "value": "Im Exposé nicht angegeben",
+      "evidence": "anbieter"
+    }
+  ],
+  "economics": [
+    {
+      "label": "Marktüblich erzielbare Jahresnettokaltmiete",
+      "value": "69.103,80 €",
+      "evidence": "fakt",
+      "note": "Verkehrswertgutachten von 2020"
+    },
+    {
+      "label": "Kaufpreisfaktor auf Marktmiete",
+      "value": "18,1-fach",
+      "evidence": "berechnet",
+      "note": "1.250.000 € ÷ 69.103,80 €"
+    },
+    {
+      "label": "Ist-Miete",
+      "value": "Nicht angegeben – Mietvertrag wird Kaufinteressenten bereitgestellt",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Baujahr: Bestandsunterlagen und Energieausweis nennen unterschiedliche Jahre in den 1970ern – Abgleich über die Bauakte erforderlich.",
+    "Grundstücksgröße: ca. 1.500 m² laut Kataster/Lageplan gegenüber 1.100 m² im Gutachten 2020.",
+    "Die tatsächliche Vertragsmiete ist nicht genannt; die Rendite ist auf Basis der gutachterlichen Marktmiete von 2020 berechnet.",
+    "Offen: aktueller Grundbuchauszug, Altlasten- und Baulastenauskunft (langjährige Kfz-Nutzung).",
+    "Besichtigungen nur nach Terminvereinbarung; eine Ansprache des Mieters vor Ort ist nicht gestattet."
+  ],
+  "images": [
+    {
+      "src": "/images/objekte/004/01.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Werkstatt- und Arbeitsbereich in der Halle",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/004/02.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Freie Lagerebene",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/004/03.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Treppenaufgang zu den Lagerebenen",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/004/04.jpg",
+      "width": 1350,
+      "height": 1800,
+      "alt": "Erneuerter Sanitärbereich",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/004/05.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Lastenaufzug zur Erschließung aller Ebenen",
+      "kind": "foto"
+    }
+  ],
+  "exposeDownload": null,
+  "source": "Exposé des Anbieters 2026; Verkehrswertgutachten von 2020; Verbrauchsausweis"
+}

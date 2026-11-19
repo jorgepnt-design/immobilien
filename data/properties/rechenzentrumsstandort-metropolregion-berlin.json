@@ -3,27 +3,27 @@
   "slug": "rechenzentrumsstandort-metropolregion-berlin",
   "title": "Rechenzentrumsstandort Metropolregion Berlin",
   "subtitle": "Rund 17,4 ha Industriefläche südlich von Berlin mit eigener Gaskraftwerks-Versorgung",
-  "teaser": "174.344 m² im Eigentum, 15 km vom Flughafen BER – 250 MW aus einem Gaskraftwerk vor Ort ab 2029, ausbaubar auf 650 MW.",
+  "teaser": "Rund 17,4 ha im Eigentum im südlichen Berliner Umland – 250 MW aus einem Gaskraftwerk vor Ort ab 2029, ausbaubar auf 650 MW.",
   "status": "verfuegbar",
   "listedAt": "2026-11-19",
   "location": {
     "country": "DE",
     "region": "Metropolregion Berlin",
-    "city": "Südlich von Berlin",
+    "city": "Südliches Berliner Umland",
     "addressPublic": false,
     "mapCenter": {
-      "lat": 52.36,
-      "lng": 13.5,
-      "zoom": 9
+      "lat": 52.4,
+      "lng": 13.4,
+      "zoom": 8
     },
     "description": [
-      "Das Areal liegt südlich von Berlin, rund 15 km vom Flughafen Berlin Brandenburg (BER) entfernt. Die genaue Lage wird nach Unterzeichnung einer Vertraulichkeitsvereinbarung offengelegt.",
+      "Das Areal liegt im südlichen Berliner Umland; der Flughafen Berlin Brandenburg ist gut erreichbar. Die genaue Lage wird nach Unterzeichnung einer Vertraulichkeitsvereinbarung offengelegt.",
       "Eine Beschreibung der Mikrolage ist in der vorliegenden Projektübersicht nicht enthalten."
     ],
     "connections": [
       {
         "label": "Flughafen BER",
-        "value": "ca. 15 km"
+        "value": "gut erreichbar"
       }
     ]
   },
@@ -37,7 +37,8 @@
   },
   "areas": {
     "plot": {
-      "value": 174344,
+      "value": 174000,
+      "approx": true,
       "note": "Eigentum (Freehold), Industriegebiet"
     }
   },
@@ -51,7 +52,7 @@
   "keyFacts": [
     {
       "label": "Grundstück",
-      "value": "174.344 m², Eigentum (Freehold)",
+      "value": "ca. 17,4 ha, Eigentum (Freehold)",
       "evidence": "anbieter"
     },
     {
@@ -66,9 +67,9 @@
     },
     {
       "label": "Rechnerisch bebaubare Fläche",
-      "value": "rund 139.475 m²",
+      "value": "rund 14 ha",
       "evidence": "berechnet",
-      "note": "174.344 m² × 80 %"
+      "note": "ca. 17,4 ha × 80 %"
     },
     {
       "label": "Strom aus Gaskraftwerk vor Ort",
@@ -104,12 +105,12 @@
     }
   ],
   "description": [
-    "Ein großflächiger Standort für ein Rechenzentrum in der Metropolregion Berlin: 174.344 m² Industriefläche im Eigentum, rund 15 km vom Flughafen BER. 80 % der Fläche sind bebaubar, die zulässige Höhe beträgt 30 m.",
+    "Ein großflächiger Standort für ein Rechenzentrum in der Metropolregion Berlin: rund 17,4 ha Industriefläche im Eigentum im südlichen Berliner Umland. 80 % der Fläche sind bebaubar, die zulässige Höhe beträgt 30 m.",
     "Die Stromversorgung beruht auf zwei Säulen. Ein Gaskraftwerk vor Ort soll ab 2029 eine Leistung von 250 MW bereitstellen und lässt sich auf bis zu 650 MW ausbauen; für die Errichtung fällt nach Angaben des Anbieters kein eigener Investitionsaufwand an, der Strombezug erfolgt über einen Liefervertrag (PPA). Ergänzend steht Netzstrom zur Verfügung – 5 MW ab 2028 und 50 MW ab 2033.",
     "Alle Gutachten sind nach Angaben des Anbieters abgeschlossen; die Entwicklungsgenehmigung befindet sich in der letzten Phase und wird für Dezember 2026 erwartet. Die Gemeinde unterstützt das Vorhaben einschließlich einer Nutzung der Abwärme für Fernwärme."
   ],
   "highlights": [
-    "174.344 m² Industriefläche im Eigentum, 15 km vom Flughafen BER",
+    "Rund 17,4 ha Industriefläche im Eigentum, südliches Berliner Umland",
     "250 MW aus einem Gaskraftwerk vor Ort ab 2029, ausbaubar auf bis zu 650 MW",
     "Kein eigener Investitionsaufwand für das Gaskraftwerk – Strombezug über PPA",
     "Netzvereinbarung: 5 MW ab 2028, 50 MW ab 2033",
@@ -135,12 +136,12 @@
       {
         "name": "Grundstück",
         "use": "Industriegebiet, Eigentum",
-        "area": "174.344 m²"
+        "area": "ca. 17,4 ha"
       },
       {
         "name": "Bebaubare Fläche",
         "use": "80 % der Grundstücksfläche, rechnerisch",
-        "area": "rund 139.475 m²"
+        "area": "rund 14 ha"
       }
     ],
     "note": "Gebäude- und Geschossflächen eines künftigen Rechenzentrums sind in der Projektübersicht nicht angegeben."
