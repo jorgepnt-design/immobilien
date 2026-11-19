@@ -26,13 +26,13 @@ export function HeroSearch({ countries, types }: { countries: string[]; types: P
   };
 
   const selectClass =
-    "h-12 w-full rounded-full border border-transparent bg-ivory-dark/70 px-4 text-sm text-navy-900 focus:border-champagne-dark focus:outline-none";
+    "h-12 w-full rounded-full border border-transparent bg-white px-4 text-sm text-navy-900 focus:border-champagne-dark focus:outline-none";
 
   return (
     <form
       onSubmit={submit}
       role="search"
-      className="grid gap-2 rounded-[1.75rem] bg-white p-2.5 shadow-lift md:grid-cols-[1.5fr_1fr_1fr_auto] md:rounded-full"
+      className="grid gap-2 rounded-[1.75rem] bg-sky p-2.5 shadow-lift md:grid-cols-[1.5fr_1fr_1fr_auto] md:rounded-full"
     >
       <div className="relative">
         <Search size={17} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-stone-warm" />

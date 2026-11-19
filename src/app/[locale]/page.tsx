@@ -41,11 +41,11 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   return (
     <>
       {/* Hero */}
-      <section className="relative isolate overflow-hidden bg-navy-950 text-ivory">
+      <section className="relative isolate overflow-hidden bg-warmwhite text-navy-900">
         {/* Bewusst kein Objektfoto: abstraktes Linienmuster, damit kein Angebot identifizierbar wird */}
         <svg
           aria-hidden
-          className="absolute inset-0 -z-20 h-full w-full opacity-40"
+          className="absolute inset-0 -z-20 h-full w-full opacity-90"
           viewBox="0 0 1600 900"
           preserveAspectRatio="xMidYMid slice"
         >
@@ -57,7 +57,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               rx={60 + i * 62}
               ry={36 + i * 40}
               fill="none"
-              stroke="#c6a567"
+              stroke="var(--color-babyblue)"
               strokeWidth="0.8"
               transform={`rotate(${-14 + i * 0.8} 1150 380)`}
             />
@@ -65,21 +65,21 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         </svg>
         <div
           aria-hidden
-          className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950 via-navy-950/70 to-navy-950/20"
+          className="absolute inset-0 -z-10 hero-glow"
         />
         <div className="container-page flex min-h-[38rem] flex-col justify-center pb-36 pt-24 md:min-h-[44rem] md:pt-28">
           <div>
-            <p className="eyebrow !text-champagne-light">{t.hero.eyebrow}</p>
-            <h1 className="heading-display mt-6 max-w-5xl text-[7.4vw] sm:text-6xl lg:text-[5.2rem]">
+            <p className="eyebrow">{t.hero.eyebrow}</p>
+            <h1 className="heading-display mt-6 max-w-5xl text-[6.3vw] sm:text-5xl lg:text-[4.1rem]">
               {t.hero.headline1}
-              <span className="block text-champagne-light">{t.hero.headline2}</span>
+              <span className="block text-accent">{t.hero.headline2}</span>
             </h1>
-            <p className="mt-7 max-w-2xl text-base leading-relaxed text-ivory/80 md:text-lg">{t.hero.sub}</p>
+            <p className="mt-7 max-w-2xl text-base leading-relaxed text-ink/75 md:text-lg">{t.hero.sub}</p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link href="#angebot" className="btn btn-gold">
                 {t.hero.cta1}
               </Link>
-              <Link href={href("/immobilien")} className="btn btn-outline-light">
+              <Link href={href("/immobilien")} className="btn btn-outline">
                 {t.hero.cta2}
                 <ArrowRight size={16} />
               </Link>
@@ -151,10 +151,10 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       </section>
 
       {/* Arbeitsweise */}
-      <section aria-labelledby="arbeitsweise" className="mt-24 bg-navy-900 py-20 text-ivory md:mt-32 md:py-28">
+      <section aria-labelledby="arbeitsweise" className="mt-24 bg-cloud py-20 text-navy-900 md:mt-32 md:py-28">
         <div className="container-page">
           <Reveal className="max-w-2xl">
-            <p className="eyebrow !text-champagne">{t.home.approachEyebrow}</p>
+            <p className="eyebrow">{t.home.approachEyebrow}</p>
             <h2 id="arbeitsweise" className="heading-display mt-4 text-4xl md:text-5xl">
               {t.home.approachTitle}
             </h2>
@@ -164,9 +164,9 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               const Icon = approachIcons[i];
               return (
                 <Reveal key={a.title} delay={i * 0.1}>
-                  <Icon size={28} strokeWidth={1.3} className="text-champagne" />
+                  <Icon size={28} strokeWidth={1.3} className="text-accent" />
                   <h3 className="heading-display mt-5 text-2xl">{a.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-ivory/70">{a.text}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-ink/70">{a.text}</p>
                 </Reveal>
               );
             })}
@@ -176,7 +176,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
 
       {/* Kontakt-CTA */}
       <section className="container-page pt-20 md:pt-28">
-        <Reveal className="card flex flex-col items-start justify-between gap-8 p-8 md:flex-row md:items-center md:p-14">
+        <Reveal className="card flex flex-col items-start justify-between gap-8 bg-vanilla/50 p-8 md:flex-row md:items-center md:p-14">
           <div className="max-w-2xl">
             <h2 className="heading-display text-3xl text-navy-900 md:text-4xl">{t.home.ctaTitle}</h2>
             <p className="mt-3 text-base leading-relaxed text-stone-warm">{t.home.ctaText}</p>

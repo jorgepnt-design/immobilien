@@ -12,13 +12,13 @@ export function Logo({ className = "" }: { className?: string }) {
     <span className={`flex items-center gap-3 ${className}`}>
       <span
         aria-hidden
-        className="grid h-9 w-9 place-items-center rounded-full border border-champagne/70 font-display text-lg leading-none text-champagne"
+        className="grid h-9 w-9 place-items-center rounded-full border border-accent/30 bg-sun font-display text-base font-extrabold leading-none text-accent"
       >
         {site.name.charAt(0)}
       </span>
       <span className="flex flex-col leading-none">
-        <span className="font-display text-[1.15rem] tracking-[0.14em] uppercase">{site.name}</span>
-        <span className="mt-1 text-[0.58rem] font-medium tracking-[0.34em] uppercase text-champagne">
+        <span className="font-display text-[1.02rem] font-extrabold tracking-[0.08em] uppercase">{site.name}</span>
+        <span className="mt-1 text-[0.58rem] font-semibold tracking-[0.3em] uppercase text-accent">
           {site.tagline}
         </span>
       </span>
@@ -66,7 +66,7 @@ export function Header() {
   };
 
   return (
-    <header className="no-print sticky top-0 z-50 border-b border-white/10 bg-navy-900/95 text-ivory backdrop-blur-md">
+    <header className="no-print sticky top-0 z-50 border-b border-sand bg-cloud/95 text-navy-900 backdrop-blur-md">
       <div className="container-page flex h-[4.5rem] items-center justify-between gap-6">
         <Link href={href("/")} aria-label={site.name} onClick={() => setOpen(false)}>
           <Logo />
@@ -78,8 +78,8 @@ export function Header() {
               key={item.path}
               href={href(item.path)}
               aria-current={isActive(item.path) ? "page" : undefined}
-              className={`relative py-2 text-[0.8rem] font-medium tracking-[0.12em] uppercase transition-colors hover:text-champagne ${
-                isActive(item.path) ? "text-champagne" : "text-ivory/85"
+              className={`relative py-2 text-[0.92rem] font-medium transition-colors hover:text-accent ${
+                isActive(item.path) ? "text-accent" : "text-navy-800"
               }`}
             >
               {item.label}
@@ -95,7 +95,7 @@ export function Header() {
               aria-label={n > 0 ? `${label} (${n})` : label}
               title={label}
               onClick={() => setOpen(false)}
-              className="relative hidden h-10 w-10 place-items-center rounded-full text-ivory/85 transition-colors hover:bg-white/10 hover:text-champagne sm:grid"
+              className="relative hidden h-10 w-10 place-items-center rounded-full text-navy-800 transition-colors hover:bg-sky hover:text-accent sm:grid"
             >
               <Icon size={18} strokeWidth={1.6} />
               <CountBadge n={n} />
@@ -105,7 +105,7 @@ export function Header() {
           <div
             role="group"
             aria-label={t.nav.language}
-            className="ml-2 hidden items-center gap-1 border-l border-white/15 pl-3 text-[0.72rem] font-semibold tracking-widest uppercase sm:flex"
+            className="ml-2 hidden items-center gap-1 border-l border-sand pl-3 text-[0.72rem] font-semibold tracking-widest uppercase sm:flex"
           >
             {locales.map((l) => (
               <Link
@@ -113,8 +113,8 @@ export function Header() {
                 href={switchPath(l)}
                 hrefLang={l}
                 aria-current={l === locale ? "true" : undefined}
-                className={`rounded px-1.5 py-1 transition-colors hover:text-champagne ${
-                  l === locale ? "text-champagne" : "text-ivory/60"
+                className={`rounded px-1.5 py-1 transition-colors hover:text-accent ${
+                  l === locale ? "text-accent" : "text-stone-warm"
                 }`}
               >
                 {l}
@@ -124,7 +124,7 @@ export function Header() {
 
           <button
             type="button"
-            className="ml-1 grid h-10 w-10 place-items-center rounded-full hover:bg-white/10 lg:hidden"
+            className="ml-1 grid h-10 w-10 place-items-center rounded-full hover:bg-sky lg:hidden"
             aria-label={open ? t.common.close : t.nav.menu}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
@@ -135,7 +135,7 @@ export function Header() {
       </div>
 
       {open && (
-        <div className="absolute inset-x-0 top-full z-40 h-[calc(100dvh-4.5rem)] overflow-y-auto bg-navy-900 lg:hidden">
+        <div className="absolute inset-x-0 top-full z-40 h-[calc(100dvh-4.5rem)] overflow-y-auto bg-cloud lg:hidden">
           <nav aria-label={t.nav.menu} className="container-page flex flex-col py-6">
             {[
               { path: "/", label: t.nav.home, n: 0 },
@@ -149,7 +149,7 @@ export function Header() {
                 key={item.path}
                 href={href(item.path)}
                 onClick={() => setOpen(false)}
-                className="flex items-center justify-between border-b border-white/10 py-4 font-display text-2xl text-ivory"
+                className="flex items-center justify-between border-b border-sand py-4 font-display text-xl font-semibold text-navy-900"
               >
                 {item.label}
                 {item.n > 0 && (
@@ -167,7 +167,7 @@ export function Header() {
                   hrefLang={l}
                   onClick={() => setOpen(false)}
                   className={`rounded-full border px-4 py-2 ${
-                    l === locale ? "border-champagne text-champagne" : "border-white/20 text-ivory/70"
+                    l === locale ? "border-accent text-accent" : "border-sand text-stone-warm"
                   }`}
                 >
                   {l}

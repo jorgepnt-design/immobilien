@@ -52,7 +52,7 @@ export default async function PrivacyPage({ params }: PageProps<"/[locale]/daten
     <>
       <PageHeader title={t.legal.privacyTitle} />
       <div className="container-page max-w-3xl py-12 md:py-16">
-        <p className="flex items-start gap-3 rounded-xl border border-amber-700/30 bg-amber-50 px-5 py-4 text-sm leading-relaxed text-amber-900">
+        <p className="flex items-start gap-3 rounded-xl border border-vanilla bg-vanilla px-5 py-4 text-sm leading-relaxed text-navy-900">
           <TriangleAlert size={18} className="mt-0.5 shrink-0" />
           {t.legal.placeholder}
         </p>

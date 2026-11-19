@@ -39,23 +39,23 @@ function Lightbox({
 
   const img = images[index];
   const navBtn =
-    "absolute top-1/2 z-10 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/10 text-white backdrop-blur transition-colors hover:bg-white/25";
+    "absolute top-1/2 z-10 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white text-navy-900 shadow-card transition-colors hover:bg-sky";
 
   return (
     <div
       role="dialog"
       aria-modal="true"
       aria-label={img.alt}
-      className="fixed inset-0 z-[80] flex flex-col bg-navy-950/97"
+      className="fixed inset-0 z-[80] flex flex-col bg-warmwhite"
     >
-      <div className="flex items-center justify-between px-5 py-4 text-sm text-ivory/80">
+      <div className="flex items-center justify-between px-5 py-4 text-sm text-ink/80">
         <span aria-live="polite">{fill(t.detail.galleryCount, { i: index + 1, n: count })}</span>
         <button
           type="button"
           autoFocus
           onClick={onClose}
           aria-label={t.common.close}
-          className="grid h-11 w-11 place-items-center rounded-full bg-white/10 text-white hover:bg-white/25"
+          className="grid h-11 w-11 place-items-center rounded-full bg-white text-navy-900 shadow-card hover:bg-sky"
         >
           <X size={22} />
         </button>
@@ -89,7 +89,7 @@ function Lightbox({
           </>
         )}
       </div>
-      <p className="px-5 py-4 text-center text-sm text-ivory/75">{img.alt}</p>
+      <p className="px-5 py-4 text-center text-sm text-ink/75">{img.alt}</p>
     </div>
   );
 }
@@ -115,7 +115,7 @@ export function Gallery({ images }: { images: PropertyImage[] }) {
       type="button"
       onClick={() => setOpen(i)}
       aria-label={`${t.detail.galleryOpen}: ${img.alt}`}
-      className={`group relative overflow-hidden bg-navy-800 ${className}`}
+      className={`group relative overflow-hidden bg-sky ${className}`}
     >
       <Image
         src={img.src}
@@ -125,7 +125,7 @@ export function Gallery({ images }: { images: PropertyImage[] }) {
         sizes={sizes}
         className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
       />
-      <span aria-hidden className="absolute inset-0 bg-navy-950/0 transition-colors group-hover:bg-navy-950/15" />
+      <span aria-hidden className="absolute inset-0 bg-navy-950/0 transition-colors group-hover:bg-white/20" />
     </button>
   );
 
@@ -147,7 +147,7 @@ export function Gallery({ images }: { images: PropertyImage[] }) {
           <button
             type="button"
             onClick={() => setOpen(0)}
-            className="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-navy-950/75 px-4 py-2 text-xs font-semibold tracking-wide text-ivory backdrop-blur hover:bg-navy-950"
+            className="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-xs font-semibold tracking-wide text-navy-900 shadow-card backdrop-blur hover:bg-white"
           >
             <Expand size={14} />
             {fill(t.detail.galleryAll, { n: images.length })}

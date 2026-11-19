@@ -19,6 +19,10 @@ Präsentationsplattform für ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobi
 | Administrationsbereich | **nicht umgesetzt** – Konzept siehe unten |
 | Impressum und Datenschutz | **Platzhalter** – vor dem Livegang ergänzen |
 
+## Design
+
+Summer-Pastel-Palette mit den Schriften Plus Jakarta Sans (Überschriften) und DM Sans (Text). Alle Farben stehen zentral als CSS-Variablen im `@theme`-Block von `src/app/globals.css`; eine Änderung dort wirkt auf die gesamte Website.
+
 ## Installation
 
 Voraussetzung: Node.js 20.9 oder neuer.

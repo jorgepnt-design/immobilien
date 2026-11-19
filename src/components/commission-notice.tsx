@@ -16,7 +16,7 @@ export function CommissionNotice({ id = "provisionshinweis" }: { id?: string }) 
     <section
       aria-labelledby={id}
       lang="de"
-      className="rounded-2xl border border-sand bg-ivory-dark/50 p-6 md:p-8"
+      className="rounded-2xl border border-sand bg-vanilla/40 p-6 md:p-8"
     >
       <h2 id={id} className="heading-display text-2xl text-navy-900">
         {COMMISSION_TITLE}
