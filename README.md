@@ -123,7 +123,8 @@ Die Bestätigung im Formular dokumentiert die Kenntnis der Vermittlertätigkeit,
 
 ### Vor dem Livegang
 
-- [ ] Impressum (`src/app/[locale]/impressum/page.tsx`) und Datenschutzhinweise (`…/datenschutz/page.tsx`) ausfüllen und rechtlich prüfen lassen
+- [ ] Impressum (`src/app/[locale]/impressum/page.tsx`): Inhaber bzw. Rechtsform und vertretungsberechtigte Person, Telefonnummer sowie Angaben zur Erlaubnis nach § 34c GewO ergänzen
+- [ ] Datenschutzhinweise (`…/datenschutz/page.tsx`) ausfüllen und rechtlich prüfen lassen
 - [ ] Freigabe der Eigentümer bzw. Auftraggeber für die Veröffentlichung jedes Objekts und der Fotos einholen
 - [ ] Name und Logo festlegen (`NEXT_PUBLIC_SITE_NAME`)
 
