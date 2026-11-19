@@ -21,7 +21,7 @@ Präsentationsplattform für ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobi
 
 ## Design
 
-Summer-Pastel-Palette mit den Schriften Plus Jakarta Sans (Überschriften) und DM Sans (Text). Alle Farben stehen zentral als CSS-Variablen im `@theme`-Block von `src/app/globals.css`; eine Änderung dort wirkt auf die gesamte Website.
+Helles, einfarbiges Schema aus Weiß, sehr hellen Blaugrau-Tönen und einem weichen Blau; Schriften Plus Jakarta Sans (Überschriften) und DM Sans (Text). Alle Farben stehen zentral als CSS-Variablen im `@theme`-Block von `src/app/globals.css`; eine Änderung dort wirkt auf die gesamte Website.
 
 ## Installation
 
