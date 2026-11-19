@@ -6,7 +6,7 @@ export const COMMISSION_TITLE = "Provisionshinweis";
 
 export const COMMISSION_TEXT = [
   "Die auf dieser Webseite angebotenen Immobilien werden im Rahmen einer professionellen Immobilienvermittlung präsentiert.",
-  "Bei erfolgreichem Nachweis oder erfolgreicher Vermittlung eines Kaufvertrages fällt eine Vermittlungsprovision an, sofern eine entsprechende Provisionsvereinbarung besteht. Die Höhe der Provision richtet sich nach dem jeweiligen Immobilienangebot und wird dem Interessenten vor Abschluss eines provisionspflichtigen Maklervertrages transparent mitgeteilt.",
+  "Bei erfolgreichem Nachweis oder erfolgreicher Vermittlung eines Kaufvertrages fällt eine Vermittlungsprovision an, sofern eine entsprechende Provisionsvereinbarung besteht. Die Höhe der Provision richtet sich nach dem jeweiligen Immobilienangebot und wird dem Interessenten vor Abschluss einer Provisionsvereinbarung transparent mitgeteilt.",
   "Der Provisionsanspruch entsteht bei Vorliegen der gesetzlichen und vertraglichen Voraussetzungen mit Abschluss des notariellen Kaufvertrages.",
 ];
 

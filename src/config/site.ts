@@ -12,7 +12,7 @@ export const contact = {
   street: "Robert-Bosch-Straße 7",
   city: "64293 Darmstadt",
   country: "Deutschland",
-  email: "immobilien@loc-in.com",
+  email: "np@loc-in.com",
   taxNumber: "007 874 08683",
 };
 
