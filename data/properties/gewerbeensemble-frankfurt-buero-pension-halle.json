@@ -188,17 +188,9 @@
     "Kaufpreis und Mietangaben stammen aus einem Kurz-Exposé von 2017; eine aktuelle Bestätigung liegt nicht vor.",
     "Zum Mietvertrag der Pension fehlen Vertragspartei, Laufzeit, Indexierung, Sicherheiten und Nebenkosten.",
     "Baujahre von Bürohaus und Halle, Zustand und Energiekennwerte sind nicht angegeben.",
-    "Gezeigt wird ein Ausschnitt der Halle aus der Fotodokumentation von 2017; weitere Aufnahmen erhalten Sie mit dem vollständigen Exposé."
+    "Bildmaterial wird zum Schutz der Objektidentität nicht veröffentlicht; Sie erhalten es mit dem vollständigen Exposé."
   ],
-  "images": [
-    {
-      "src": "/images/objekte/002/01.jpg",
-      "width": 1268,
-      "height": 1168,
-      "alt": "Halle im rückwärtigen Grundstücksbereich",
-      "kind": "foto"
-    }
-  ],
+  "images": [],
   "exposeDownload": null,
   "source": "Kurz-Exposé und Fotodokumentation von 2017, übermittelt im Juli 2026"
 }
