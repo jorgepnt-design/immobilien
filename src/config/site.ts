@@ -13,6 +13,7 @@ export const contact = {
   city: "64293 Darmstadt",
   country: "Deutschland",
   email: "immobilien@loc-in.com",
+  taxNumber: "007 874 08683",
 };
 
 export const locales = ["de", "en", "pt"] as const;
