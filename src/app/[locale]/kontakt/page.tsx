@@ -4,6 +4,7 @@ import { ShieldCheck } from "lucide-react";
 import { isLocale, site } from "@/config/site";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { PageHeader } from "@/components/page-header";
+import { CommissionNotice } from "@/components/commission-notice";
 import { ContactDetails } from "@/components/contact";
 import { ExposeRequest } from "@/components/expose-request";
 
@@ -43,6 +44,9 @@ export default async function ContactPage({ params }: PageProps<"/[locale]/konta
           <p className="mb-8 mt-3 text-sm leading-relaxed text-stone-warm">{t.form.generalIntro}</p>
           <ExposeRequest />
         </section>
+      </div>
+      <div className="container-page pb-4">
+        <CommissionNotice />
       </div>
     </>
   );
