@@ -1,0 +1,265 @@
+{
+  "id": "EI-2026-008",
+  "slug": "rechenzentrumsstandort-metropolregion-berlin",
+  "title": "Rechenzentrumsstandort Metropolregion Berlin",
+  "subtitle": "Rund 17,4 ha Industriefläche südlich von Berlin mit eigener Gaskraftwerks-Versorgung",
+  "teaser": "174.344 m² im Eigentum, 15 km vom Flughafen BER – 250 MW aus einem Gaskraftwerk vor Ort ab 2029, ausbaubar auf 650 MW.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-19",
+  "location": {
+    "country": "DE",
+    "region": "Metropolregion Berlin",
+    "city": "Südlich von Berlin",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 52.36,
+      "lng": 13.5,
+      "zoom": 9
+    },
+    "description": [
+      "Das Areal liegt südlich von Berlin, rund 15 km vom Flughafen Berlin Brandenburg (BER) entfernt. Die genaue Lage wird nach Unterzeichnung einer Vertraulichkeitsvereinbarung offengelegt.",
+      "Eine Beschreibung der Mikrolage ist in der vorliegenden Projektübersicht nicht enthalten."
+    ],
+    "connections": [
+      {
+        "label": "Flughafen BER",
+        "value": "ca. 15 km"
+      }
+    ]
+  },
+  "type": "grundstueck",
+  "investmentType": "projektentwicklung",
+  "price": {
+    "amount": null,
+    "currency": "EUR",
+    "mode": "auf-anfrage",
+    "note": "In der Projektübersicht ist kein Kaufpreis genannt. Der Erwerb ist als Share Deal vorgesehen."
+  },
+  "areas": {
+    "plot": {
+      "value": 174344,
+      "note": "Eigentum (Freehold), Industriegebiet"
+    }
+  },
+  "units": null,
+  "yearBuilt": null,
+  "condition": "Entwicklungsgrundstück",
+  "rental": {
+    "status": "entfaellt",
+    "text": "Entwicklungsgrundstück – keine laufenden Erträge."
+  },
+  "keyFacts": [
+    {
+      "label": "Grundstück",
+      "value": "174.344 m², Eigentum (Freehold)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Baurechtliche Einstufung",
+      "value": "Industriegebiet",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Bebaubarkeit",
+      "value": "80 % der Fläche, Höhe 30 m",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Rechnerisch bebaubare Fläche",
+      "value": "rund 139.475 m²",
+      "evidence": "berechnet",
+      "note": "174.344 m² × 80 %"
+    },
+    {
+      "label": "Strom aus Gaskraftwerk vor Ort",
+      "value": "250 MW ab 2029",
+      "evidence": "anbieter",
+      "note": "Vereinbarung zum Gaskraftwerk liegt laut Anbieter vor"
+    },
+    {
+      "label": "Ausbau Gaskraftwerk",
+      "value": "bis zu 650 MW",
+      "evidence": "potenzial"
+    },
+    {
+      "label": "Netzstrom",
+      "value": "5 MW ab 2028, 50 MW ab 2033",
+      "evidence": "anbieter",
+      "note": "Netzvereinbarung liegt laut Anbieter vor"
+    },
+    {
+      "label": "Glasfaser",
+      "value": "Anbindung vorhanden",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Entwicklungsgenehmigung",
+      "value": "erwartet Dezember 2026",
+      "evidence": "annahme"
+    },
+    {
+      "label": "Transaktionsstruktur",
+      "value": "Share Deal",
+      "evidence": "anbieter"
+    }
+  ],
+  "description": [
+    "Ein großflächiger Standort für ein Rechenzentrum in der Metropolregion Berlin: 174.344 m² Industriefläche im Eigentum, rund 15 km vom Flughafen BER. 80 % der Fläche sind bebaubar, die zulässige Höhe beträgt 30 m.",
+    "Die Stromversorgung beruht auf zwei Säulen. Ein Gaskraftwerk vor Ort soll ab 2029 eine Leistung von 250 MW bereitstellen und lässt sich auf bis zu 650 MW ausbauen; für die Errichtung fällt nach Angaben des Anbieters kein eigener Investitionsaufwand an, der Strombezug erfolgt über einen Liefervertrag (PPA). Ergänzend steht Netzstrom zur Verfügung – 5 MW ab 2028 und 50 MW ab 2033.",
+    "Alle Gutachten sind nach Angaben des Anbieters abgeschlossen; die Entwicklungsgenehmigung befindet sich in der letzten Phase und wird für Dezember 2026 erwartet. Die Gemeinde unterstützt das Vorhaben einschließlich einer Nutzung der Abwärme für Fernwärme."
+  ],
+  "highlights": [
+    "174.344 m² Industriefläche im Eigentum, 15 km vom Flughafen BER",
+    "250 MW aus einem Gaskraftwerk vor Ort ab 2029, ausbaubar auf bis zu 650 MW",
+    "Kein eigener Investitionsaufwand für das Gaskraftwerk – Strombezug über PPA",
+    "Netzvereinbarung: 5 MW ab 2028, 50 MW ab 2033",
+    "80 % bebaubar bei 30 m Höhe",
+    "Alle Gutachten abgeschlossen, Entwicklungsgenehmigung für Dezember 2026 erwartet",
+    "Glasfaseranbindung und Unterstützung der Gemeinde"
+  ],
+  "potential": [
+    {
+      "title": "Ausbau der Kraftwerksleistung auf 650 MW",
+      "text": "Das Gaskraftwerk vor Ort kann nach Angaben des Anbieters von 250 MW auf bis zu 650 MW erweitert werden. Zeitplan und Voraussetzungen hierfür sind in der Übersicht nicht genannt.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Fernwärme",
+      "text": "Die Gemeinde unterstützt eine Nutzung für Fernwärme. Ein konkretes Konzept ist in der Übersicht nicht beschrieben.",
+      "evidence": "potenzial"
+    }
+  ],
+  "areaTable": {
+    "title": "Grundstück",
+    "rows": [
+      {
+        "name": "Grundstück",
+        "use": "Industriegebiet, Eigentum",
+        "area": "174.344 m²"
+      },
+      {
+        "name": "Bebaubare Fläche",
+        "use": "80 % der Grundstücksfläche, rechnerisch",
+        "area": "rund 139.475 m²"
+      }
+    ],
+    "note": "Gebäude- und Geschossflächen eines künftigen Rechenzentrums sind in der Projektübersicht nicht angegeben."
+  },
+  "planning": [
+    {
+      "label": "Einstufung",
+      "value": "Industriegebiet",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Bebaubarkeit",
+      "value": "80 % der Grundstücksfläche",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Zulässige Höhe",
+      "value": "30 m",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Gutachten",
+      "value": "Alle abgeschlossen",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Entwicklungsgenehmigung",
+      "value": "In der letzten Phase – erwartet Dezember 2026",
+      "evidence": "annahme"
+    },
+    {
+      "label": "Haltung der Gemeinde",
+      "value": "Unterstützt das Projekt und die Fernwärmenutzung",
+      "evidence": "anbieter"
+    }
+  ],
+  "energy": [
+    {
+      "label": "Gaskraftwerk vor Ort",
+      "value": "250 MW ab 2029, Vereinbarung liegt vor",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Ausbau",
+      "value": "bis zu 650 MW",
+      "evidence": "potenzial"
+    },
+    {
+      "label": "Investitionsaufwand Kraftwerk",
+      "value": "Keiner für den Erwerber; Strombezug über PPA",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Netzanschluss",
+      "value": "5 MW ab 2028, 50 MW ab 2033, Netzvereinbarung liegt vor",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Leistung 2028",
+      "value": "5 MW (Netz 5 MW)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Leistung 2029",
+      "value": "255 MW (Gaskraftwerk 250 MW + Netz 5 MW)",
+      "evidence": "berechnet"
+    },
+    {
+      "label": "Leistung 2030",
+      "value": "255 MW (Gaskraftwerk 250 MW + Netz 5 MW)",
+      "evidence": "berechnet"
+    },
+    {
+      "label": "Leistung 2031",
+      "value": "255 MW (Gaskraftwerk 250 MW + Netz 5 MW)",
+      "evidence": "berechnet"
+    },
+    {
+      "label": "Leistung 2032",
+      "value": "255 MW (Gaskraftwerk 250 MW + Netz 5 MW)",
+      "evidence": "berechnet"
+    },
+    {
+      "label": "Leistung 2033",
+      "value": "300 MW (Gaskraftwerk 250 MW + Netz 50 MW)",
+      "evidence": "berechnet"
+    }
+  ],
+  "economics": [
+    {
+      "label": "Kaufpreis",
+      "value": "Nicht angegeben – auf Anfrage",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Transaktionsstruktur",
+      "value": "Share Deal",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Exklusivität",
+      "value": "Gegen eine vereinbarte Zahlung auf ein Treuhandkonto",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Datenraum",
+      "value": "Zugang zum virtuellen Datenraum nach Vertraulichkeitsvereinbarung",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Kein Kaufpreis genannt.",
+    "Die Entwicklungsgenehmigung ist noch nicht erteilt; sie wird für Dezember 2026 erwartet.",
+    "Die Leistung von 250 MW steht erst ab 2029 zur Verfügung; 2028 sind nur 5 MW Netzstrom vorgesehen.",
+    "Konditionen des Stromliefervertrags (PPA), Betreiber des Gaskraftwerks und Inhalt der Netzvereinbarung sind nicht genannt.",
+    "Bundesland und Gemeinde sind in der Übersicht nicht angegeben; Bildmaterial des Grundstücks ist nicht enthalten.",
+    "Grundlage ist eine dreiseitige Projektübersicht; Details stehen im virtuellen Datenraum."
+  ],
+  "images": [],
+  "exposeDownload": null,
+  "source": "Projektübersicht des Anbieters, Stand Oktober 2026"
+}
