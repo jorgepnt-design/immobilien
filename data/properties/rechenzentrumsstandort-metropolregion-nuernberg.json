@@ -1,0 +1,242 @@
+{
+  "id": "EI-2026-007",
+  "slug": "rechenzentrumsstandort-metropolregion-nuernberg",
+  "title": "KI-Rechenzentrumsstandort Metropolregion Nürnberg",
+  "subtitle": "Edge-Standort mit Bürogebäude, 5 MVA Stromanschluss und Ausbaureserve",
+  "teaser": "5.000 m² Industriegrundstück im Eigentum mit Bestandsgebäude – 5 MVA in rund sechs Monaten, weitere 10+ MVA möglich.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-19",
+  "location": {
+    "country": "DE",
+    "region": "Bayern",
+    "city": "Metropolregion Nürnberg",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 49.45,
+      "lng": 11.08,
+      "zoom": 9
+    },
+    "description": [
+      "Der Standort liegt in der Metropolregion Nürnberg, rund 30 km von Nürnberg und rund 85 km von Würzburg entfernt. Die genaue Lage wird nach Unterzeichnung einer Vertraulichkeitsvereinbarung offengelegt.",
+      "Eine Beschreibung der Mikrolage ist in der vorliegenden Projektübersicht nicht enthalten."
+    ],
+    "connections": [
+      {
+        "label": "Nürnberg",
+        "value": "ca. 30 km"
+      },
+      {
+        "label": "Würzburg",
+        "value": "ca. 85 km"
+      }
+    ]
+  },
+  "type": "entwicklungsprojekt",
+  "investmentType": "projektentwicklung",
+  "price": {
+    "amount": null,
+    "currency": "EUR",
+    "mode": "auf-anfrage",
+    "note": "In der Projektübersicht ist kein Kaufpreis genannt. Der Erwerb ist als Share Deal vorgesehen."
+  },
+  "areas": {
+    "plot": {
+      "value": 5000,
+      "note": "Eigentum (Freehold); Zukauf weiterer Flächen optional möglich"
+    }
+  },
+  "units": null,
+  "yearBuilt": null,
+  "condition": "Bürogebäude in sehr gutem Zustand; ehemalige Produktionsstätte für elektrische Komponenten",
+  "rental": {
+    "status": "nicht-angegeben",
+    "text": "Angaben zu Nutzung, Vermietung und Erträgen des Bestandsgebäudes liegen nicht vor."
+  },
+  "keyFacts": [
+    {
+      "label": "Grundstück",
+      "value": "5.000 m², Eigentum (Freehold)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Baurechtliche Einstufung",
+      "value": "Industriegebiet",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Bebaubare Höhe",
+      "value": "24 m und mehr",
+      "evidence": "anbieter",
+      "note": "ein Rechenzentrumsgebäude mit zwei bis drei Geschossen gilt als machbar"
+    },
+    {
+      "label": "Bestand",
+      "value": "Bürogebäude an der Vorderseite des Grundstücks, sehr guter Zustand",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Stromanschluss",
+      "value": "5 MVA in rund sechs Monaten",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Ausbau Strom",
+      "value": "weitere 10+ MVA machbar",
+      "evidence": "potenzial"
+    },
+    {
+      "label": "Umspannwerke",
+      "value": "zwei, jeweils weniger als 50 m vom Grundstück entfernt",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Gasanschluss",
+      "value": "vorhanden",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Glasfaser",
+      "value": "verfügbar",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Transaktionsstruktur",
+      "value": "Share Deal",
+      "evidence": "anbieter"
+    }
+  ],
+  "description": [
+    "Ein Standort für ein KI- bzw. Edge-Rechenzentrum in der Metropolregion Nürnberg: 5.000 m² Industriegrundstück im Eigentum mit einem Bürogebäude in sehr gutem Zustand. Die Liegenschaft wurde zuvor als Produktionsstätte für elektrische Komponenten genutzt.",
+    "Die Stromversorgung ist der Kern des Angebots: 5 MVA sollen in rund sechs Monaten zur Verfügung stehen, weitere 10 MVA und mehr gelten als machbar. Zwei Umspannwerke liegen weniger als 50 m vom Grundstück entfernt; Gasanschluss und Glasfaser sind vorhanden.",
+    "Die Genehmigung für die Entwicklung ist beantragt und wird nach Angaben des Anbieters in wenigen Wochen erwartet. Ein Masterplan für das Areal liegt vor; die Gemeinde unterstützt das Vorhaben."
+  ],
+  "highlights": [
+    "5.000 m² Industriegrundstück im Eigentum, rund 30 km von Nürnberg",
+    "5 MVA Stromanschluss in rund sechs Monaten, weitere 10+ MVA machbar",
+    "Zwei Umspannwerke in weniger als 50 m Entfernung",
+    "Glasfaser und Gasanschluss vorhanden",
+    "Bebaubare Höhe ab 24 m – zwei- bis dreigeschossiges Rechenzentrum machbar",
+    "Bürogebäude in sehr gutem Zustand auf dem Grundstück",
+    "Entwicklungsgenehmigung im Verfahren, Masterplan vorhanden, Gemeinde unterstützt das Projekt"
+  ],
+  "potential": [
+    {
+      "title": "Rechenzentrum mit zwei bis drei Geschossen",
+      "text": "Bei einer bebaubaren Höhe von 24 m und mehr gilt ein Rechenzentrumsgebäude mit zwei bis drei Geschossen als machbar. Flächen- und Leistungskennzahlen des geplanten Gebäudes sind in der Übersicht nicht genannt.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Ausbau der Anschlussleistung",
+      "text": "Über die zugesagten 5 MVA hinaus gelten weitere 10 MVA und mehr als machbar. Eine verbindliche Zusage hierfür ist nicht dokumentiert.",
+      "evidence": "annahme"
+    },
+    {
+      "title": "Flächenerweiterung",
+      "text": "Zusätzliche Grundstücksflächen können optional erworben werden. Größe und Konditionen sind nicht genannt.",
+      "evidence": "potenzial"
+    }
+  ],
+  "areaTable": {
+    "title": "Grundstück und Infrastruktur",
+    "rows": [
+      {
+        "name": "Grundstück",
+        "use": "Industriegebiet, Eigentum",
+        "area": "5.000 m²"
+      },
+      {
+        "name": "Erweiterungsfläche",
+        "use": "optional zu erwerben",
+        "area": "nicht angegeben"
+      },
+      {
+        "name": "Bürogebäude",
+        "use": "Bestand, Vorderseite des Grundstücks",
+        "area": "nicht angegeben"
+      }
+    ],
+    "note": "Gebäudeflächen des Bestands sind in der Projektübersicht nicht angegeben."
+  },
+  "planning": [
+    {
+      "label": "Einstufung",
+      "value": "Industriegebiet",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Bebaubare Höhe",
+      "value": "24 m und mehr",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Entwicklungsgenehmigung",
+      "value": "Im Verfahren – Erteilung laut Anbieter in wenigen Wochen erwartet",
+      "evidence": "annahme"
+    },
+    {
+      "label": "Masterplan",
+      "value": "Für das Areal vorhanden",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Haltung der Gemeinde",
+      "value": "Unterstützt das Projekt",
+      "evidence": "anbieter"
+    }
+  ],
+  "energy": [
+    {
+      "label": "Stromanschluss",
+      "value": "5 MVA in rund sechs Monaten",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Ausbaureserve",
+      "value": "weitere 10+ MVA machbar",
+      "evidence": "potenzial"
+    },
+    {
+      "label": "Umspannwerke",
+      "value": "zwei, jeweils weniger als 50 m entfernt",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Gasanschluss",
+      "value": "vorhanden",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Energieausweis Bestandsgebäude",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    }
+  ],
+  "economics": [
+    {
+      "label": "Kaufpreis",
+      "value": "Nicht angegeben – auf Anfrage",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Transaktionsstruktur",
+      "value": "Share Deal; der Eigentümer ist bereit, das Genehmigungsverfahren auch nach dem Verkauf zu begleiten",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Datenraum",
+      "value": "Virtueller Datenraum vorhanden",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Kein Kaufpreis genannt.",
+    "Die Entwicklungsgenehmigung ist beantragt, aber noch nicht erteilt.",
+    "Die Anschlussleistung von 5 MVA ist für „in rund sechs Monaten“ angekündigt (Stand Oktober 2026); der Ausbau um 10+ MVA ist als machbar bezeichnet, nicht zugesagt.",
+    "Gebäudeflächen, Baujahr und Energiekennwerte des Bürogebäudes sowie Angaben zu Altlasten aus der früheren Produktion fehlen.",
+    "Grundlage ist eine zweiseitige Projektübersicht; Details stehen im virtuellen Datenraum.",
+    "Das Foto des Bürogebäudes aus der Projektübersicht zeigt Firmenschilder und wird deshalb nicht veröffentlicht; Bildmaterial auf Anfrage."
+  ],
+  "images": [],
+  "exposeDownload": null,
+  "source": "Projektübersicht des Anbieters, Stand Oktober 2026"
+}
