@@ -179,9 +179,17 @@
     "Das Exposé bezeichnet die Photovoltaik-Erweiterung teils als „genehmigt“ bzw. „planungsrechtlich gesichert“, zugleich als „eingeleitet“ und „in Bearbeitung“. Maßgeblich ist nach den Detailangaben ein laufendes, noch nicht abgeschlossenes Bebauungsplan-Änderungsverfahren.",
     "Kein Kaufpreis genannt (Gebotsverfahren); Pachtzins, Umsätze und Mitgliederzahlen sind nicht angegeben.",
     "Genaue Lage, Pachtvertrag, Businessplan und PV-Detailpläne nur nach Vertraulichkeitsvereinbarung.",
-    "Luft- und Landschaftsaufnahmen werden zum Schutz der Objektidentität nicht veröffentlicht; Bildmaterial erhalten Sie mit dem vollständigen Exposé."
+    "Gezeigt wird ein Ausschnitt einer Spielbahn; Luft- und Panoramaaufnahmen erhalten Sie mit dem vollständigen Exposé."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "/images/objekte/005/01.jpg",
+      "width": 792,
+      "height": 767,
+      "alt": "Spielbahn der Golfanlage vor Waldkulisse",
+      "kind": "foto"
+    }
+  ],
   "exposeDownload": null,
   "source": "Investment-Exposé des Anbieters, 2026"
 }

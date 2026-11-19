@@ -101,7 +101,7 @@ export function Gallery({ images }: { images: PropertyImage[] }) {
 
   if (images.length === 0) {
     return (
-      <div className="relative aspect-[16/9] overflow-hidden rounded-[1.25rem] md:aspect-[21/9]">
+      <div className="relative aspect-[16/9] overflow-hidden rounded-xl md:aspect-[21/9]">
         <ImagePlaceholder label={t.card.noImage} />
       </div>
     );
@@ -132,7 +132,7 @@ export function Gallery({ images }: { images: PropertyImage[] }) {
   return (
     <>
       <div
-        className={`grid gap-2 overflow-hidden rounded-[1.25rem] ${
+        className={`grid gap-2 overflow-hidden rounded-xl ${
           side.length > 0 ? "md:grid-cols-[1.55fr_1fr]" : ""
         }`}
       >

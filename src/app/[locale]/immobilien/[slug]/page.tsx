@@ -263,7 +263,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               <Section id="potenzial" title={t.detail.potential}>
                 <div className="grid gap-4 sm:grid-cols-2">
                   {p.potential.map((x) => (
-                    <div key={x.title} className="rounded-2xl border border-sand bg-white p-6">
+                    <div key={x.title} className="rounded-xl border border-sand bg-white p-6">
                       <EvidenceBadge evidence={x.evidence} t={t} />
                       <h3 className="heading-display mt-3 text-xl text-navy-900">{x.title}</h3>
                       <p className="mt-2 text-sm leading-relaxed text-ink/75">{x.text}</p>
@@ -277,7 +277,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
             {p.areaTable && (
               <Section id="flaechen" title={t.detail.areas}>
                 {p.areaTable.title && <p className="mb-4 text-sm font-medium text-navy-900">{p.areaTable.title}</p>}
-                <div className="overflow-x-auto rounded-2xl border border-sand bg-white">
+                <div className="overflow-x-auto rounded-xl border border-sand bg-white">
                   <table className="w-full min-w-[30rem] text-left text-sm">
                     <thead>
                       <tr className="border-b border-sand text-[0.68rem] tracking-[0.1em] uppercase text-stone-warm">
@@ -303,7 +303,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
 
             {/* H. Mieteinnahmen und Rendite */}
             <Section id="wirtschaftlichkeit" title={t.detail.economics}>
-              <div className="rounded-2xl border border-sand bg-white p-6">
+              <div className="rounded-xl border border-sand bg-white p-6">
                 <p className="text-[0.68rem] font-semibold tracking-[0.1em] uppercase text-stone-warm">
                   {t.detail.rentalStatus}
                 </p>
@@ -319,7 +319,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               </div>
 
               {p.yield ? (
-                <div className="mt-4 rounded-2xl bg-mint p-6 text-navy-900 md:p-8">
+                <div className="mt-4 rounded-xl border border-sand bg-cloud p-6 text-navy-900 md:p-8">
                   <div className="flex flex-wrap items-end justify-between gap-4">
                     <div>
                       <p className="eyebrow">{p.yield.label}</p>
@@ -412,7 +412,7 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
                   {t.detail.exposeDownload}
                 </a>
               ) : (
-                <div className="flex flex-col items-start gap-4 rounded-2xl border border-sand bg-white p-6 sm:flex-row sm:items-center sm:justify-between">
+                <div className="flex flex-col items-start gap-4 rounded-xl border border-sand bg-white p-6 sm:flex-row sm:items-center sm:justify-between">
                   <p className="flex items-start gap-3 text-sm leading-relaxed text-ink/75">
                     <FileLock2 size={20} strokeWidth={1.4} className="mt-0.5 shrink-0 text-champagne-dark" />
                     {t.detail.exposeOnRequest}

@@ -12,7 +12,7 @@ export function Logo({ className = "" }: { className?: string }) {
     <span className={`flex items-center gap-3 ${className}`}>
       <span
         aria-hidden
-        className="grid h-9 w-9 place-items-center rounded-full border border-accent/30 bg-sun font-display text-base font-extrabold leading-none text-accent"
+        className="grid h-9 w-9 place-items-center rounded-full border border-accent/40 font-display text-base font-extrabold leading-none text-accent"
       >
         {site.name.charAt(0)}
       </span>
