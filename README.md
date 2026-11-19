@@ -2,7 +2,7 @@
 
 Präsentationsplattform für ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobilien. Zielgruppe sind professionelle Investoren, Projektentwickler, Bauträger und Family Offices.
 
-**Technik:** Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · Framer Motion · Lucide Icons · jsPDF. Keine Datenbank – jede Immobilie ist eine JSON-Datei. Alle Seiten werden beim Build statisch erzeugt; es gibt keine Serverfunktionen und kein Formular.
+**Technik:** Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · Framer Motion · Lucide Icons · jsPDF. Keine Datenbank – jede Immobilie ist eine JSON-Datei. Alle Seiten werden beim Build statisch erzeugt; nur die Exposé-Anfrage nutzt eine Serverfunktion.
 
 ## Funktionen
 
@@ -12,7 +12,7 @@ Präsentationsplattform für ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobi
 | Immobilienübersicht mit kombinierbaren Filtern, Freitextsuche, Sortierung, verlinkbaren Filter-URLs | fertig |
 | Detailseite je Objekt (Galerie mit Vollbild, Eckdaten, Potenzial, Flächen, Rendite mit Formel, Baurecht, Energie, Standort, Dokumente, Datenstand, ähnliche Objekte) | fertig |
 | Merkliste, Vergleich (max. 4), Investment-Dossier mit PDF-Export | fertig (Speicherung im Browser) |
-| Kontakt: Kontaktdaten des Betreibers und E-Mail-Schaltflächen mit vorbelegtem Betreff (Objekt-ID) | fertig – bewusst ohne Formular |
+| Zweistufige Vermarktung: anonymisiertes Kurzexposé öffentlich, Formular „Vollständiges Exposé anfordern“ | fertig – E-Mail-Versand über Resend optional, sonst vorbereitete E-Mail im Programm des Besuchers |
 | Sprachen Deutsch (Standard), Englisch, Portugiesisch | Oberfläche vollständig übersetzt; **Objekttexte derzeit nur Deutsch** |
 | SEO: Metadaten, Open Graph, JSON-LD, Sitemap, robots.txt | fertig |
 | Geschützter Investorenbereich | **nicht umgesetzt** – Konzept siehe unten |
@@ -47,6 +47,7 @@ Weitere Befehle: `npm run build` (Produktions-Build), `npm run start` (Build lok
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Öffentliche Adresse der Website, z. B. `https://www.beispiel.de` (für Sitemap, Canonical, Open Graph) |
 | `NEXT_PUBLIC_SITE_NAME` | Name im Logo, Titel und PDF (Standard: „Exklusive Immobilien“) |
+| `RESEND_API_KEY`, `INQUIRY_TO_EMAIL`, `INQUIRY_FROM_EMAIL` | optional: Versand der Exposé-Anfragen über [Resend](https://resend.com) |
 
 Die Kontaktdaten des Betreibers stehen in `src/config/site.ts` (`contact`).
 
@@ -69,7 +70,7 @@ Das vollständige Datenmodell steht kommentiert in `src/lib/types.ts`. Die wicht
 | `keyFacts`, `planning`, `energy`, `economics` | Listen aus `label`, `value`, `evidence`, optional `note` |
 | `yield` | Nur angeben, wenn belastbar berechenbar – immer mit `formula`, `basis` und `caveat` |
 | `dataNotes` | Widersprüche, fehlende Angaben, offene Punkte |
-| `location.addressPublic` | Nur bei `true` wird `location.address` angezeigt und auf der Karte markiert |
+| `location` | `city` und `district` nur grob (siehe Anonymisierung); Adressen werden nie eingetragen |
 
 **Kennzeichnung der Angaben (`evidence`):** `fakt` (durch Unterlagen belegt), `anbieter` (Angabe aus dem Exposé), `potenzial`, `annahme`, `berechnet`. Fehlende Werte werden weggelassen oder als „Nicht angegeben“ eingetragen – nichts wird ergänzt, was nicht im Exposé steht.
 
@@ -77,20 +78,35 @@ Preise ändern, Status ändern, Objekt archivieren: jeweils das Feld in der JSON
 
 ## Bilder und Exposés
 
-- Bilder liegen unter `public/images/properties/<slug>/`, empfohlen als JPG mit maximal 1800 px Kantenlänge. Next.js liefert sie automatisch in passender Größe als AVIF/WebP aus und lädt sie verzögert.
+- Bilder liegen unter `public/images/objekte/<Nummer>/`, empfohlen als JPG mit maximal 1800 px Kantenlänge. Next.js liefert sie automatisch in passender Größe als AVIF/WebP aus und lädt sie verzögert.
 - Im Eintrag `images` Breite und Höhe in Pixeln angeben; `kind` ist `foto` (Galerie) oder `plan` (Abschnitt „Grundrisse und Dokumente“). Das erste Foto ist das Titelbild der Karte.
 - Hat ein Objekt keine Bilder, erscheint ein neutral gestalteter Platzhalter „Bildmaterial auf Anfrage“.
-- Das Hero-Bild der Startseite ist `public/images/hero.jpg`.
-- **Exposés:** Ein freigegebenes PDF nach `public/exposes/` legen und den Pfad in `exposeDownload` eintragen (z. B. `/exposes/objekt.pdf`). Bei `null` zeigt die Seite „Unterlagen auf Anfrage“.
+- Die Startseite verwendet bewusst kein Objektfoto, sondern ein abstraktes Linienmuster.
+- **Exposés:** Original-Exposés werden nicht veröffentlicht (`exposeDownload` bleibt `null`).
 
-### Vertraulichkeit
+### Anonymisierung und Vertraulichkeit
 
-Dieses Repository ist öffentlich. Alles unter `public/` und `data/` ist für jeden einsehbar.
+Die Website zeigt ausschließlich **anonymisierte Kurzexposés**. Ziel: Ein Besucher soll weder das konkrete Objekt noch den Eigentümer ermitteln können.
 
-- Keine vertraulichen Exposés, Mietverträge, Gutachten, Adressen oder Ansprechpartner einchecken.
-- `data/private/` und `.env*` sind per `.gitignore` ausgeschlossen und für lokale Notizen gedacht.
-- Bei den aktuellen Objekten sind Straßenadressen, objektbezogene Ansprechpartner, Mieter- und Personennamen sowie Katasterangaben bewusst nicht enthalten.
-- Die allgemeinen Kontaktdaten des Betreibers (LOC-IN) stehen in `src/config/site.ts` und erscheinen auf Kontaktseite, im Fußbereich, Impressum und Datenschutz.
+Regeln für jedes Objekt:
+
+- **Titel und URL neutral** – keine Straßen-, Firmen-, Projekt- oder Stadtteilnamen (`title`, `slug`).
+- **Lage grob** – `city` ist eine Stadt oder Region, `district` eine neutrale Lagebeschreibung („verkehrsgünstige Gewerbelage“). Keine Stadtteile bei markanten Objekten, keine Entfernungsangaben, aus denen sich der Standort errechnen lässt.
+- **Karte** – `mapCenter` ist die Mitte der Stadt bzw. Region mit `zoom` ≤ 10, nie die Objektposition. Es wird kein Marker gesetzt.
+- **Keine** Flurstücke, Aktenzeichen, Namen von Eigentümern, Mietern, Antragstellern, Gutachtern oder Vermittlern Dritter, keine exakten Datumsangaben behördlicher Bescheide.
+- **Kennzahlen** – markante Einzelwerte als „ca.“ runden; Preise bleiben unverändert.
+- **Bilder** – nur Innenaufnahmen ohne Schilder, Logos, Kennzeichen, Personen oder Ausblicke. Keine Außen- und Luftaufnahmen, keine Lagepläne. Ablage unter `public/images/objekte/<laufende Nummer>/01.jpg` (neutrale Namen, ohne EXIF). Im Zweifel kein Bild – die Seite zeigt dann „Bildmaterial auf Anfrage“.
+- **Stufe 2** – Adresse, Original-Exposé, Fotos und Unterlagen werden nie auf der Website oder im Repository abgelegt, sondern nach Prüfung der Anfrage manuell versendet.
+
+Dieses Repository und alles unter `public/` und `data/properties/` ist öffentlich einsehbar. `data/private/` (Zuordnung Objekt-ID ↔ Adresse, zurückgehaltene Bilder) und `.env*` sind per `.gitignore` ausgeschlossen.
+
+**Achtung Versionsverlauf:** Frühere Commits enthalten die nicht anonymisierten Fassungen (Titel, Stadtteile, Außenaufnahmen). Solange das Repository öffentlich ist, sind sie dort abrufbar – Repository auf „privat“ stellen oder den Verlauf neu aufsetzen.
+
+### Exposé-Anfrage und Nachweis
+
+Das Formular sendet an `/api/expose-anfrage`. Mit `RESEND_API_KEY`, `INQUIRY_TO_EMAIL` und `INQUIRY_FROM_EMAIL` geht die Anfrage per E-Mail an den Vermittler, der Anfragende erhält eine Eingangsbestätigung; beide E-Mails enthalten Objekt-ID, Zeitstempel und die abgegebenen Bestätigungen. Ohne diese Variablen öffnet das Formular eine vollständig vorbereitete E-Mail im Programm des Besuchers.
+
+Die Bestätigung im Formular dokumentiert die Kenntnis der Vermittlertätigkeit, ist aber **kein Maklervertrag**. Provisionsvereinbarungen (bei Wohnimmobilien in Textform, mit Widerrufsbelehrung für Verbraucher und den gesetzlichen Regeln zur Teilung der Provision) sind gesondert und anwaltlich geprüft zu schließen.
 
 ## Mehrsprachigkeit
 

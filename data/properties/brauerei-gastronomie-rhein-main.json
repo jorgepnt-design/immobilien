@@ -1,0 +1,251 @@
+{
+  "id": "EI-2026-006",
+  "slug": "brauerei-gastronomie-rhein-main",
+  "title": "Brauerei mit Gastronomie und Biergarten",
+  "subtitle": "Brauerei, Restaurant, Biergarten und Wohnen in Wasserlage",
+  "teaser": "Ca. 1.760 m² Grundstück in Wasserlage mit Brauerei, Gastronomie, zwei Wohnungen und baulicher Reserve.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-18",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Rhein-Main-Gebiet",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 50.05,
+      "lng": 8.6,
+      "zoom": 8
+    },
+    "description": [
+      "Das Grundstück liegt im Rhein-Main-Gebiet direkt am Wasser und ist an Rad- und Wanderwege angebunden. Die Zufahrt erfolgt von einer Hauptverkehrsstraße.",
+      "Die Region zählt zu den gefragtesten Metropolmärkten Deutschlands – mit hoher Kaufkraft, dichter Unternehmenslandschaft und lebendiger Veranstaltungskultur. Das Baugebiet ist als Industriegebiet (GI) festgesetzt. Die genaue Lage erhalten qualifizierte Interessenten mit dem vollständigen Exposé."
+    ],
+    "district": "Lage am Wasser"
+  },
+  "type": "mischobjekt",
+  "investmentType": "bestand",
+  "price": {
+    "amount": 1584000,
+    "currency": "EUR",
+    "mode": "festpreis",
+    "note": "Entspricht rund 900 €/m² Grundstück."
+  },
+  "areas": {
+    "plot": {
+      "value": 1760,
+      "approx": true
+    },
+    "living": {
+      "value": 260,
+      "approx": true,
+      "note": "zwei Wohnungen à ca. 130 m²"
+    },
+    "commercial": {
+      "value": 650,
+      "approx": true,
+      "note": "überbaute Grundfläche Bestand (keine Nutzflächenangabe)"
+    }
+  },
+  "units": {
+    "count": 2,
+    "label": "Wohnungen",
+    "note": "je ca. 130 m², zzgl. Brauerei und Gastronomie"
+  },
+  "yearBuilt": null,
+  "condition": "Laufender Betrieb; Baujahr nicht angegeben",
+  "rental": {
+    "status": "betrieb",
+    "text": "Eigentümergeführter Brauerei- und Gastronomiebetrieb. Ausgewiesen sind Betriebsumsätze, keine Mieterträge der Immobilie – mit Ausnahme der Parkplatzmiete von ca. 1.450 € pro Monat."
+  },
+  "keyFacts": [
+    {
+      "label": "Grundstück",
+      "value": "ca. 1.760 m²",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Baugebiet",
+      "value": "GI – Industriegebiet",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Zulässiges Maß",
+      "value": "GRZ 0,7 · BMZ 9,0",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Vorhandene GRZ",
+      "value": "0,382 inkl. geplanter Erweiterung",
+      "evidence": "fakt",
+      "note": "laut Flächenberechnung zum Bauvorhaben"
+    },
+    {
+      "label": "Wohnungen",
+      "value": "2 × ca. 130 m²",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Produktionskapazität",
+      "value": "max. 2.800 hl/Jahr (aktuell ca. 1.400 hl)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Biergarten",
+      "value": "ca. 200 Personen",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Profiküche",
+      "value": "200 Mahlzeiten gleichzeitig",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Parkplätze",
+      "value": "100 Stellplätze",
+      "evidence": "anbieter",
+      "note": "der Lageplan weist weniger aus"
+    },
+    {
+      "label": "Preis je m² Grundstück",
+      "value": "rund 900 €/m²",
+      "evidence": "berechnet",
+      "note": "Kaufpreis ÷ Grundstücksfläche"
+    }
+  ],
+  "description": [
+    "Die Brauerei liegt direkt am Wasser im Rhein-Main-Gebiet. Das rund 1.760 m² große Areal vereint eine traditionelle Brauerei, ein Restaurant, einen Biergarten und einen Veranstaltungsort – ergänzt um zwei integrierte Wohnungen und Parkflächen.",
+    "Zum Anwesen gehören das Brauereigebäude mit traditionellen Kupferkesseln, Sudhaus und Sommerzelt, mehrere Lagerflächen und ein Malzspeicher, Abfüllanlage und Werkstatt, ein Restaurant mit professioneller Küche sowie ein Biergarten für rund 200 Personen.",
+    "Die Brauanlage ist derzeit zu etwa der Hälfte ausgelastet; die vorhandene Technik erlaubt eine deutliche Steigerung der Produktion ohne Erweiterung. Der Betrieb verfügt über eine langjährige Veranstaltungstradition und eine treue Stammkundschaft aus dem privaten wie gewerblichen Bereich."
+  ],
+  "highlights": [
+    "Ca. 1.760 m² in Wasserlage in einem Markt mit ausgeprägter Flächenknappheit",
+    "Kaufpreis entspricht 900 €/m² Grundstück – inklusive Brauerei, Gastronomie und zwei Wohnungen",
+    "Bauliche Reserve: vorhandene GRZ 0,382 bei zulässigen 0,7",
+    "Brauanlage mit Kapazitätsreserve (2.800 hl/Jahr, aktuell ca. 1.400 hl)",
+    "Multifunktionale Nutzung: Brauerei, Restaurant, Biergarten, Veranstaltungen",
+    "Zwei integrierte Wohnungen à ca. 130 m²",
+    "Etablierte Stammkundschaft und bewährte Veranstaltungsformate"
+  ],
+  "potential": [
+    {
+      "title": "Bauliche Reserve",
+      "text": "Bei GRZ 0,7 ergibt sich rechnerisch eine zulässige Grundfläche von rund 1.230 m² – gegenüber rund 675 m² Bestand und Planung.",
+      "evidence": "berechnet"
+    },
+    {
+      "title": "Produktionssteigerung",
+      "text": "Die Anlage ist zu etwa der Hälfte ausgelastet (ca. 1.400 von max. 2.800 hl pro Jahr). Eine Steigerung ist laut Anbieter ohne Erweiterung der Brauerei möglich.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Veranstaltungen und Public Viewing",
+      "text": "Bewährte Formate wie Oktoberfest, Firmenveranstaltungen, Hochzeiten, Fasching und Public Viewing bieten Ansatzpunkte für eine höhere Auslastung.",
+      "evidence": "potenzial"
+    }
+  ],
+  "areaTable": {
+    "title": "Überbaute Grundfläche",
+    "rows": [
+      {
+        "name": "Bestand",
+        "use": "Gasthaus, Küche, Saal, Sudhaus, Brauereigebäude, Garagen und Lager",
+        "area": "ca. 650 m²"
+      },
+      {
+        "name": "Geplante Erweiterung",
+        "use": "Lager- und Garagengebäude",
+        "area": "ca. 27 m²"
+      },
+      {
+        "name": "Wohnungen",
+        "use": "zwei Einheiten",
+        "area": "je ca. 130 m²"
+      }
+    ],
+    "note": "Es handelt sich um überbaute Grundflächen laut Flächenberechnung, nicht um Nutzflächen; eine Nutzflächenaufstellung liegt nicht vor."
+  },
+  "planning": [
+    {
+      "label": "Baugebiet",
+      "value": "GI – Industriegebiet",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Zulässig",
+      "value": "GRZ 0,7 · BMZ 9,0",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Vorhanden",
+      "value": "GRZ 0,382 inkl. geplanter Erweiterung",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Rechnerisch zulässige Grundfläche",
+      "value": "rund 1.230 m²",
+      "evidence": "berechnet"
+    }
+  ],
+  "economics": [
+    {
+      "label": "Gastronomie-Umsatz",
+      "value": "bis zu 60.000 € pro Monat",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Bierverkauf",
+      "value": "ca. 252.000 € pro Jahr",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Parkplatz-Miete",
+      "value": "ca. 1.450 € pro Monat",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Personal Brauerei",
+      "value": "2 Mitarbeiter",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Die ausgewiesenen Zahlen sind Betriebsumsätze, keine Mieterträge; eine Immobilienrendite lässt sich daraus nicht ableiten und wird nicht berechnet.",
+    "Stellplätze: Das Exposé nennt 100 Stellplätze, der Lageplan weist deutlich weniger aus – Klärung erforderlich.",
+    "Die Grundstücksgröße weicht zwischen Exposé und amtlichem Lageplan geringfügig ab.",
+    "Baujahr, Nutzflächen, Energiekennwerte und Jahresabschlüsse des Betriebs sind nicht angegeben.",
+    "Ob Inventar und Betrieb im Kaufpreis enthalten sind, ist im Detail abzustimmen.",
+    "Außenaufnahmen, Gastraum und Pläne werden zum Schutz der Objektidentität nicht veröffentlicht; Sie erhalten sie mit dem vollständigen Exposé."
+  ],
+  "images": [
+    {
+      "src": "/images/objekte/006/01.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Gär- und Lagertanks aus Edelstahl",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/006/02.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Bierlager",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/006/03.jpg",
+      "width": 1200,
+      "height": 1033,
+      "alt": "Abfüllanlage mit Füller und Etikettierung",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/006/04.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Profiküche",
+      "kind": "foto"
+    }
+  ],
+  "exposeDownload": null,
+  "source": "Investitionsangebot des Anbieters mit Planauszügen, 2026"
+}

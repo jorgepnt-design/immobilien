@@ -27,8 +27,8 @@ export default async function PrivacyPage({ params }: PageProps<"/[locale]/daten
       text: "Beim Aufruf der Website verarbeitet der Hosting-Anbieter technisch notwendige Verbindungsdaten (u. a. IP-Adresse, Zeitpunkt, aufgerufene Seite), um die Seite auszuliefern und die Sicherheit des Betriebs zu gewährleisten. [Hosting-Anbieter und Auftragsverarbeitung – bitte ergänzen]",
     },
     {
-      title: "Kontakt per E-Mail",
-      text: "Diese Website enthält kein Kontaktformular. Wenn Sie uns per E-Mail schreiben, verarbeiten wir Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage. [Rechtsgrundlage und Speicherdauer – bitte ergänzen]",
+      title: "Exposé-Anfrage und Kontakt",
+      text: "Wenn Sie ein Exposé anfordern oder uns schreiben, verarbeiten wir die von Ihnen angegebenen Daten (Vor- und Nachname, optional Unternehmen, E-Mail-Adresse, Telefonnummer, Nachricht, Objekt-ID sowie Zeitpunkt und abgegebene Bestätigungen) zur Bearbeitung Ihrer Anfrage und zum Nachweis der Vermittlungstätigkeit. Die Übermittlung erfolgt verschlüsselt; die Angaben werden per E-Mail zugestellt und nicht auf dieser Website gespeichert. Sie erhalten eine Eingangsbestätigung per E-Mail. [E-Mail-Dienstleister, Rechtsgrundlage und Speicherdauer – bitte ergänzen]",
     },
     {
       title: "Merkliste, Vergleich und Dossier",

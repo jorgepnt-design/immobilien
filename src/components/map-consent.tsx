@@ -11,12 +11,9 @@ import { useI18n } from "./providers";
 export function MapConsent({
   center,
   title,
-  exact = false,
 }: {
   center: { lat: number; lng: number; zoom: number };
   title: string;
-  /** true, wenn die Adresse veröffentlicht werden darf – dann wird ein Marker gesetzt */
-  exact?: boolean;
 }) {
   const { t } = useI18n();
   const [loaded, setLoaded] = useState(false);
@@ -31,8 +28,7 @@ export function MapConsent({
   ]
     .map((n) => n.toFixed(5))
     .join(",");
-  const marker = exact ? `&marker=${center.lat},${center.lng}` : "";
-  const src = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik${marker}`;
+  const src = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik`;
 
   return (
     <div>
@@ -57,7 +53,7 @@ export function MapConsent({
           </div>
         )}
       </div>
-      {!exact && <p className="mt-3 text-xs text-stone-warm">{t.detail.mapApprox}</p>}
+      <p className="mt-3 text-xs text-stone-warm">{t.detail.mapApprox}</p>
     </div>
   );
 }

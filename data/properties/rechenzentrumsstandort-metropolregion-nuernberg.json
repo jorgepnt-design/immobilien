@@ -14,20 +14,16 @@
     "mapCenter": {
       "lat": 49.45,
       "lng": 11.08,
-      "zoom": 9
+      "zoom": 8
     },
     "description": [
-      "Der Standort liegt in der Metropolregion Nürnberg, rund 30 km von Nürnberg und rund 85 km von Würzburg entfernt. Die genaue Lage wird nach Unterzeichnung einer Vertraulichkeitsvereinbarung offengelegt.",
+      "Der Standort liegt in der Metropolregion Nürnberg, rund 30 km von Nürnberg entfernt. Die genaue Lage wird nach Unterzeichnung einer Vertraulichkeitsvereinbarung offengelegt.",
       "Eine Beschreibung der Mikrolage ist in der vorliegenden Projektübersicht nicht enthalten."
     ],
     "connections": [
       {
         "label": "Nürnberg",
         "value": "ca. 30 km"
-      },
-      {
-        "label": "Würzburg",
-        "value": "ca. 85 km"
       }
     ]
   },
@@ -42,12 +38,13 @@
   "areas": {
     "plot": {
       "value": 5000,
+      "approx": true,
       "note": "Eigentum (Freehold); Zukauf weiterer Flächen optional möglich"
     }
   },
   "units": null,
   "yearBuilt": null,
-  "condition": "Bürogebäude in sehr gutem Zustand; ehemalige Produktionsstätte für elektrische Komponenten",
+  "condition": "Bürogebäude in sehr gutem Zustand; ehemals industriell genutzte Liegenschaft",
   "rental": {
     "status": "nicht-angegeben",
     "text": "Angaben zu Nutzung, Vermietung und Erträgen des Bestandsgebäudes liegen nicht vor."
@@ -55,7 +52,7 @@
   "keyFacts": [
     {
       "label": "Grundstück",
-      "value": "5.000 m², Eigentum (Freehold)",
+      "value": "ca. 5.000 m², Eigentum (Freehold)",
       "evidence": "anbieter"
     },
     {
@@ -71,7 +68,7 @@
     },
     {
       "label": "Bestand",
-      "value": "Bürogebäude an der Vorderseite des Grundstücks, sehr guter Zustand",
+      "value": "Bürogebäude auf dem Grundstück, sehr guter Zustand",
       "evidence": "anbieter"
     },
     {
@@ -106,7 +103,7 @@
     }
   ],
   "description": [
-    "Ein Standort für ein KI- bzw. Edge-Rechenzentrum in der Metropolregion Nürnberg: 5.000 m² Industriegrundstück im Eigentum mit einem Bürogebäude in sehr gutem Zustand. Die Liegenschaft wurde zuvor als Produktionsstätte für elektrische Komponenten genutzt.",
+    "Ein Standort für ein KI- bzw. Edge-Rechenzentrum in der Metropolregion Nürnberg: 5.000 m² Industriegrundstück im Eigentum mit einem Bürogebäude in sehr gutem Zustand. Die Liegenschaft wurde zuvor industriell genutzt.",
     "Die Stromversorgung ist der Kern des Angebots: 5 MVA sollen in rund sechs Monaten zur Verfügung stehen, weitere 10 MVA und mehr gelten als machbar. Zwei Umspannwerke liegen weniger als 50 m vom Grundstück entfernt; Gasanschluss und Glasfaser sind vorhanden.",
     "Die Genehmigung für die Entwicklung ist beantragt und wird nach Angaben des Anbieters in wenigen Wochen erwartet. Ein Masterplan für das Areal liegt vor; die Gemeinde unterstützt das Vorhaben."
   ],
@@ -151,7 +148,7 @@
       },
       {
         "name": "Bürogebäude",
-        "use": "Bestand, Vorderseite des Grundstücks",
+        "use": "Bestand",
         "area": "nicht angegeben"
       }
     ],
@@ -234,7 +231,7 @@
     "Die Anschlussleistung von 5 MVA ist für „in rund sechs Monaten“ angekündigt (Stand Oktober 2026); der Ausbau um 10+ MVA ist als machbar bezeichnet, nicht zugesagt.",
     "Gebäudeflächen, Baujahr und Energiekennwerte des Bürogebäudes sowie Angaben zu Altlasten aus der früheren Produktion fehlen.",
     "Grundlage ist eine zweiseitige Projektübersicht; Details stehen im virtuellen Datenraum.",
-    "Das Foto des Bürogebäudes aus der Projektübersicht zeigt Firmenschilder und wird deshalb nicht veröffentlicht; Bildmaterial auf Anfrage."
+    "Bildmaterial wird zum Schutz der Objektidentität nicht veröffentlicht; Sie erhalten es mit dem vollständigen Exposé."
   ],
   "images": [],
   "exposeDownload": null,

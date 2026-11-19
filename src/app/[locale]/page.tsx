@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, FileSearch, Handshake, ShieldCheck } from "lucide-react";
@@ -11,8 +10,6 @@ import { HeroSearch } from "@/components/hero-search";
 import { PropertyCard } from "@/components/property-card";
 import { Reveal } from "@/components/reveal";
 import { EmptyPortfolio } from "@/components/empty-state";
-
-const HERO_IMAGE = "/images/hero.jpg";
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
@@ -45,17 +42,30 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
     <>
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-navy-950 text-ivory">
-        <Image
-          src={HERO_IMAGE}
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="-z-20 object-cover"
-        />
+        {/* Bewusst kein Objektfoto: abstraktes Linienmuster, damit kein Angebot identifizierbar wird */}
+        <svg
+          aria-hidden
+          className="absolute inset-0 -z-20 h-full w-full opacity-40"
+          viewBox="0 0 1600 900"
+          preserveAspectRatio="xMidYMid slice"
+        >
+          {Array.from({ length: 22 }, (_, i) => (
+            <ellipse
+              key={i}
+              cx={1150 + i * 6}
+              cy={380 - i * 4}
+              rx={60 + i * 62}
+              ry={36 + i * 40}
+              fill="none"
+              stroke="#c6a567"
+              strokeWidth="0.8"
+              transform={`rotate(${-14 + i * 0.8} 1150 380)`}
+            />
+          ))}
+        </svg>
         <div
           aria-hidden
-          className="absolute inset-0 -z-10 bg-gradient-to-b from-navy-950/80 via-navy-950/65 to-navy-950/90"
+          className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-950 via-navy-950/70 to-navy-950/20"
         />
         <div className="container-page flex min-h-[38rem] flex-col justify-center pb-36 pt-24 md:min-h-[44rem] md:pt-28">
           <div>

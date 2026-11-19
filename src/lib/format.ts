@@ -47,5 +47,5 @@ export function formatPercent(n: number, locale: Locale): string {
 }
 
 export function locationLine(p: { city: string; district?: string }): string {
-  return p.district ? `${p.city} · ${p.district}` : p.city;
+  return p.district ? `${p.city} – ${p.district}` : p.city;
 }
