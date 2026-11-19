@@ -1,0 +1,228 @@
+{
+  "id": "EI-2026-010",
+  "slug": "gewerbeobjekt-frankfurt-genehmigte-beherbergung",
+  "title": "Gewerbeobjekt mit genehmigter Beherbergung",
+  "subtitle": "14 Einzelzimmer im genehmigten Bestand in Frankfurt am Main",
+  "teaser": "Freistehendes Gewerbegebäude mit genehmigter Zimmerstruktur: 14 Einzelzimmer auf ca. 220 m², Grundstück ca. 630 m².",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-19",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Frankfurt am Main",
+    "district": "Gewerbelage",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 50.11,
+      "lng": 8.68,
+      "zoom": 10
+    },
+    "description": [
+      "Das Objekt liegt im Frankfurter Stadtgebiet in einem gewerblich geprägten Umfeld mit Anbindung an das Autobahn- und Schienennetz der Region. Die genaue Adresse erhalten qualifizierte Interessenten mit dem vollständigen Exposé.",
+      "Eine weitergehende Standortbeschreibung ist in den vorliegenden Unterlagen nicht enthalten."
+    ]
+  },
+  "type": "gewerbe",
+  "investmentType": "bestand",
+  "price": {
+    "amount": 900000,
+    "currency": "EUR",
+    "mode": "festpreis"
+  },
+  "areas": {
+    "plot": {
+      "value": 630,
+      "approx": true
+    },
+    "usable": {
+      "value": 220,
+      "approx": true,
+      "note": "Nutzfläche nach DIN 277"
+    }
+  },
+  "units": {
+    "count": 14,
+    "label": "Einzelzimmer",
+    "note": "genehmigt, je mit Dusche, WC und Waschbecken"
+  },
+  "yearBuilt": "Nachkriegsbau (um 1950)",
+  "condition": "Umgebaut; Wärmeerzeuger von 2016",
+  "rental": {
+    "status": "nicht-angegeben",
+    "text": "Angaben zu laufendem Betrieb, Vermietung und Erträgen liegen nicht vor. Die Zimmerstruktur ist genehmigt und laut Anbieter sofort nutzbar."
+  },
+  "keyFacts": [
+    {
+      "label": "Nutzfläche",
+      "value": "ca. 220 m² (DIN 277)",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Grundstück",
+      "value": "ca. 630 m²",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Zimmer",
+      "value": "14 Einzelzimmer mit 14 Betten",
+      "evidence": "fakt",
+      "note": "laut genehmigter Bau- und Betriebsbeschreibung"
+    },
+    {
+      "label": "Raumhöhe",
+      "value": "3,85 m",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Baujahr",
+      "value": "Nachkriegsbau (um 1950)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Wärmeerzeuger",
+      "value": "2016",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Stellplätze",
+      "value": "6 vorhanden, 4 erforderlich",
+      "evidence": "fakt",
+      "note": "Stellplatznachweis erbracht"
+    },
+    {
+      "label": "Energie",
+      "value": "Effizienzklasse B, 68,0 kWh/(m²·a)",
+      "evidence": "fakt",
+      "note": "Energiebedarfsausweis"
+    },
+    {
+      "label": "Preis je m² Nutzfläche",
+      "value": "rund 4.090 €/m²",
+      "evidence": "berechnet",
+      "note": "900.000 € ÷ ca. 220 m²"
+    }
+  ],
+  "description": [
+    "Ein freistehendes, eingeschossiges Gewerbegebäude mit Anbau, allein auf einem rund 630 m² großen Grundstück. Der eigentliche Wert liegt in der Genehmigung: Aus Lager- und Werkstattflächen wurde eine Zimmerstruktur mit vierzehn Einzelzimmern, jedes mit eigener, raumhoch gefliester Dusche, WC und Handwaschbecken.",
+    "Möglich wurde das durch die lichte Raumhöhe von 3,85 Metern, die die Anforderungen an Aufenthaltsräume erfüllt. Die Zimmer liegen beidseitig eines Mittelflurs; ergänzt werden sie durch ein Büro für Reservierung und Verwaltung, einen Abstellraum und zwei separate WC.",
+    "Die Trennwände wurden in Trockenbauweise errichtet – statische Eingriffe waren nicht erforderlich, und der Zuschnitt lässt sich ebenso wieder verändern."
+  ],
+  "highlights": [
+    "Genehmigte Zimmerstruktur im Bestand, laut Anbieter sofort nutzbar",
+    "14 Einzelzimmer, jeweils mit eigener Dusche und WC",
+    "Keine statischen Eingriffe für die Umnutzung nötig",
+    "Stellplatzüberhang: 6 vorhanden bei 4 erforderlichen",
+    "Energieeffizienzklasse B",
+    "Grundstücksreserve gegenüber der heutigen Bebauung"
+  ],
+  "potential": [
+    {
+      "title": "Grundstücksreserve",
+      "text": "Bei GRZ 0,7 ergibt sich rechnerisch eine zulässige Grundfläche von rund 440 m²; das heutige Gebäude nimmt mit rund 255 m² nur einen Teil davon ein.",
+      "evidence": "berechnet"
+    },
+    {
+      "title": "Veränderbarer Zuschnitt",
+      "text": "Die Zimmeraufteilung in Trockenbauweise lässt sich anpassen. Für eine abweichende Betriebsform ist zu prüfen, ob eine ergänzende Nutzungsänderung erforderlich wird.",
+      "evidence": "potenzial"
+    }
+  ],
+  "areaTable": {
+    "title": "Flächen",
+    "rows": [
+      {
+        "name": "Nutzfläche",
+        "use": "14 Zimmer, Büro, Flur, Nebenräume",
+        "area": "ca. 220 m²"
+      },
+      {
+        "name": "Bebaute Grundfläche",
+        "use": "Bestand",
+        "area": "rund 255 m²"
+      },
+      {
+        "name": "Grundstück",
+        "use": "zzgl. kleiner Straßenfläche",
+        "area": "ca. 630 m²"
+      }
+    ],
+    "note": "Einzelflächen der Räume sind dem Grundriss zu entnehmen."
+  },
+  "planning": [
+    {
+      "label": "Baugenehmigung",
+      "value": "Nutzungsänderung von Werkstätte und Lager zu einer Anlage zur Unterbringung von Personen erteilt",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Betriebsform laut Genehmigung",
+      "value": "Beherbergungsbetrieb mit 14 Einzelzimmern",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Einstufung",
+      "value": "Gebäudeklasse 2, reines Gewerbegebäude",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Maß der Nutzung",
+      "value": "GRZ 0,7 · GFZ 3,0 (gewerblich geprägtes Baugebiet)",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Rettungswege / Barrierefreiheit",
+      "value": "nachgewiesen / barrierefrei ausgeführt",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Grundbuch",
+      "value": "Leitungsrecht zugunsten eines Nachbargrundstücks eingetragen",
+      "evidence": "fakt"
+    }
+  ],
+  "energy": [
+    {
+      "label": "Energieausweis",
+      "value": "Bedarfsausweis, Effizienzklasse B",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Energiebedarf",
+      "value": "68,0 kWh/(m²·a)",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Gültigkeit",
+      "value": "Ausweis ist abgelaufen bzw. läuft ab und ist neu auszustellen",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Wärmeerzeuger",
+      "value": "Baujahr 2016",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Angaben zu laufendem Betrieb, Belegung und Erträgen liegen nicht vor; eine Rendite wird nicht ausgewiesen.",
+    "Der Energieausweis ist vor der weiteren Vermarktung neu auszustellen.",
+    "Für eine von der Genehmigung abweichende Betriebsform kann eine ergänzende Nutzungsänderung nötig werden."
+  ],
+  "images": [
+    {
+      "src": "/images/objekte/010/01.jpg",
+      "width": 1800,
+      "height": 1413,
+      "alt": "Längsfassade mit erneuerten Fenstern",
+      "kind": "foto"
+    },
+    {
+      "src": "/images/objekte/010/02.jpg",
+      "width": 1800,
+      "height": 1338,
+      "alt": "Grundriss Erdgeschoss: 14 Einzelzimmer beidseitig des Mittelflurs",
+      "kind": "plan"
+    }
+  ],
+  "exposeDownload": null,
+  "source": "Portfolio-Exposé des Anbieters, 2026"
+}

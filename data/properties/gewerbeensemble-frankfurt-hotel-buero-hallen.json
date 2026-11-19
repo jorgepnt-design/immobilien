@@ -1,0 +1,213 @@
+{
+  "id": "EI-2026-011",
+  "slug": "gewerbeensemble-frankfurt-hotel-buero-hallen",
+  "title": "Gewerbeensemble mit Hotel-/Bürogebäude und Hallen",
+  "subtitle": "Geplante Beherbergung mit 20 Zimmern und Entwicklungsspielraum im Industriegebiet",
+  "teaser": "Mehrgeschossiges Büro-/Hotelgebäude mit ca. 880 m² Nutzfläche und zwei Hallen; Umnutzung zu 20 Gästezimmern dokumentiert.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-19",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Frankfurt am Main",
+    "district": "Gewerbelage",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 50.11,
+      "lng": 8.68,
+      "zoom": 10
+    },
+    "description": [
+      "Das Ensemble liegt im Frankfurter Stadtgebiet in einem als Industriegebiet (GI) festgesetzten, gewerblich geprägten Umfeld mit Anbindung an das Autobahn- und Schienennetz. Die genaue Adresse erhalten qualifizierte Interessenten mit dem vollständigen Exposé.",
+      "Eine weitergehende Standortbeschreibung ist in den vorliegenden Unterlagen nicht enthalten."
+    ]
+  },
+  "type": "gewerbe",
+  "investmentType": "bestand",
+  "price": {
+    "amount": 3600000,
+    "currency": "EUR",
+    "mode": "festpreis"
+  },
+  "areas": {
+    "usable": {
+      "value": 880,
+      "approx": true,
+      "note": "dokumentierte Büro-Nutzfläche im Bestand, ohne Hallen"
+    }
+  },
+  "units": {
+    "count": 20,
+    "label": "Zimmer (geplant)",
+    "note": "10 Einzel- und 10 Doppelzimmer für 30 Gäste; ein Prüfvermerk nennt 18 Zimmer"
+  },
+  "yearBuilt": null,
+  "condition": "Bestand; Baujahr und Zustand nicht angegeben",
+  "rental": {
+    "status": "nicht-angegeben",
+    "text": "Mietverträge, Laufzeiten und Nettomieten sind in den Unterlagen nicht enthalten."
+  },
+  "keyFacts": [
+    {
+      "label": "Büro-Nutzfläche Bestand",
+      "value": "ca. 880 m²",
+      "evidence": "fakt",
+      "note": "vier Geschosse mit je rund 126 m² zuzüglich weiterer Ebenen"
+    },
+    {
+      "label": "Geplante Zimmer",
+      "value": "20 Zimmer für 30 Gäste",
+      "evidence": "fakt",
+      "note": "genehmigungsbezogen dokumentierter Planstand 2018"
+    },
+    {
+      "label": "Hallen",
+      "value": "2 laut Korrespondenz",
+      "evidence": "anbieter",
+      "note": "Flächen und Zustand nicht dokumentiert"
+    },
+    {
+      "label": "Planungsrecht",
+      "value": "Industriegebiet (GI), rechtsverbindlicher Bebauungsplan",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Maß der Nutzung",
+      "value": "GRZ 0,8 · GFZ 2,4 · BMZ 9,0",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Gebäudeklasse",
+      "value": "5",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Stellplätze",
+      "value": "25 rechnerisch im Bestand; 5 für den Hotelbetrieb erforderlich",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Grundstücksgröße",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Preis je m² Büro-Nutzfläche",
+      "value": "rund 4.090 €/m²",
+      "evidence": "berechnet",
+      "note": "3.600.000 € ÷ ca. 880 m²; Hallen und Grundstück nicht berücksichtigt"
+    }
+  ],
+  "description": [
+    "Im Mittelpunkt steht ein mehrgeschossiges Büro- und Hotelgebäude, für das eine Nutzungsänderung zum Beherbergungsbetrieb geplant und genehmigungsbezogen dokumentiert ist: zwanzig Zimmer für dreißig Gäste, zehn Einzel- und zehn Doppelzimmer. Die Planblätter sind als Bestandteil eines Bescheides gestempelt.",
+    "Die dokumentierte Büro-Nutzfläche im Bestand beträgt rund 880 m². Jedes Gästezimmer erhält Dusche, WC und Handwaschbecken; im Kellergeschoss sind Frühstücks- und Aufenthaltsräume vorgesehen, im obersten Geschoss Abstellräume und ein Verwaltungsbüro. In den Grundrissen ist ein Aufzug eingezeichnet; Barrierefreiheit ist laut Baubeschreibung nicht gegeben.",
+    "Zum Angebot gehören laut jüngster Korrespondenz zwei Hallen. Die Genehmigungsunterlagen konzentrieren sich auf das Hauptgebäude; belastbare Angaben zu den Hallen sind vor einem Erwerb zu erheben."
+  ],
+  "highlights": [
+    "Genehmigungsbezogen dokumentierte Umnutzung zu 20 Gästezimmern",
+    "Ca. 880 m² Büro-Nutzfläche im Hauptgebäude",
+    "Zwei Hallen als eigenständig vermarktbare Flächen",
+    "Industriegebiet mit hoher zulässiger Dichte (GRZ 0,8 · GFZ 2,4 · BMZ 9,0)",
+    "Stellplatznachweis ohne Mehrbedarf"
+  ],
+  "potential": [
+    {
+      "title": "Beherbergungsbetrieb mit 20 Zimmern",
+      "text": "Regelzimmer mit rund 13 bis 26 m², jeweils mit eigenem Bad; Rezeption, Frühstücks- und Aufenthaltsräume sind eingeplant.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Neubauszenario",
+      "text": "In der Korrespondenz wird ein Abriss des Bestands und der Neubau mehrerer Hotelgebäude mit bis zu sieben Geschossen und etwa 180 bis 200 Zimmern genannt. Eine Machbarkeitsstudie, Bauvoranfrage oder Genehmigung liegt nicht vor.",
+      "evidence": "annahme"
+    },
+    {
+      "title": "Bauliche Dichte",
+      "text": "Der Bebauungsplan lässt eine deutlich höhere bauliche Dichte zu als der heutige Bestand.",
+      "evidence": "fakt"
+    }
+  ],
+  "areaTable": {
+    "title": "Flächen",
+    "rows": [
+      {
+        "name": "Büro-/Hotelgebäude",
+        "use": "Büro-Nutzfläche Bestand",
+        "area": "ca. 880 m²"
+      },
+      {
+        "name": "Regelgeschoss",
+        "use": "vier annähernd gleich große Geschosse",
+        "area": "je rund 126 m²"
+      },
+      {
+        "name": "Hallen",
+        "use": "zwei laut Korrespondenz",
+        "area": "nicht angegeben"
+      },
+      {
+        "name": "Grundstück",
+        "use": "",
+        "area": "nicht angegeben"
+      }
+    ],
+    "note": "Hallenflächen, lichte Höhen, Torabmessungen und die Grundstücksgröße sind in den Unterlagen nicht enthalten."
+  },
+  "planning": [
+    {
+      "label": "Baugebiet",
+      "value": "Industriegebiet (GI), rechtsverbindlicher Bebauungsplan",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Maß der Nutzung",
+      "value": "GRZ 0,8 · GFZ 2,4 · BMZ 9,0",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Nutzungsänderung",
+      "value": "Beherbergungsbetrieb mit 20 Zimmern – Planblätter als Bestandteil eines Bescheides gestempelt, Planstand 2018",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Rettungswege",
+      "value": "erster über das Treppenhaus, zweiter über Fenster zur Straßenseite",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Barrierefreiheit",
+      "value": "laut Baubeschreibung nicht gegeben",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Neubauszenario",
+      "value": "keine Machbarkeitsstudie, Bauvoranfrage oder Genehmigung",
+      "evidence": "annahme"
+    }
+  ],
+  "energy": [
+    {
+      "label": "Energieausweis",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Zimmerzahl: 20 laut Baubeschreibung, 18 laut Prüfvermerk – Klärung erforderlich.",
+    "Anzahl, Flächen und Zustand der Hallen sind nicht dokumentiert.",
+    "Grundstücksgröße, Mietverträge, Energieausweis sowie Grundbuch-, Baulasten- und Altlastenstand fehlen.",
+    "Erträge sind nicht angegeben; eine Rendite wird nicht ausgewiesen.",
+    "Fotos des Objekts sind im Exposé nicht enthalten; gezeigt wird ein Grundriss."
+  ],
+  "images": [
+    {
+      "src": "/images/objekte/011/01.jpg",
+      "width": 1460,
+      "height": 1140,
+      "alt": "Grundriss eines Gästezimmergeschosses, Planstand 2018",
+      "kind": "plan"
+    }
+  ],
+  "exposeDownload": null,
+  "source": "Portfolio-Exposé des Anbieters, 2026"
+}
