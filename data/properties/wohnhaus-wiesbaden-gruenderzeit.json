@@ -157,14 +157,14 @@
     "Keine Preisindikation im Exposé – Kaufpreis auf Anfrage.",
     "Mehrere Angaben lagen in unterschiedlichen Fassungen vor und sind als vorläufig eingeordnet (u. a. das genaue Baujahr).",
     "Wohn- und Nutzflächenberechnung, Nachweis der Grundstücksgröße und Energieausweis stehen noch aus.",
-    "Gezeigt wird ein Ausschnitt der Dachterrasse; weitere Fotos und die Bestandspläne erhalten Sie mit dem vollständigen Exposé."
+    "Das Exposé enthält nur diese eine Aufnahme; Außenansichten und Bestandspläne erhalten Sie mit dem vollständigen Exposé."
   ],
   "images": [
     {
-      "src": "/images/objekte/003/01.jpg",
+      "src": "/images/objekte/003/11.jpg",
       "width": 1206,
-      "height": 791,
-      "alt": "Dachterrasse des Hauses",
+      "height": 1581,
+      "alt": "Blick von der Dachterrasse über die Dächer der Stadt",
       "kind": "foto"
     }
   ],
