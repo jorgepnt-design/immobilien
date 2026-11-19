@@ -19,7 +19,7 @@ export function StatusBadge({ status }: { status: Status }) {
   const { t } = useI18n();
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[0.68rem] font-semibold tracking-[0.12em] uppercase backdrop-blur ${STATUS_STYLE[status]}`}
+      className={`inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-[0.68rem] font-semibold tracking-[0.12em] uppercase backdrop-blur ${STATUS_STYLE[status]}`}
     >
       <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-current" />
       {t.status[status]}
@@ -30,7 +30,7 @@ export function StatusBadge({ status }: { status: Status }) {
 /** Dezentes Linienmuster für Objekte ohne Bildmaterial – kein Objektfoto. */
 export function ImagePlaceholder({ label }: { label: string }) {
   return (
-    <div className="absolute inset-0 grid place-items-center overflow-hidden bg-gradient-to-br from-sky via-lilac to-rose">
+    <div className="absolute inset-0 grid place-items-center overflow-hidden bg-sky">
       <svg aria-hidden className="absolute inset-0 h-full w-full opacity-90" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
         {Array.from({ length: 14 }, (_, i) => (
           <ellipse
@@ -46,7 +46,7 @@ export function ImagePlaceholder({ label }: { label: string }) {
           />
         ))}
       </svg>
-      <span className="relative rounded-full border border-white bg-white/75 px-4 py-1.5 text-[0.68rem] font-semibold tracking-[0.14em] uppercase text-navy-800">
+      <span className="relative rounded-md border border-white bg-white/80 px-4 py-1.5 text-[0.68rem] font-semibold tracking-[0.14em] uppercase text-navy-800">
         {label}
       </span>
     </div>

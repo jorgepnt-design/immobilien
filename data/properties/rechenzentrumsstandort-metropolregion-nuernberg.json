@@ -231,9 +231,17 @@
     "Die Anschlussleistung von 5 MVA ist für „in rund sechs Monaten“ angekündigt (Stand Oktober 2026); der Ausbau um 10+ MVA ist als machbar bezeichnet, nicht zugesagt.",
     "Gebäudeflächen, Baujahr und Energiekennwerte des Bürogebäudes sowie Angaben zu Altlasten aus der früheren Produktion fehlen.",
     "Grundlage ist eine zweiseitige Projektübersicht; Details stehen im virtuellen Datenraum.",
-    "Bildmaterial wird zum Schutz der Objektidentität nicht veröffentlicht; Sie erhalten es mit dem vollständigen Exposé."
+    "Auf dem Foto des Bürogebäudes sind die Firmenschilder unkenntlich gemacht."
   ],
-  "images": [],
+  "images": [
+    {
+      "src": "/images/objekte/007/01.jpg",
+      "width": 815,
+      "height": 469,
+      "alt": "Bürogebäude auf dem Grundstück (Firmenschilder unkenntlich gemacht)",
+      "kind": "foto"
+    }
+  ],
   "exposeDownload": null,
   "source": "Projektübersicht des Anbieters, Stand Oktober 2026"
 }

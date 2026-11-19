@@ -45,7 +45,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         {/* Bewusst kein Objektfoto: abstraktes Linienmuster, damit kein Angebot identifizierbar wird */}
         <svg
           aria-hidden
-          className="absolute inset-0 -z-20 h-full w-full opacity-90"
+          className="absolute inset-0 -z-20 h-full w-full opacity-45"
           viewBox="0 0 1600 900"
           preserveAspectRatio="xMidYMid slice"
         >
@@ -176,7 +176,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
 
       {/* Kontakt-CTA */}
       <section className="container-page pt-20 md:pt-28">
-        <Reveal className="card flex flex-col items-start justify-between gap-8 bg-vanilla/50 p-8 md:flex-row md:items-center md:p-14">
+        <Reveal className="card flex flex-col items-start justify-between gap-8 p-8 md:flex-row md:items-center md:p-14">
           <div className="max-w-2xl">
             <h2 className="heading-display text-3xl text-navy-900 md:text-4xl">{t.home.ctaTitle}</h2>
             <p className="mt-3 text-base leading-relaxed text-stone-warm">{t.home.ctaText}</p>
