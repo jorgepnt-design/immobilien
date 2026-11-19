@@ -67,13 +67,11 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           aria-hidden
           className="absolute inset-0 -z-10 hero-glow"
         />
-        <div className="container-page flex min-h-[38rem] flex-col justify-center pb-36 pt-24 md:min-h-[44rem] md:pt-28">
+        <div className="container-page flex min-h-[30rem] flex-col justify-center pb-36 pt-20 md:min-h-[34rem] md:pt-24">
           <div>
             <p className="eyebrow">{t.hero.eyebrow}</p>
-            <h1 className="heading-display mt-6 max-w-5xl text-[6.3vw] sm:text-5xl lg:text-[4.1rem]">
-              {t.hero.headline1}
-            </h1>
-            <p className="mt-7 max-w-2xl text-base leading-relaxed text-ink/75 md:text-lg">{t.hero.sub}</p>
+            <h1 className="sr-only">{t.overview.title}</h1>
+            <p className="heading-display mt-5 max-w-3xl text-2xl leading-snug text-navy-900 md:text-[2rem]">{t.hero.sub}</p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link href="#angebot" className="btn btn-gold">
                 {t.hero.cta1}
