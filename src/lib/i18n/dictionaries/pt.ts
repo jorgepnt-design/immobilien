@@ -23,7 +23,6 @@ const pt: Dictionary = {
   },
   hero: {
     eyebrow: "Oportunidades de investimento selecionadas",
-    headline1: "IMÓVEIS EXCLUSIVOS.",
     sub: "Imóveis residenciais, comerciais e de desenvolvimento selecionados para investidores exigentes e promotores imobiliários.",
     cta1: "Descobrir imóveis",
     cta2: "Todas as oportunidades de investimento",

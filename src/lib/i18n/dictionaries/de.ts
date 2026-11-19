@@ -21,7 +21,6 @@ const de = {
   },
   hero: {
     eyebrow: "Ausgewählte Investmentmöglichkeiten",
-    headline1: "EXKLUSIVE IMMOBILIEN.",
     sub: "Ausgewählte Wohn-, Gewerbe- und Entwicklungsimmobilien für anspruchsvolle Investoren und Projektentwickler.",
     cta1: "Immobilien entdecken",
     cta2: "Alle Investmentmöglichkeiten",

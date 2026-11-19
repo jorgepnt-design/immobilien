@@ -23,7 +23,6 @@ const en: Dictionary = {
   },
   hero: {
     eyebrow: "Selected investment opportunities",
-    headline1: "EXCLUSIVE PROPERTIES.",
     sub: "Selected residential, commercial and development properties for discerning investors and project developers.",
     cta1: "Discover properties",
     cta2: "All investment opportunities",
