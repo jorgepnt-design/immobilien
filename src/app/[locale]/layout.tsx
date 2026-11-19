@@ -32,13 +32,13 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
   const t = getDictionary(locale);
   return {
     metadataBase: new URL(site.url),
-    title: { default: `${site.name} – ${site.tagline}`, template: `%s | ${site.name}` },
+    title: { default: site.name, template: `%s | ${site.name}` },
     description: t.hero.sub,
     openGraph: {
       type: "website",
       siteName: site.name,
       locale,
-      title: `${site.name} – ${site.tagline}`,
+      title: site.name,
       description: t.hero.sub,
     },
   };

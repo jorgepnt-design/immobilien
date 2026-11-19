@@ -72,7 +72,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             <p className="eyebrow">{t.hero.eyebrow}</p>
             <h1 className="heading-display mt-6 max-w-5xl text-[6.3vw] sm:text-5xl lg:text-[4.1rem]">
               {t.hero.headline1}
-              <span className="block text-champagne-dark">{t.hero.headline2}</span>
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-relaxed text-ink/75 md:text-lg">{t.hero.sub}</p>
             <div className="mt-10 flex flex-wrap gap-4">

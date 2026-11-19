@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ShieldCheck } from "lucide-react";
-import { isLocale, site } from "@/config/site";
+import { isLocale } from "@/config/site";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { PageHeader } from "@/components/page-header";
 import { CommissionNotice } from "@/components/commission-notice";
@@ -22,7 +22,7 @@ export default async function ContactPage({ params }: PageProps<"/[locale]/konta
 
   return (
     <>
-      <PageHeader eyebrow={site.tagline} title={t.contact.title} intro={t.contact.intro} />
+      <PageHeader title={t.contact.title} intro={t.contact.intro} />
       <div className="container-page grid gap-10 py-12 md:py-16 lg:grid-cols-[1fr_1.5fr] lg:items-start">
         <div>
           <section className="card p-6 md:p-8">

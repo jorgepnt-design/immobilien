@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale, site } from "@/config/site";
+import { isLocale } from "@/config/site";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { getAllSummaries } from "@/lib/properties";
 import { PageHeader } from "@/components/page-header";
@@ -19,7 +19,7 @@ export default async function Page({ params }: PageProps<"/[locale]/vergleich">)
   const t = getDictionary(locale);
   return (
     <>
-      <PageHeader eyebrow={site.tagline} title={t.compare.title} intro={t.compare.intro} />
+      <PageHeader title={t.compare.title} intro={t.compare.intro} />
       <div className="container-page py-12 md:py-16">
         <CompareView items={getAllSummaries()} />
       </div>
