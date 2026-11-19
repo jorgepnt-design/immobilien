@@ -9,6 +9,7 @@ import { formatArea, formatCurrency, formatPercent, formatPrice, locationLine } 
 import { countryName } from "@/lib/countries";
 import type { Evidence, Fact, Property } from "@/lib/types";
 import { Gallery, PlanGrid } from "@/components/gallery";
+import { CommissionNotice } from "@/components/commission-notice";
 import { ContactDetails } from "@/components/contact";
 import { ExposeRequest } from "@/components/expose-request";
 import { ListTextButton } from "@/components/list-buttons";
@@ -438,6 +439,8 @@ export default async function PropertyPage({ params }: PageProps<"/[locale]/immo
               </p>
               <p className="mt-3 text-xs leading-relaxed text-stone-warm">{t.detail.disclaimer}</p>
             </Section>
+
+            <CommissionNotice />
 
             {/* L. Stufe 2: vollständiges Exposé nur auf qualifizierte Anfrage */}
             <section id="anfrage" aria-labelledby="anfrage-titel" className="card scroll-mt-28 p-6 md:p-10">

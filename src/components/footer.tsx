@@ -16,6 +16,7 @@ export function Footer({ locale }: { locale: Locale }) {
   const legal = [
     { path: "/impressum", label: t.footer.imprint },
     { path: "/datenschutz", label: t.footer.privacy },
+    { path: "/impressum#provisionshinweis", label: "Provisionshinweis" },
   ];
   const linkClass = "text-sm text-ivory/70 transition-colors hover:text-champagne";
 

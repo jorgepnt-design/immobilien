@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { contact, isLocale, site } from "@/config/site";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { PageHeader } from "@/components/page-header";
+import { COMMISSION_TEXT, COMMISSION_TITLE } from "@/components/commission-notice";
 
 export const metadata: Metadata = { title: "Impressum", robots: { index: false } };
 
@@ -51,6 +52,15 @@ export default async function ImprintPage({ params }: PageProps<"/[locale]/impre
         <section>
           <h2 className={h2}>Steuernummer</h2>
           <p className={text}>{contact.taxNumber}</p>
+        </section>
+
+        <section id="provisionshinweis">
+          <h2 className={h2}>{COMMISSION_TITLE}</h2>
+          {COMMISSION_TEXT.map((p) => (
+            <p key={p} className={text}>
+              {p}
+            </p>
+          ))}
         </section>
 
         <section>
