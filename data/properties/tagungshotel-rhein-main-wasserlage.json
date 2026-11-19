@@ -1,0 +1,202 @@
+{
+  "id": "EI-2026-013",
+  "slug": "tagungshotel-rhein-main-wasserlage",
+  "title": "Tagungshotel in Wasserlage",
+  "subtitle": "Laufender Hotelbetrieb mit rund 135 Zimmern direkt am Wasser",
+  "teaser": "Etabliertes Tagungshotel mit rund 135 Zimmern und ca. 7.400 m² Brutto-Grundfläche, Übernahme im laufenden Betrieb möglich.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-19",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Rhein-Main-Gebiet",
+    "district": "Lage am Wasser",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 50.05,
+      "lng": 8.6,
+      "zoom": 8
+    },
+    "description": [
+      "Das Hotel liegt im Rhein-Main-Gebiet in ruhiger Lage unmittelbar am Wasser – eine seltene Verbindung aus Aufenthaltsqualität und urbaner Anbindung. Ein Ortszentrum mit Fußgängerzone ist in rund zehn Gehminuten erreichbar.",
+      "Die genaue Adresse erhalten qualifizierte Interessenten mit dem vollständigen Exposé."
+    ]
+  },
+  "type": "hotel",
+  "investmentType": "bestand",
+  "price": {
+    "amount": 13000000,
+    "currency": "EUR",
+    "mode": "festpreis"
+  },
+  "areas": {
+    "usable": {
+      "value": 4200,
+      "approx": true,
+      "note": "Nutzungsfläche nach DIN 277; Brutto-Grundfläche ca. 7.400 m²"
+    },
+    "gfa": {
+      "value": 7400,
+      "approx": true
+    }
+  },
+  "units": {
+    "count": 135,
+    "label": "Hotelzimmer (ca.)"
+  },
+  "yearBuilt": "um 1900, Teilrenovierung Ende der 1990er-Jahre",
+  "condition": "Fortlaufend instandgehalten; in Betrieb",
+  "rental": {
+    "status": "betrieb",
+    "text": "Laufender Hotelbetrieb, derzeit vor allem Frühstücksgäste sowie Projekt- und Arbeitergruppen; der volle Restaurantbetrieb ruht. Umsatz- und Ertragszahlen sind nicht angegeben."
+  },
+  "keyFacts": [
+    {
+      "label": "Hotelzimmer",
+      "value": "rund 135",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Brutto-Grundfläche",
+      "value": "ca. 7.400 m²",
+      "evidence": "fakt",
+      "note": "Flächenaufstellung nach DIN 277"
+    },
+    {
+      "label": "Netto-Grundfläche",
+      "value": "ca. 5.650 m²",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Nutzungsfläche",
+      "value": "ca. 4.200 m²",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Veranstaltungsräume",
+      "value": "4 (rund 40, 20 und zweimal 10 Plätze)",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Baujahr",
+      "value": "um 1900, Teilrenovierung Ende der 1990er-Jahre",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Betrieb",
+      "value": "laufend",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Grundstück",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Preis je Zimmer",
+      "value": "rund 96.000 €",
+      "evidence": "berechnet",
+      "note": "13.000.000 € ÷ ca. 135 Zimmer"
+    },
+    {
+      "label": "Preis je m² Brutto-Grundfläche",
+      "value": "rund 1.760 €/m²",
+      "evidence": "berechnet",
+      "note": "13.000.000 € ÷ ca. 7.400 m²"
+    }
+  ],
+  "description": [
+    "Ein etabliertes Tagungshotel in direkter Wasserlage – eine seltene Konstellation aus ruhiger Adresse, Aufenthaltsqualität und urbaner Anbindung. Das Gebäude wurde um 1900 errichtet, Ende der 1990er-Jahre in Teilen renoviert und seither fortlaufend instandgehalten.",
+    "Mit rund 7.400 m² Brutto-Grundfläche und rund 135 Hotelzimmern ist es ein flächenstarkes Objekt. Der Tagungsbereich umfasst vier Veranstaltungsräume; im Erdgeschoss liegt der Frühstücks- und Restaurantbereich, im Untergeschoss befinden sich ehemalige Gastronomieflächen sowie Lager-, Kühl- und Technikräume.",
+    "Der Betrieb konzentriert sich derzeit auf Frühstücksgäste sowie Projekt- und Arbeitergruppen. Das Objekt kann im laufenden Betrieb übernommen werden – ein Vorteil gegenüber einer Wiederinbetriebnahme aus dem Leerstand."
+  ],
+  "highlights": [
+    "Rund 135 Hotelzimmer im laufenden Betrieb",
+    "Direkte Wasserlage in ruhiger, urban angebundener Umgebung",
+    "Ca. 7.400 m² Brutto-Grundfläche, nach DIN 277 aufgeschlüsselt",
+    "Vier Veranstaltungsräume, Frühstücks- und Restaurantbereich",
+    "Aktuelles Brandschutzkonzept und flächendeckende Brandmeldeanlage",
+    "Erweiterungs- und Refurbishment-Potenzial"
+  ],
+  "potential": [
+    {
+      "title": "Zimmererweiterung",
+      "text": "Durch Umgestaltung von Stellplätzen und ehemaligen Gastronomieflächen im Untergeschoss lassen sich zusätzliche Zimmer schaffen. Eine Baugenehmigung hierfür ist noch nicht beantragt.",
+      "evidence": "annahme"
+    },
+    {
+      "title": "Neupositionierung",
+      "text": "Ein umfassendes Renovierungskonzept eröffnet Möglichkeiten, etwa als Boutique-Hotel am Wasser, Long-Stay-Boardinghaus oder modernisiertes Business- und Tagungshotel.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Reaktivierung der Gastronomie",
+      "text": "Der volle Restaurantbetrieb ruht derzeit und kann wieder aufgenommen werden.",
+      "evidence": "potenzial"
+    }
+  ],
+  "areaTable": {
+    "title": "Flächen nach DIN 277",
+    "rows": [
+      {
+        "name": "Brutto-Grundfläche",
+        "use": "",
+        "area": "ca. 7.400 m²"
+      },
+      {
+        "name": "Netto-Grundfläche",
+        "use": "",
+        "area": "ca. 5.650 m²"
+      },
+      {
+        "name": "Nutzungsfläche",
+        "use": "",
+        "area": "ca. 4.200 m²"
+      },
+      {
+        "name": "Verkehrsfläche",
+        "use": "",
+        "area": "ca. 1.330 m²"
+      },
+      {
+        "name": "Technikfläche",
+        "use": "",
+        "area": "ca. 100 m²"
+      }
+    ],
+    "note": "Gerundete Werte; die genaue Flächenaufstellung erhalten Sie mit dem vollständigen Exposé."
+  },
+  "planning": [
+    {
+      "label": "Brandschutz",
+      "value": "Aktuelles Brandschutzkonzept liegt vor; Brandmeldeanlage, selbstschließende Zimmertüren, Außen-Fluchttreppen, Steigleitungen und Wandhydranten",
+      "evidence": "fakt"
+    },
+    {
+      "label": "Zimmererweiterung",
+      "value": "Baugenehmigung noch nicht beantragt",
+      "evidence": "annahme"
+    },
+    {
+      "label": "Versicherung",
+      "value": "Feuer, Leitungswasser, Sturm/Hagel und Terrorismus",
+      "evidence": "fakt"
+    }
+  ],
+  "energy": [
+    {
+      "label": "Energieausweis",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Umsatz-, Belegungs- und Ertragszahlen des Hotelbetriebs sind nicht angegeben; eine Rendite wird nicht ausgewiesen.",
+    "Grundstücksgröße und Energieausweis fehlen in den Unterlagen.",
+    "Für die Zimmererweiterung im Untergeschoss liegt keine Genehmigung vor.",
+    "Im Exposé ist kein Bildmaterial zu diesem Objekt enthalten."
+  ],
+  "images": [],
+  "exposeDownload": null,
+  "source": "Portfolio-Exposé des Anbieters, 2026"
+}

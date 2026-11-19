@@ -1,0 +1,183 @@
+{
+  "id": "EI-2026-012",
+  "slug": "hotel-seminarimmobilie-rhein-main-flughafennaehe",
+  "title": "Hotel- und Seminarimmobilie in Flughafennähe",
+  "subtitle": "Leerstehendes Business- und Seminarhotel mit rund 80 Zimmern",
+  "teaser": "Leerstehende Hotelimmobilie mit rund 80 Zimmern, Tagungsräumen und Gastronomie im Einzugsbereich des Flughafens Frankfurt.",
+  "status": "verfuegbar",
+  "listedAt": "2026-11-19",
+  "location": {
+    "country": "DE",
+    "region": "Hessen",
+    "city": "Rhein-Main-Gebiet",
+    "district": "Flughafennähe",
+    "addressPublic": false,
+    "mapCenter": {
+      "lat": 50.05,
+      "lng": 8.6,
+      "zoom": 8
+    },
+    "description": [
+      "Die Liegenschaft befindet sich im südlichen Rhein-Main-Gebiet in einem gewerblich geprägten Umfeld. Der Standort profitiert von der Nähe zum Flughafen Frankfurt, zur Frankfurter Innenstadt, zur Messe und zu den zentralen Verkehrsachsen der Region.",
+      "Daraus ergeben sich mehrere Nachfragequellen: Geschäftsreisende, flughafenbezogene Übernachtungen, Seminar- und Projektgeschäft regionaler Unternehmen sowie Long-Stay-Bedarf. Die genaue Adresse erhalten qualifizierte Interessenten mit dem vollständigen Exposé."
+    ],
+    "connections": [
+      {
+        "label": "Flughafen Frankfurt",
+        "value": "wenige Kilometer"
+      },
+      {
+        "label": "Autobahnen",
+        "value": "kurz angebunden"
+      }
+    ]
+  },
+  "type": "hotel",
+  "investmentType": "sanierung",
+  "price": {
+    "amount": 13000000,
+    "currency": "EUR",
+    "mode": "festpreis"
+  },
+  "areas": {},
+  "units": {
+    "count": 80,
+    "label": "Zimmer (ca.)",
+    "note": "klimatisiert, teilweise mit Kitchenette; Zahl aus früheren Betreiberangaben"
+  },
+  "yearBuilt": null,
+  "condition": "Leerstehend; Baujahr, Modernisierungen und Zustand nicht belegt",
+  "rental": {
+    "status": "leerstand",
+    "text": "Die Liegenschaft steht leer; es bestehen kein Betrieb und keine laufenden Erträge."
+  },
+  "keyFacts": [
+    {
+      "label": "Zimmer",
+      "value": "rund 80, klimatisiert, teilweise mit Kitchenette",
+      "evidence": "anbieter",
+      "note": "aus früheren Betreiberangaben"
+    },
+    {
+      "label": "Veranstaltungsräume",
+      "value": "8 bis 10",
+      "evidence": "anbieter",
+      "note": "aus früheren Betreiberangaben"
+    },
+    {
+      "label": "Frühere Kategorie",
+      "value": "3 Sterne",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Gastronomie",
+      "value": "Restaurant, Bar/Lounge, Außenbereich",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Wellness",
+      "value": "Sauna, Ruhebereich, Fitnessraum",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Betriebsstatus",
+      "value": "leerstehend",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Grundstück, Flächen, Baujahr",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    },
+    {
+      "label": "Preis je Zimmer",
+      "value": "rund 163.000 €",
+      "evidence": "berechnet",
+      "note": "13.000.000 € ÷ ca. 80 Zimmer"
+    }
+  ],
+  "description": [
+    "Die leerstehende Liegenschaft eines ehemaligen Business- und Seminarhotels im Einzugsbereich des Flughafens Frankfurt. Das Objekt verbindet eine eingeführte Hoteladresse mit der Nähe zum Flughafen, zur Frankfurter Innenstadt und zu den zentralen Verkehrsachsen des Rhein-Main-Gebiets.",
+    "Die frühere Nutzung umfasste rund 80 klimatisierte Zimmer – teilweise mit Kitchenette –, mehrere Veranstaltungs- und Schulungsräume, gastronomische Flächen sowie einen kleinen Wellness- und Fitnessbereich.",
+    "Der Leerstand eröffnet Gestaltungsraum: Betriebskonzept, Marke, Ausstattung und technische Standards lassen sich vollständig neu ausrichten, und notwendige Modernisierungen können gebündelt umgesetzt werden, ohne Rücksicht auf einen laufenden Betrieb."
+  ],
+  "highlights": [
+    "Rund 80 Zimmer, teilweise mit Kitchenette",
+    "Tagungs- und Schulungsbereich mit 8 bis 10 Räumen",
+    "Restaurant, Bar/Lounge sowie Sauna und Fitness",
+    "Lage im Einzugsbereich des Flughafens Frankfurt",
+    "Leerstand ermöglicht vollständige Neupositionierung",
+    "Mehrere Nutzungsszenarien von Businesshotel bis Serviced Apartments"
+  ],
+  "potential": [
+    {
+      "title": "Business- und Airporthotel",
+      "text": "Reaktivierung mit modernisierter Zimmer- und Gastronomiepositionierung. Zu prüfen: Investitionsbedarf, Betreiber, Marke, Brandschutz.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Seminarhotel oder Unternehmensakademie",
+      "text": "Fokus auf Trainings, Workshops und Projektgruppen bzw. Schulungszentrum mit Unterkunft und Verpflegung.",
+      "evidence": "potenzial"
+    },
+    {
+      "title": "Boardinghouse / Serviced Apartments",
+      "text": "Long-Stay mit Kitchenetten und reduziertem Service. Baurecht, Nutzungsänderung, Stellplätze und Grundrisse sind zu prüfen.",
+      "evidence": "annahme"
+    }
+  ],
+  "areaTable": {
+    "title": "Raumprogramm (historisch dokumentiert)",
+    "rows": [
+      {
+        "name": "Beherbergung",
+        "use": "klimatisierte Zimmer, teilweise Kitchenette",
+        "area": "rund 80 Zimmer"
+      },
+      {
+        "name": "Tagung und Schulung",
+        "use": "Veranstaltungsräume, PC-Schulungsraum",
+        "area": "8 bis 10 Räume"
+      },
+      {
+        "name": "Gastronomie",
+        "use": "Restaurant, Bar/Lounge, Außenbereich",
+        "area": "nicht angegeben"
+      },
+      {
+        "name": "Wellness",
+        "use": "Sauna, Ruhebereich, Fitnessraum",
+        "area": "nicht angegeben"
+      }
+    ],
+    "note": "Grundstücksfläche, Brutto-Grundfläche sowie Nutz- und Mietflächen sind in den Unterlagen nicht belegt."
+  },
+  "planning": [
+    {
+      "label": "Baurecht und Nutzungsänderung",
+      "value": "Für apartmentorientierte Konzepte zu prüfen",
+      "evidence": "annahme"
+    },
+    {
+      "label": "Brandschutzkonzept",
+      "value": "Nicht belegt",
+      "evidence": "anbieter"
+    }
+  ],
+  "energy": [
+    {
+      "label": "Energieausweis",
+      "value": "Nicht angegeben",
+      "evidence": "anbieter"
+    }
+  ],
+  "dataNotes": [
+    "Zimmerzahl und Zahl der Veranstaltungsräume stammen aus früheren Betreiber- und Portalangaben, nicht aus Eigentümerunterlagen.",
+    "Grundstücksfläche, Gebäudeflächen, Baujahr, Modernisierungen, Energieausweis, Brandschutzkonzept und Stellplatzzahl sind nicht belegt.",
+    "Kein laufender Betrieb und keine Erträge; eine Rendite wird nicht ausgewiesen.",
+    "Im Exposé ist kein Bildmaterial zu diesem Objekt enthalten."
+  ],
+  "images": [],
+  "exposeDownload": null,
+  "source": "Portfolio-Exposé des Anbieters, 2026"
+}
