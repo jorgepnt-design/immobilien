@@ -1,35 +1,35 @@
 @import "tailwindcss";
 
 /*
- * Farbschema: hell und einfarbig – Weiß, sehr helle Blaugrau-Töne und ein weiches Blau.
+ * Farbschema: hell und warm – Warmweiß, helle Sand- und Beigetöne, ein warmes Braun als Akzent.
  * Alle Farben der Website werden hier zentral festgelegt. Wer das Schema ändern
  * möchte, passt nur die Werte in diesem @theme-Block an.
  */
 @theme {
-  /* --- Akzent: ein einziges, weiches Blau --- */
-  --color-accent: #4a6f8f; /* Schaltflächen, Links, Rubrikzeilen, Symbole */
-  --color-accent-dark: #3c5c78; /* Hover */
+  /* --- Akzent: ein einziges, warmes Braun --- */
+  --color-accent: #8a5a3c; /* Schaltflächen, Links, Rubrikzeilen, Symbole */
+  --color-accent-dark: #734a30; /* Hover */
   --color-gold: var(--color-accent);
 
-  /* --- Text: weiches Schiefergrau statt Schwarz --- */
-  --color-ink: #3d4c5c; /* Fließtext */
-  --color-stone-warm: #6b7785; /* zurückgenommener Text */
-  --color-navy-950: #243343;
-  --color-navy-900: #2a3b4d; /* Überschriften */
-  --color-navy-800: #3d4f62;
-  --color-navy-700: #3c5c78;
-  --color-navy-600: #4a6f8f;
+  /* --- Text: warmes Dunkelbraun statt Schwarz --- */
+  --color-ink: #4a4038; /* Fließtext */
+  --color-stone-warm: #7a6e63; /* zurückgenommener Text */
+  --color-navy-950: #322a25;
+  --color-navy-900: #3a312b; /* Überschriften */
+  --color-navy-800: #4f443c;
+  --color-navy-700: #734a30;
+  --color-navy-600: #8a5a3c;
 
-  /* --- Flächen: Abstufungen desselben hellen Blautons --- */
-  --color-warmwhite: #ffffff; /* Seitenhintergrund */
-  --color-cloud: #f6f9fc; /* Header, Fußbereich, abgesetzte Abschnitte */
-  --color-sky: #edf3f8; /* Such- und Filterbereich, Bildflächen */
-  --color-babyblue: #dce5ee; /* Linien und Rahmen */
-  --color-mint: #e8eff6; /* Kennzeichnungen */
-  --color-lilac: #e8eff6;
-  --color-rose: #eef2f6;
-  --color-vanilla: #eef2f6;
-  --color-sun: #e3ecf4; /* Zähler und Häkchen */
+  /* --- Flächen: Abstufungen desselben warmen Sandtons --- */
+  --color-warmwhite: #fdfbf8; /* Seitenhintergrund */
+  --color-cloud: #f9f5ef; /* Header, Fußbereich, abgesetzte Abschnitte */
+  --color-sky: #f3ece2; /* Such- und Filterbereich, Bildflächen */
+  --color-babyblue: #e8ddcf; /* Linien und Rahmen */
+  --color-mint: #f1e9de; /* Kennzeichnungen */
+  --color-lilac: #f1e9de;
+  --color-rose: #f6f0e7;
+  --color-vanilla: #f6f0e7;
+  --color-sun: #efe3d3; /* Zähler und Häkchen */
 
   /* Zuordnung der bisherigen Rollen */
   --color-ivory: var(--color-warmwhite);
@@ -42,8 +42,8 @@
   --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
 
-  --shadow-card: 0 1px 2px rgb(42 59 77 / 0.04), 0 10px 26px -18px rgb(42 59 77 / 0.16);
-  --shadow-lift: 0 2px 6px rgb(42 59 77 / 0.05), 0 24px 48px -24px rgb(42 59 77 / 0.22);
+  --shadow-card: 0 1px 2px rgb(58 49 43 / 0.04), 0 10px 26px -18px rgb(58 49 43 / 0.16);
+  --shadow-lift: 0 2px 6px rgb(58 49 43 / 0.05), 0 24px 48px -24px rgb(58 49 43 / 0.22);
 }
 
 html {
@@ -131,7 +131,7 @@ body {
   .btn-dark {
     background: var(--color-accent);
     color: #fff;
-    box-shadow: 0 8px 18px -12px rgb(74 111 143 / 0.45);
+    box-shadow: 0 8px 18px -12px rgb(138 90 60 / 0.4);
   }
   .btn-gold:hover:not(:disabled),
   .btn-dark:hover:not(:disabled) {
@@ -161,10 +161,10 @@ body {
       box-shadow 0.2s ease;
   }
   .field::placeholder {
-    color: #8b99a6;
+    color: #a3978a;
   }
   .field:hover {
-    border-color: #c3ccd6;
+    border-color: #d6c7b4;
   }
   .field:focus {
     outline: none;
