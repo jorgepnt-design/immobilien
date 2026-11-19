@@ -1,6 +1,8 @@
 /** Zentrale Website-Konfiguration. Name und URL lassen sich per Umgebungsvariable setzen. */
 export const site = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || "Objektübersicht",
+  /** Zweite Zeile im Logo */
+  tagline: "Exklusive Immobilien",
   url: (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, ""),
 };
 
